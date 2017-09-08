@@ -30,6 +30,11 @@ theme: jekyll-theme-cayman
 plugins:
   - jekyll-feed
 
+
+
+#source:  _source
+#destination:  _deploy
+
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
