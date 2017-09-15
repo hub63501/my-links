@@ -16,7 +16,7 @@
 title: FIVE-LINK
 email: 
 description: > # this means to ignore newlines until "baseurl:"
- Hey this site is in beta. I'll be trying out things on here every week. \nBeta 0.01
+ Hey this site is in beta. I'll be trying out things on here every week. Beta 0.01
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://five-link.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: 
