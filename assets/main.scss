@@ -1,0 +1,33 @@
+---
+---
+@import "{{ site.theme }}";
+
+body{
+    background: #fafafafa;
+}
+
+.site-header{
+    border-top-color: #1A237E;
+    background: #E8EAF6;
+    font-size: 20px;
+}
+
+a:hover{
+    color: #38d8a9;
+}
+.home li{
+    border-radius: 5px;
+    border-bottom: solid #1A237E 2px;
+    /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
+    padding: 15px;
+    background-color: #E8EAF6;
+
+}
+img {
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+footer{
+    background-color: #424242;
+    color: #ffffff;
+}
