@@ -241,7 +241,7 @@ input[type=button]:hover{
 }
 .About-para-m-1-photo{
     border-bottom-style: none;
-    background: url("Pictures/P1010280.JPG");
+    
     background-size: cover;
     padding: 20px;
 }
@@ -265,7 +265,7 @@ input[type=button]:hover{
 
     }
     .About-para-m-1-a-photo{
-        background: url("Pictures/P1010280.JPG");
+        
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
         background-size: cover;
         margin-right: 2%;
