@@ -2,32 +2,88 @@
 ---
 @import "{{ site.theme }}";
 
+
+html{
+    background-color: #424242;
+   
+    
+    
+}
+
+
+
 body{
-    background: #fafafafa;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);    
+
 }
 
 .site-header{
     border-top-color: #1A237E;
-    background: #E8EAF6;
+    background-color: #fafafa;    
     font-size: 20px;
 }
 
 a:hover{
-    color: #38d8a9;
+    color: rgb(28, 31, 54);
 }
 .home li{
-    border-radius: 5px;
-    border-bottom: solid #1A237E 2px;
-    /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
+    border-radius: 2.5px;
+    border-bottom: solid #1A237E 0px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     padding: 15px;
-    background-color: #E8EAF6;
+    background-color: #fafafa;  
+    
 
 }
 img {
     border-radius: 5px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
+
+/*@media screen and (max-width: 500px){
+   
+
+}*/
+
+/*
+Base css
+
+
+font-families...
+font-family: 'Open Sans', sans-serif;
+font-family: 'Comfortaa', cursive;
+
+
+*/
+
+h1{
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Comfortaa', cursive;
+}
+p{
+    font-size:20px;
+}
+
+
 footer{
     background-color: #424242;
-    color: #ffffff;
+
+    
 }
+footer h1, footer h2, footer h3, footer h4, footer li, footer a{
+    color:white;
+}
+footer a:hover{
+    color: #E0C3FC;
+}
+footer p{
+    color: white;
+    font-size: 15px;
+}
+
+
+
