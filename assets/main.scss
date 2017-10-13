@@ -5,11 +5,14 @@
 
 html{
     background-color: #424242;
-   
-    
-    
 }
 
+::selection {
+    background: #69F0AE; /* WebKit/Blink Browsers */
+  }
+::-moz-selection {
+    background: #69F0AE; /* Gecko Browsers */
+}
 
 
 body{
@@ -25,18 +28,46 @@ body{
     font-size: 20px;
 }
 
+
 a:hover{
     color: rgb(28, 31, 54);
+    text-decoration: none;
 }
 .home li{
     border-radius: 2.5px;
     border-bottom: solid #1A237E 0px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     padding: 15px;
-    background-color: #fafafa;  
-    
-
+    background-color: #fafafa;
 }
+
+
+
+
+
+
+.post ol, .post ul{
+    background-color: #fafafa;
+    padding: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 2.5px;
+    list-style: numeric;
+}
+
+
+.post li a{
+    display: block;
+    font-size:25px;
+    border-bottom: solid #E0C3FC 1px; 
+    counter-increment: item;
+    margin-bottom: 5px;
+}
+
+.post li a:hover{
+    text-decoration: none;
+}
+
+
 img {
     border-radius: 5px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -84,6 +115,5 @@ footer p{
     color: white;
     font-size: 15px;
 }
-
 
 
