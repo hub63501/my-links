@@ -4,7 +4,7 @@
 
 
 html{
-    background-color: #424242;
+    background-color: #263238;
 }
 
 ::selection {
@@ -45,7 +45,7 @@ ul{
     list-style-type: none;
 }
 li{
-    padding: 5px;
+    padding: 0px;
     text-decoration: none;
     list-style: none;
 }
@@ -59,8 +59,16 @@ span{
 @media screen and (max-width: 500px){
     span{
         background-color: none;
-        padding: 0;
+        padding: 0px;
     }
+}
+
+
+.highlight{
+    border-radius: 5px;
+    color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
 }
 
 
@@ -212,7 +220,7 @@ p{
 
 
 footer{
-    background-color: #424242;
+    background-color: #263238;
 
 
 }
