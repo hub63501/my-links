@@ -12,11 +12,9 @@
   <link href= {{ "/assets/CSS/header.css" | relative_url }} rel="stylesheet" type="text/css"/>
 
 
-
   <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Poiret+One|Roboto:300" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet">
-
 
 
 
@@ -33,23 +31,29 @@
 
 
 
-  <div class="site-title">
-  {% assign default_paths = site.pages | map: "path" %}
-  {% assign page_paths = site.header_pages | default: default_paths %}
+  <!--
 
-
-
-  <a class="site-title" href="{{ "/" | relative_url }}"><h1>{{ site.title | escape }}</h1></a>
-
+  <div class="Front-title-2">
+    <div class="Front-title-inner-2">
+      {% assign default_paths = site.pages | map: "path" %}
+      {% assign page_paths = site.header_pages | default: default_paths %}
+      <a href="{{ "/" | relative_url }}"><h1>{{ site.title | escape }}</h1></a>
+    </div>
   </div>
 
-
+-->
 
 
   <div class="nav">
       <div class="nav-text">
-        <ul>
 
+        <ul>
+          <li>
+            {% assign default_paths = site.pages | map: "path" %}
+            {% assign page_paths = site.header_pages | default: default_paths %}
+
+            <a class="page-link" href="{{ "/" | relative_url }}">Latest</a>
+          </li>
           {% for path in page_paths %}
 
           {% assign my_page = site.pages | where: "path", path | first %}

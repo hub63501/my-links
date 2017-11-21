@@ -1,3 +1,5 @@
+
+
 <!Doctype html>
 <html lang="en">
 
@@ -24,10 +26,6 @@
 
 
 
-
-
-
-
   <link href= {{ "/assets/CSS/CSS-U_flex.css" | relative_url }} rel="stylesheet" type="text/css"/>
 
 
@@ -49,10 +47,40 @@
    {%include header.html%}
 
 
-<div class="Front-title">
-    <div class="Front-title-inner">
-        <h1>{{page.title}}</h1>
+
+
+
+
+
+
+<!--
+
+
+
+<div class="Sect-l-1">
+  <div class="About-para-l-1">
+   <div class="Front-title">
+     <div class="Front-title-inner">
+       <h1>{{page.title}}</h1>
+     </div>
+   </div>
+</div>
+</div>
+
+
+<div class="Sect-m-1">
+    <div class="About-para-m-1">
+      <div class="About-para-m-1-a">
+      </div>
     </div>
+</div>
+
+
+<div class="Sect-m-2">
+   <div class="About-para-m-2">
+    <div class="About-para-m-2-a">
+    </div>
+  </div>
 </div>
 
 
@@ -63,25 +91,43 @@
   </div>
 </div>
 
+-->
 
 
 
 
 
 
-<!--<img border="0" width= "" src="Pictures/.jpg" class="img-rounded"/>-->
+
+
+<div class="Sect-m-1" style="background-image: linear-gradient(90deg, #FAD961 0%, #F76B1C 100%);">
 
 
 
-    <!--
-    <div class="Sect-l-1">
-      <div class="About-para-l-1">
-        <h2></h2>
-        <p></p>
 
-      </div>
+  <div class="Front-title">
+    <div class="Front-title-inner">
+      <h1>{{page.title}}</h1>
+
+
+      <h3>{{page.description}}</h3>
+
     </div>
-    -->
+  </div>
+
+
+
+</div>
+<div class="Sect-m-2">
+  <div class="About-para-l-1">
+
+            {{ content }}
+
+  </div>
+</div>
+
+
+
 
 
 
@@ -91,10 +137,12 @@
           <div class="footer-light-title-about-inner">
             <a href="/about/"><h4>ABOUT</h4></a>
             <ul>
+              <!--
               <a href="#"><li>COMPANY</li></a>
               <a href="#"><li>MASTHEAD</li></a>
               <a href="#"><li>PRIVACY</li></a>
               <a href="#"><li>TERMS OF USE</li></a>
+              -->
             </ul>
           </div>
         </div>
@@ -102,7 +150,7 @@
       <div class="footer-light-list-wrap-contact">
         <div class="footer-light-title-contact">
           <div class="footer-light-title-contact-inner">
-            <a href="#"><h4>CONTACT</h4></a>
+            <a href="mailto:{{ site.email }}"><h4>CONTACT</h4></a>
             <ul>
               {% if site.email %}
               <a href="mailto:{{ site.email }}"><li>EMAIL</li></a>
@@ -117,8 +165,10 @@
           <div class="footer-light-title-learn-inner">
             <a href="#"><h4>Learn</h4></a>
             <ul>
-              <a href="#"><li>EVENTS</li></a>
-              <a href="#"><li>WATCH 101</li></a>
+              <!--
+              <a href="#"><li></li></a>
+              <a href="#"><li></li></a>
+              -->
             </ul>
           </div>
         </div>
@@ -128,18 +178,20 @@
           <div class="footer-light-title-follow-inner">
             <a href="#"><h4>FOLLOW</h4></a>
             <ul>
+              <!--
               <a href="#" class="social-media-link" target="_blank" rel="facebook"><li>FACEBOOK</li></a>
               <a href="#" class="social-media-link" target="_blank" rel="twitter"><li>TWITTER</li></a>
               <a href="#" class="social-media-link" target="_blank" rel="vimeo"><li>VIMEO</li></a>
               <a href="#" class="social-media-link" target="_blank" rel="instagram"><li>INSTAGRAM</li></a>
+              -->
             </ul>
           </div>
         </div>
       </div>
       <div class="closure">
         <div class="closure-copyright">
-          <p>Because this is a Beta and a pet project some links might not work.</p>
-          COPYRIGHT N/A<!--&copy; 2009&ndash;2017, People INC. ALL RIGHTS RESERVED.-->
+          <p> Beta 0.03 </p>
+          <!--COPYRIGHT N/A&copy; 2009&ndash;2017, People INC. ALL RIGHTS RESERVED.-->
         </div>
       </div>
 

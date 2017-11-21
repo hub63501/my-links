@@ -20,9 +20,9 @@ a:hover{
     color:#2979FF;
 }
 
-h1{
+h1 h2 h3 h4 h5{
     color: inherit;
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 
@@ -37,13 +37,57 @@ li{
 }
 
 
-
+p{
+    font-size: 18px;
+    font-family: sans-serif;
+}
 
 img {
     border-radius: 0px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     width: 100%;
 }
+
+span{
+    color: orangered;
+    font-size: 25px;
+    letter-spacing: 1px;
+}
+
+
+.circle-Image img{
+    object-fit: cover;
+    margin: 10px;
+    float: right;
+    width: 100px;
+    height: 100px;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+    box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0), 0 0px 20px 0 rgba(0, 0, 0, 0.19);
+}
+@media screen and (max-width: 420px){
+    .circle-Image img{
+        object-fit: cover;
+        margin: 10px;
+        float: right;
+        width: 50px;
+	    height: 50px;
+	    -moz-border-radius: 50px;
+	    -webkit-border-radius: 50px;
+	    border-radius: 50px;
+        box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0), 0 0px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+}
+
+
+
+
+
+
+
+
+
 
 input[type=button]{
     color: #FF1744;
@@ -81,31 +125,62 @@ input[type=button]:hover{
     font-size: 20px;
 }
 
+
+
+
+
 .Front-title{
+    
+    color: #FF1744;
+    border-bottom: 1px solid #000000;
+    font-family: 'Josefin Sans', sans-serif;
     width: 100%;
-    text-align: left;
-    padding-left: 60px;
-    padding-right: 60px;
-}
+    padding-left: 0px;
+    padding: 0px;
+    padding-bottom: 0px;
+    margin-bottom: 2px;
+    font-size: 50px;
+    }
+
 .Front-title-inner{
-    padding: 20px;
+        padding: 0px;
+        text-align: center;
+    }
+@media screen and (max-width: 650px){
+    .Front-title{
+    font-size: 20px;
+    }
 }
 
 
+    .Front-title-photo{
+        display: inline-block;
+        text-align: center;
+        background-image: url("/assets/Pics/river.jpg");
+        background-size: cover;
+        font-family: 'Josefin Sans', sans-serif;
+        color: #FF1744;
+        width: 100%;
+        padding: 5px;
+        padding-left: 100px;
+        padding-right: 100px;
+        padding-bottom: 30px;
+        margin-bottom: 2px;
+        font-size: 50px;
+    }
+    @media screen and (max-width: 650px){
+        .Front-title-photo{
+            padding-left: 0px;
+            padding-right: 0px;
+            font-size: 20px;
+        }
+    }
 
 
-.Sect-l-1{
-    text-align: left;
-    width: 100%;
-    padding-left: 60px;
-    padding-right: 60px;
-}
-.About-para-l-1{
-    border: 0px;
-    border-style: none;
-    border-radius: 5px;
-    padding: 20px;
-}
+
+
+
+
 
 
 
@@ -133,10 +208,7 @@ input[type=button]:hover{
   .Front-title-inner{
     padding: 0px;
   }
-  .Sect-l-1{
-    padding: 0px;
-    margin-bottom: 1px;
-  }
+
 }
 
 
@@ -153,6 +225,48 @@ input[type=button]:hover{
         padding-right: 150px;
     }
 
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Section large 1+++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+.Sect-l-1{
+    text-align: left;
+    background-color: #ffffff;
+    width: 100%;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+.About-para-l-1{
+    border: 0px;
+    border-style: none;
+    border-radius: 5px;
+    background: #ffffff;
+    padding: 20px;
+}
+/*small screens*/
+@media screen and (max-width: 500px){
+    .Sect-l-1{
+        padding: 0px;
+        margin-bottom: 1px;
+    }
+}
+/*big screens*/
+@media screen and (min-width: 800px){
     .Sect-l-1{
         width: 100%;
         padding-top: 0px;
@@ -164,11 +278,253 @@ input[type=button]:hover{
     .About-para-l-1{
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
         padding-top: 5px;
-        padding-right: 50px;
-        padding-left: 50px;
+        padding-right: 40px;
+        padding-left: 40px;
         padding-bottom: 20px;
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Section medium 1_________________________________________________________________________________________________________*/
+
+.Sect-m-1{
+    text-align: left;
+    background-color: inherit;
+    width: 100%;
+    padding: 0px;
+    padding-left: 60px;
+    padding-right: 60px;
+    margin: 0px;
+}
+.About-para-m-1{
+    border-bottom-style: none;
+    background: inherit;
+    color: #000000;
+
+    padding: 20px;
+}
+/*big screens*/
+@media screen and (min-width: 800px){
+    .Sect-m-1{
+        text-align: left;
+        width: 50%;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .About-para-m-1{
+        padding-left: 150px;
+        padding-top: 0px;
+        padding-right: 0px;
+        background: inherit;
+        border-style: none;
+    }
+    .About-para-m-1-a{
+        background: inherit;
+        color: #000000;
+        margin-right: 2%;
+        margin-bottom: 1%;
+        padding: 30px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+}
+/*small screens*/
+
+@media screen and (max-width: 500px){
+    .Sect-m-1{
+        padding: 0px;
+    }
+    .About-para-m-1{
+        border-style: none;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Section medium 2______________________________________________________________________________*/
+.Sect-m-2{
+    text-align: left;
+    background-color: inherit;
+    width: 100%;
+    padding-left: 60px;
+    padding-right: 60px;
+    margin-bottom: 0%;
+}
+.About-para-m-2{
+    color: #000000;
+    border: 0px;
+    border-style: none;
+    padding: 20px;
+    background: inherit;
+}
+
+/*big screens*/
+@media screen and (min-width: 800px){
+    .Sect-m-2{
+        text-align: left;
+        width: 50%;
+        padding: 0px;
+    }
+    .About-para-m-2-a h2{
+        text-align: center;
+    }
+    .About-para-m-2{
+        padding-left: 0px;
+        padding-top: 0px;
+        padding-right: 150px;
+        background: inherit;
+        border-style: none;
+    }
+    .About-para-m-2-a{
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        background: inherit;
+        padding: 20px;
+        margin-bottom: 2%;
+    }
+}
+/*small screens*/
+@media screen and (max-width: 500px){
+    .Sect-m-2{
+        padding: 0px;
+        margin-bottom: 1px;
+    }
+    .About-para-m-2{
+        border-style: none;
+
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -480,10 +836,8 @@ footer li:hover{
     text-align: left;
     display: block;
     border: 2px;
-    border-right-style: solid;
-    border-right-color: orangered;
-    border-left-style: solid;
-    border-left-color: orangered;
+    border-right: solid 1px #ffffff;
+    border-left: orangered 1px solid;
   }
   footer li:hover{
         border-bottom-style: none;
