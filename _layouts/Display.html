@@ -1,5 +1,7 @@
 
 
+
+
 <!Doctype html>
 <html lang="en">
 
@@ -16,9 +18,7 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Poiret+One|Roboto:300" rel="stylesheet">
-
+  
 
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ "/feed.xml" | relative_url }}">
@@ -39,7 +39,7 @@
 
 </head>
 
-<body style="font-family:'Open Sans', sans-sarif;">
+<body>
   <div class="container">
 
 
@@ -108,16 +108,16 @@
   <div class="Front-title">
     <div class="Front-title-inner">
       <h1>{{page.title}}</h1>
-
-
       <h3>{{page.description}}</h3>
-
+      <span><h5>{{ page.author }}</h5></span>
     </div>
   </div>
-
-
+  
 
 </div>
+
+
+
 <div class="Sect-m-2">
   <div class="About-para-l-1">
 
@@ -131,79 +131,75 @@
 
 
 
-    <footer class="footer-light">
-     <div class="footer-light-list-wrap-about">
-        <div class="footer-light-title-about">
-          <div class="footer-light-title-about-inner">
-            <a href="/about/"><h4>ABOUT</h4></a>
-            <ul>
-              <!--
-              <a href="#"><li>COMPANY</li></a>
-              <a href="#"><li>MASTHEAD</li></a>
-              <a href="#"><li>PRIVACY</li></a>
-              <a href="#"><li>TERMS OF USE</li></a>
-              -->
-            </ul>
-          </div>
+<footer class="footer-light">
+  <div class="footer-light-list-wrap-about">
+    <div class="footer-light-title-about">
+      <div class="footer-light-title-about-inner">
+        <a href="/about/"><h4>ABOUT</h4></a>
+          <ul>
+            <!--
+            <a href="#"><li>COMPANY</li></a>
+            <a href="#"><li>MASTHEAD</li></a>
+            <a href="#"><li>PRIVACY</li></a>
+            <a href="#"><li>TERMS OF USE</li></a>
+            -->
+          </ul>
         </div>
       </div>
-      <div class="footer-light-list-wrap-contact">
-        <div class="footer-light-title-contact">
-          <div class="footer-light-title-contact-inner">
-            <a href="mailto:{{ site.email }}"><h4>CONTACT</h4></a>
-            <ul>
-              {% if site.email %}
-              <a href="mailto:{{ site.email }}"><li>EMAIL</li></a>
-              {% endif %}
-              <a href="mailto:{{ site.email }}"><li>ASK US ANYTHING</li></a>
-            </ul>
-          </div>
-        </div>
-      </div>
-      <div class="footer-light-list-wrap-learn">
-        <div class="footer-light-title-learn">
-          <div class="footer-light-title-learn-inner">
-            <a href="#"><h4>Learn</h4></a>
-            <ul>
-              <!--
-              <a href="#"><li></li></a>
-              <a href="#"><li></li></a>
-              -->
-            </ul>
-          </div>
-        </div>
-      </div>
-      <div class="footer-light-list-wrap-follow">
-        <div class="footer-light-title-follow">
-          <div class="footer-light-title-follow-inner">
-            <a href="#"><h4>FOLLOW</h4></a>
-            <ul>
-              <!--
-              <a href="#" class="social-media-link" target="_blank" rel="facebook"><li>FACEBOOK</li></a>
-              <a href="#" class="social-media-link" target="_blank" rel="twitter"><li>TWITTER</li></a>
-              <a href="#" class="social-media-link" target="_blank" rel="vimeo"><li>VIMEO</li></a>
-              <a href="#" class="social-media-link" target="_blank" rel="instagram"><li>INSTAGRAM</li></a>
-              -->
-            </ul>
-          </div>
-        </div>
-      </div>
-      <div class="closure">
-        <div class="closure-copyright">
-          <p> Beta 0.03 </p>
-          <!--COPYRIGHT N/A&copy; 2009&ndash;2017, People INC. ALL RIGHTS RESERVED.-->
-        </div>
-      </div>
-
-    </footer>
-
-
-
-
-
-
-
-
     </div>
-  </body>
+    <div class="footer-light-list-wrap-contact">
+      <div class="footer-light-title-contact">
+        <div class="footer-light-title-contact-inner">
+          <a href="mailto:{{ site.email }}"><h4>CONTACT</h4></a>
+          <ul>
+            {% if site.email %}
+            <a href="mailto:{{ site.email }}"><li>EMAIL</li></a>
+            {% endif %}
+            <a href="mailto:{{ site.email }}"><li>ASK US ANYTHING</li></a>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-light-list-wrap-learn">
+      <div class="footer-light-title-learn">
+        <div class="footer-light-title-learn-inner">
+          <a href="#"><h4>LEARN</h4></a>
+          <ul>
+            <!--
+            <a href="#"><li></li></a>
+            <a href="#"><li></li></a>
+            -->
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-light-list-wrap-follow">
+     <div class="footer-light-title-follow">
+        <div class="footer-light-title-follow-inner">
+          <a href="#"><h4>FOLLOW</h4></a>
+          <ul>
+            <!--
+            <a href="#" class="social-media-link" target="_blank" rel="facebook"><li>FACEBOOK</li></a>
+            <a href="#" class="social-media-link" target="_blank" rel="twitter"><li>TWITTER</li></a>
+            <a href="#" class="social-media-link" target="_blank" rel="vimeo"><li>VIMEO</li></a>
+            <a href="#" class="social-media-link" target="_blank" rel="instagram"><li>INSTAGRAM</li></a>
+            -->
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="closure">
+      <div class="closure-copyright">
+        
+        {{site.description}}
+        <!--COPYRIGHT N/A&copy; 2009&ndash;2017, People INC. ALL RIGHTS RESERVED.-->
+     </div>
+    </div>
+</footer>
+
+</div>
+</body>
+
+
+
 </html>
