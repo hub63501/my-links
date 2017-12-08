@@ -46,6 +46,11 @@ h1{
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+@media screen and (max-width: 500px){
+    h1{
+        font-size: 2.5em;
+    }
+}
 
 h2, h3, h4, h5{
     font-family: 'Josefin Sans', sans-serif;
@@ -69,11 +74,11 @@ li{
 
 p{
     font-family: 'Source Sans Pro', sans-serif;
-    font-size: 18px;
+    font-size: 1.2em;
 }
 
 img {
-    border-radius: 0px;
+    border-radius: 5px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     width: 100%;
 }
@@ -169,11 +174,10 @@ input[type=button]:hover{
 .Front-title{
     text-align: center;
     width: 100%;
-
     }
 
 .Front-title-inner{
-
+    
     }
 @media screen and (max-width: 650px){
     .Front-title{
@@ -201,7 +205,7 @@ input[type=button]:hover{
         padding-left: 15px;
         padding-right: 15px;
       }
-      .Front-title-inner{
+    .Front-title-inner{
         padding: 0px;
       }
 }
@@ -217,8 +221,9 @@ input[type=button]:hover{
   padding: 5px;
 
 }
-@media screen and (max-width: 700px){
+@media screen and (max-width: 600px){
   .sub-heading{
+    
     border-left: 0px solid #408af8;
     border-bottom: 1px solid #408af8;
     border-right: 0px solid #408af8;
