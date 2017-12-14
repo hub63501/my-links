@@ -18,12 +18,13 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  
+
 
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ "/feed.xml" | relative_url }}">
 
-
+  <link href="https://fonts.googleapis.com/css?family=Bitter|Josefin+Sans|Questrial|Vollkorn" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300" rel="stylesheet"> 
 
 
   <link href= {{ "/assets/CSS/CSS-U_flex.css" | relative_url }} rel="stylesheet" type="text/css"/>
@@ -97,34 +98,24 @@
 
 
 
-
-
-
-<div class="Sect-m-1" style="background-image: linear-gradient(90deg, #FAD961 0%, #F76B1C 100%);">
-
-
-
-
-  <div class="Front-title">
-    <div class="Front-title-inner">
-      <h1>{{page.title}}</h1>
-      <h3>{{page.description}}</h3>
-      <span><h5>{{ page.author }}</h5></span>
+<div class="Front-title">
+  <div class="Front-title-inner">
+    <h1>{{page.title}}</h1>
+    <h2>{{page.description}}</h2>
+    <div class="sub-heading">
+      <h4>Author : {{ page.author }}</h4>
     </div>
   </div>
-  
-
 </div>
 
-
-
-<div class="Sect-m-2">
-  <div class="About-para-l-1">
-
-            {{ content }}
-
+<div class="display-class-1">
+  <div class="display-class-1-inner">
+    {{content}}
   </div>
 </div>
+
+
+
 
 
 
@@ -190,7 +181,7 @@
     </div>
     <div class="closure">
       <div class="closure-copyright">
-        
+
         {{site.description}}
         <!--COPYRIGHT N/A&copy; 2009&ndash;2017, People INC. ALL RIGHTS RESERVED.-->
      </div>

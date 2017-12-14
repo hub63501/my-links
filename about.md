@@ -4,4 +4,4 @@ title: About
 permalink: /about/
 ---
 
-Website with content coming.
+{site.description}
