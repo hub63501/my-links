@@ -1,5 +1,5 @@
 ---
-layout: Article
+layout: Display
 title: About
 permalink: /about/
 ---
