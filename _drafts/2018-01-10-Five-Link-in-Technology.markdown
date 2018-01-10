@@ -1,7 +1,7 @@
 ---
 layout: Display
 title:  "Five-link in Technology"
-date:   2018-01-09 14:50:21 +0100
+date:   2018-01-10 14:50:21 +0100
 categories: Technology
 description: "Have a look at these five links in Technology."
 ---
