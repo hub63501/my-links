@@ -187,7 +187,7 @@ input[type=button]:hover{
     }
 @media screen and (max-width: 650px){
     .Front-title{
-        /*test*/
+
     }
 }
 .Front-title-photo{
@@ -383,12 +383,22 @@ input[type=button]:hover{
 
 .display-class-1-inner li{
     border-left: 1px solid #408af8;
-    border-bottom: 1px solid #408af8;
-    border-right: 1px solid #408af8;
-    border-top: 1px solid #408af8;
-    
-    
+    border-bottom: 0px solid #408af8;
+    border-right: 0px solid #408af8;
+    border-top: 0px solid #408af8;
+    background-color: #408af8;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
 }
+.display-class-1-inner li:hover{
+    box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0), 0 0px 0px 0 rgba(0, 0, 0, 0);
+}
+
+
+.display-class-1-inner h1, h2, h3, h4, h5{
+    color:#f6f9fc;
+}
+
 .display-class-1-inner li img{
     width: 30%;
 }
