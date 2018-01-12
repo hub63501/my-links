@@ -381,6 +381,18 @@ input[type=button]:hover{
     margin-bottom: 1%;
 }
 
+.display-class-1-inner li{
+    border-left: 1px solid #408af8;
+    border-bottom: 1px solid #408af8;
+    border-right: 1px solid #408af8;
+    border-top: 1px solid #408af8;
+    
+    
+}
+.display-class-1-inner li img{
+    width: 30%;
+}
+
 
 .display-class-1-inner img{
     width: 100%;
