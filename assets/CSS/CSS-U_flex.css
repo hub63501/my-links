@@ -45,7 +45,6 @@ a:hover{
 h1{
   font-family: 'Josefin Sans', sans-serif;
   font-size: 5em;
-  color: #FF1744;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -58,7 +57,7 @@ h1{
 
 h2, h3, h4, h5{
     font-family: 'Josefin Sans', sans-serif;
-    color: #FF1744;
+    color: #000000;
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -174,16 +173,17 @@ input[type=button]:hover{
 
 
 
-
-
-
 .Front-title{
-    text-align: center;
+    text-align: left;
     width: 100%;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: #ECEFF1;
     }
 
 .Front-title-inner{
-    
+    padding-left: 10px;
+    padding-right: 10px;
     }
 @media screen and (max-width: 650px){
     .Front-title{
@@ -200,7 +200,8 @@ input[type=button]:hover{
 }
 @media screen and (min-width: 1100px){
     .Front-title{
-
+        padding-right: 150px;
+        padding-left: 150px;
     }
 }
 
@@ -208,13 +209,16 @@ input[type=button]:hover{
 @media screen and (max-width: 500px){
     .Front-title{
         text-align: left;
-        padding-left: 15px;
-        padding-right: 15px;
+        padding-left: 0px;
+        padding-right: 0px;     
       }
     .Front-title-inner{
         padding: 0px;
+        padding-left: 5px;
+        padding-right: 5px;
       }
 }
+
 
 
 
@@ -365,8 +369,8 @@ input[type=button]:hover{
     padding-bottom: 5px;
     padding-left: 50px;
     padding-right: 50px;
-    border-left: 1px solid #408af8;
-    border-bottom: 1px solid #408af8;
+    border-left: 0px solid #408af8;
+    border-bottom: 0px solid #408af8;
     border-right: 0px solid #408af8;
     border-top: 0px solid #408af8;
 }
@@ -396,9 +400,7 @@ input[type=button]:hover{
 }
 
 
-.display-class-1-inner h1, h3, h4, h5{
-    color:#f6f9fc;
-}
+
 
 .display-class-1-inner li img{
     width: 30%;
@@ -665,7 +667,7 @@ footer
 
 
 footer{
-  background-color: #263238;
+  background-color: #90A4AE;
   color: #ffffff;
   border-top: 1px solid #9E9E9E;
   padding: 0px;
