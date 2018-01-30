@@ -687,12 +687,11 @@ footer ul{
 footer li{
     padding: 5px;
     text-decoration: none;
-    color: #ffffff;
 }
 
 footer a{
   text-decoration: none;
-  color: inherit;
+  color: #ffffff;
   font-size: 18px;
 }
 footer a:hover{
