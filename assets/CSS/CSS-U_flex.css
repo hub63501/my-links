@@ -687,6 +687,7 @@ footer ul{
 footer li{
     padding: 5px;
     text-decoration: none;
+    color: #ffffff;
 }
 
 footer a{
@@ -723,6 +724,7 @@ footer li{
   padding: 15px;
   margin: 0;
   text-align: left;
+ 
 }
 footer li:hover{
   background-color: #ffffff;
