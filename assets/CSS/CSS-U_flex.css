@@ -678,6 +678,9 @@ footer{
   width: 100%;
 }
 
+footer h1{
+    color: #ffffff;
+}
 
 footer ul{
     text-decoration: none;
