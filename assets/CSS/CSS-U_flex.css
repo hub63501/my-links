@@ -391,7 +391,7 @@ input[type=button]:hover{
     border-bottom: 0px solid #408af8;
     border-right: 0px solid #408af8;
     border-top: 0px solid #408af8;
-    background-color: #408af8;
+    background-color: #fdfdfd;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     text-align: center;
     margin-bottom: 1%;
