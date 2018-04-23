@@ -1,24 +1,28 @@
 ---
 layout: Page_home_layout
 ---
-
-
-
-
-
-
+<head>
+  <style>
+    .page-heading{
+      font-size: 3em;
+    }
+    .post-list li{
+      border-top: solid 1px #2979FF;
+    }
+  </style>
+</head>
 
 <div class="home">
 
 
 
-  <h1 class="page-heading" style="font-size: 3em;">Five-Link Posts</h1>
+  <h1 class="page-heading">Five-Link Posts</h1>
 
   {{ content }}
 
   <ul class="post-list">
     {% for post in site.posts %}
-      <li style=" border-top: solid 1px #2979FF;">
+      <li>
         {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
         <span class="post-meta">{{ post.date | date: date_format }}</span>
         
