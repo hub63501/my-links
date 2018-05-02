@@ -180,6 +180,7 @@ input[type=button]:hover{
     padding-left: 50px;
     padding-right: 50px;
     background-color: #f6f9fc;
+    border-bottom: #560dff 1px solid;
     }
 
 .Front-title-inner{
