@@ -28,4 +28,7 @@ description: "Read these five articles in technology and how we can improve tech
         <a href="https://techcrunch.com/2018/04/10/a-new-app-called-garden-helps-you-stay-in-touch-with-friends-and-family-without-facebook/" target="_blank"><h4>Garden: An app that helps you stay in touch with friends and family without facebook</h4>
         </a>
     </li>
+    <li>
+        <img href="img.JPG">
+    </li>
 </ul>
