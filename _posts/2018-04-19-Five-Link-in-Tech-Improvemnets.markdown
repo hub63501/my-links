@@ -29,6 +29,6 @@ description: "Read these five articles in technology and how we can improve tech
         </a>
     </li>
     <li>
-        <img href="img.JPG">
+        <img href="my-links/assets/Pics/img.JPG"/>
     </li>
 </ul>
