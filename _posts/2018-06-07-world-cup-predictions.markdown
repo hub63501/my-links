@@ -3,6 +3,7 @@ layout: post
 title:  "World cup predictions update"
 date:   2018-06-07 07:55:58 +0100
 categories: world-cup
+description: My World cup predictions.
 ---
 
 My World cup predictions using the <a href="https://www.telegraph.co.uk/football/world-cup-2018-wallchart-predictor/" target="_blank">telegraph predictor</a>.
