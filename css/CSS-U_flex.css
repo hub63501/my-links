@@ -66,8 +66,8 @@ h1,h2, h3, h4, h5{
 }
 ul{
     text-decoration: none;
-     padding-left: 0;
-     list-style-type: none;
+    padding-left: 0px;
+    list-style-type: decimal;
 }
 li{
    padding: 5px;
@@ -156,7 +156,7 @@ input[type=button]:hover{
     width: 100%;
     padding-left: 50px;
     padding-right: 50px;
-    background-color: #ECEFF1;    
+    background-image: url("/assets/img/background_01.svg");    
     }
 .Front-title-inner{
     padding-left: 10px;
@@ -250,6 +250,7 @@ input[type=button]:hover{
 .Sect-l-1{
     text-align: left;
     background-color: #f6f9fc;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     width: 100%;
     padding-left: 60px;
     padding-right: 60px;
@@ -329,6 +330,7 @@ input[type=button]:hover{
     border-bottom: 0px solid #408af8;
     border-right: 0px solid #408af8;
     border-top: 0px solid #408af8;
+    
 }
 .display-class-1-inner{
     border-left: 1px solid #408af8;
@@ -385,7 +387,7 @@ input[type=button]:hover{
         padding-left: 150px;
         padding-right: 150px;
         padding-bottom: 10px;
-        margin: 0px;
+        margin: 0%;
     }
     .display-class-1-inner{
 
