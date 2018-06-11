@@ -1,0 +1,40 @@
+---
+layout: default
+---
+
+<div class="front-heading">
+    <h1>Welcome</h1>
+    <!--
+    <div class="site-header">
+        <div class="nav">
+            <div class="nav-text">
+              <ul>
+                <li>
+                  <a class="page-link" href="/books.html">Books</a>
+                  <a class="page-link" href="/Films.html">Films</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      -->
+</div>
+    
+  
+  
+<div class="home">
+  <h1 class="page-heading">Posts</h1>
+  <h3>Hover over posts to see them...</h3>
+  <ul class="post-list">
+    {% for post in site.posts %}
+    <li>
+      <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+      <h2>
+        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+      </h2>
+      {{ post.excerpt }}
+    </li>
+    {% endfor %}
+  </ul>
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+  </div>
