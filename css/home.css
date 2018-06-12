@@ -5,16 +5,20 @@ Home
 */
 
 
-
 .home{
   background-color: #f2f5f9;
   color: #000000;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  padding: 5px;
+  padding: 10px;
   border-radius: 5px;
   
 }
+@media screen and (max-width: 800px){
+.home{
+  padding: 5px;
 
+}
+}
 
 .page-heading{
   width: 100%;
@@ -53,7 +57,7 @@ Home
   .post-list li{
     margin-left: 0%;
     margin-right: 0%;
-    margin-bottom: 2%;
+    margin-bottom: 1%;
     width: auto;
     display: inline-block;
     filter: blur(10px);
@@ -89,10 +93,8 @@ Home
     border-bottom: #2979ff solid 2px;
     border-right: #2979ff solid 2px;
     display: block;
-    padding: 1px;
-    margin: 1%;
+    margin-top: 1%;
     overflow: hidden;
-    
   }
 }
 
