@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: Display
 title:  5 Articles to Read
 date:   2018-06-13 17:44:21 +0100
 categories: Top 5 Reads
