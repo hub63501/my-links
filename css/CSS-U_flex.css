@@ -1,5 +1,19 @@
 /*here is my insanely messy code!! :)*/
 
+
+*{
+    transition-duration: 0.2s;
+    -moz-transition-duration: 0.2s;
+    -webkit-transition-duration: 0.2s;
+    -o-transition-duration: 0.2s;
+    font-family: 'Josefin Sans', sans-serif;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #000000;
+}
+
+
 /*
 
 fonts to use
@@ -23,18 +37,18 @@ background-image: url("/assets/Pics/drawing-4.svg");
 */
 /*Base css*/
 html{
-    font-family: 'Questrial', sans-serif;
     /*background-color:#0c101c;*/
     background-color: #f6f9fc;
 }
 body{
-    color: #000000;
     background-image: url("/assets/img/background_02.svg");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
     margin: 0%;
 }
+
+
 
 a{
   color: #000000;
@@ -43,25 +57,6 @@ a{
 a:hover{
     color:#2979FF;
     text-decoration: none;
-}
-h1{
-  font-family: 'Josefin Sans', sans-serif;
-  font-size: 5em;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-@media screen and (max-width: 500px){
-    h1{
-        font-size: 2.5em;
-    }
-}
-h1,h2, h3, h4, h5{
-    font-family: 'Josefin Sans', sans-serif;
-    color: #000000;
-    text-rendering: optimizeLegibility;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
 }
 ul{
     text-decoration: none;
@@ -75,7 +70,6 @@ p{
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 1.2em;
     letter-spacing: 0.25px;
-
 }
 img {
     border-radius: 5px;
@@ -117,7 +111,6 @@ span{
     }
 }
 input[type=button]{
-    color: #FF1744;
     background: #69F0AE;
     text-decoration: none;
     padding: 10px;
@@ -128,7 +121,6 @@ input[type=button]{
     box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0), 0 0px 20px 0 rgba(0, 0, 0, 0.19);
 }
 input[type=button]:hover{
-    transition-delay: 0.3;
     box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0), 0 0px 0px 0 rgba(0, 0, 0, 0);
 }
 .container{
@@ -137,7 +129,6 @@ input[type=button]:hover{
     align-content: flex-start;
     width: 100%;
     height: 100%;
-    background-color: inherit;
     -webkit-font-smoothing:antialiased;
     -moz-osx-font-smoothing:grayscale
 }
@@ -146,9 +137,13 @@ input[type=button]:hover{
         display: inline-flex;
         height: 100%;
         width: 100%;
-        background-color: inherit;
     }
 }
+
+
+
+
+
 
 
 
@@ -189,15 +184,14 @@ input[type=button]:hover{
 }
 @media screen and (max-width: 800px){
     .Front-title{
-        text-align: left;
-        padding-left: 1.1%;
-        padding-right: 1.1%;
+        text-align: center;
+        padding-left: 1%;
+        padding-right: 1%;
       }
     .Front-title-inner{
         padding: 0px;
         padding-left: 5px;
         padding-right: 5px;
-        font-size: 0.5em;
       }
 }
 
@@ -216,33 +210,40 @@ input[type=button]:hover{
 
 
 .sub-heading{
-  border-right: 1px solid #408af8;
-  border-top: 1px solid #408af8;
-  margin-left: 50px;
-  margin-right: 50px;
-  text-align: left;
-  padding: 5px;
-  font-size: 1.5em;
+    background-color: #408af8;
+    border-right: 0px solid #408af8;
+    border-top-right-radius: 2em;
+    border-top: 0px solid #408af8;
+    border-bottom-left-radius: 2em;
+    margin-left: 0%;
+    margin-right: 0%;
+    padding: 1%;
+    text-align: center;
 
+}
+.sub-heading h2{
+    color: #ffffff;
 }
 @media screen and (min-width: 1100px){
     .sub-heading{
-        margin-left: 150px;
-        margin-right: 150px;
+        margin-left: 0px;
+        margin-right: 0px;
     }
 }
 @media screen and (max-width: 800px){
-  .sub-heading{
+  .sub-heading{ 
+    /*
     border-left: 0px solid #408af8;
-    border-bottom: 1px solid #408af8;
+    border-bottom: 0px solid #408af8;
     border-right: 0px solid #408af8;
-    border-top: 1px solid #408af8;
-    margin: 0px;
-    padding: 2px;
-    font-size: 2em;
+    border-top: 0px solid #408af8;
+    */
+    margin-left: -2.2%;
+    margin-right: -2.2%;
+    margin-bottom: 1%; 
+    padding: 5%;
   }
 }
-
 
 
 
@@ -347,7 +348,7 @@ input[type=button]:hover{
     background-color: none;
     width: 100%;
     padding-top: 0px;
-    padding-bottom: 5px;
+    padding-bottom: 5px; 
     padding-left: 50px;
     padding-right: 50px;
     border-left: 0px solid #408af8;
@@ -378,21 +379,15 @@ input[type=button]:hover{
     margin-bottom: 1%;
     padding: 3%;
     list-style: none;
-    transition-duration: 0.3s;
-    -moz-transition-duration: 0.3s;
-    -webkit-transition-duration: 0.3s;
-    -o-transition-duration: 0.3s;
     margin-left: -2%;
 }
 
 .display-class-1-inner li:hover{
     background-color:#fdff6b;
-    transition-duration: 0.3s;
-    -moz-transition-duration: 0.3s;
-    -webkit-transition-duration: 0.3s;
-    -o-transition-duration: 0.3s;
+    border-top-right-radius: 2em;
+    border-bottom-left-radius: 2em; 
     box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0), 0 0px 0px 0 rgba(0, 0, 0, 0);
-    margin-left: -2%; 
+    margin-left: -1%; 
 }
 
 
@@ -474,7 +469,6 @@ input[type=button]:hover{
 .About-para-m-1{
     border-bottom-style: none;
     background: inherit;
-    color: #000000;
 
     padding: 20px;
 }
@@ -495,7 +489,6 @@ input[type=button]:hover{
     }
     .About-para-m-1-a{
         background: inherit;
-        color: #000000;
         margin-right: 2%;
         margin-bottom: 1%;
         padding: 30px;
@@ -567,7 +560,6 @@ input[type=button]:hover{
     margin-bottom: 0%;
 }
 .About-para-m-2{
-    color: #000000;
     border: 0px;
     border-style: none;
     padding: 20px;
@@ -663,7 +655,6 @@ footer
 
 footer{
   background-color: #f6f9fc;
-  color: #000000;
   border-top: 1px solid #9E9E9E;
   padding: 0px;
   display: flex;
@@ -685,11 +676,9 @@ footer li{
 
 footer a{
   text-decoration: none;
-  color: inherit;
   font-size: 18px;
 }
 footer a:hover{
-  color: inherit;
   text-decoration: none;
 }
 
@@ -709,7 +698,6 @@ footer h4:hover{
     border-right: 2.5px solid #000000;
     background-color: #ffffff;
     border-radius: 0px;
-    color:#000000;
 }
 
 
@@ -720,7 +708,6 @@ footer li{
 }
 footer li:hover{
   background-color: #ffffff;
-  color: #000000;
   border-radius: 0px;
 }
 
