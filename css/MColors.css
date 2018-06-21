@@ -1,0 +1,286 @@
+/*here is my insanely messy code!! :)*/
+
+/*text color*/
+
+
+*{
+  color  : #000000;
+}
+
+
+/*Base css*/
+html{
+    /*background-color:#0c101c;*/
+    background-color     : #f6f9fc;
+}
+body{
+    /*background-color:#0c101c;*/
+    background-image     : url("/assets/img/background_04.svg");
+    background-repeat    : no-repeat;
+    background-size      : cover;
+    background-attachment: fixed;
+
+color:rgb(28, 49, 58)
+}
+/*header*/
+.nav{
+    background-color     : #3d5afe;
+}
+.nav a{
+    color:#ffffff;
+}
+
+
+
+.highlight{
+    border-top-color:     #000000;
+    border-bottom-color:  #000000;
+}
+
+
+
+.sub-heading{
+    background-color  : none;
+    border-right-color:#408af8;
+    border-top-color  :#408af8;
+}
+
+
+
+
+/*Section large 1+++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+.Sect-l-1{
+    background-color:none;
+}
+.About-para-l-1{
+    background: #ffffff;
+}
+
+
+/*Section display 1+++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+
+.display-class-1{
+    background-color: none;
+}
+.display-class-1-inner{
+    border-left-color  :#408af8;
+    border-bottom-color:#408af8;
+    border-right-color :#408af8;
+    border-top-color   :#408af8;
+    background         : none;
+}
+
+.display-class-1-inner li{
+    border-left-color  : #408af8;
+    border-bottom-color: #408af8;
+    border-right-color : #408af8;
+    border-top-color   : #408af8;
+    background-color   : #fafafa;
+}
+
+.display-class-1-inner li:hover{
+    background-color   :#ffffff;
+    border-right-color: #408af8;
+}
+
+/*Section medium 1_________________________________________________________________________________________________________*/
+
+.Sect-m-1{
+    background-color: inherit;
+}
+.About-para-m-1{
+    background      : inherit;
+}
+/*big screens*/
+@media screen and (min-width: 800px){
+    .About-para-m-1{
+        background: inherit;
+    }
+    .About-para-m-1-a{
+        background: inherit;
+    }
+}
+
+/*Section medium 2______________________________________________________________________________*/
+.Sect-m-2{
+    background-color: inherit;
+}
+.About-para-m-2{
+    background: inherit;
+}
+
+/*big screens*/
+@media screen and (min-width: 800px){
+    .About-para-m-2{
+        background: inherit;
+    }
+    .About-para-m-2-a{
+        background: inherit;
+    }
+}
+
+
+
+/*
+
+Home
+
+*/
+
+.home{
+    background-color: none;
+  }
+  .home a{
+      color:#000000;
+  }
+  .front-heading{
+    background-color: inherit;
+  }
+  .post-list li{
+    background-image: url("/assets/img/blur_01.svg");
+    background-repeat    : no-repeat;
+    background-size      : cover;
+    background-attachment: fixed;
+    /*background-color: #fcfcfd;*/
+    border-top-color:  #2979FF;
+    border-left-color: none;
+    color: #000000;    
+  }
+  .post-list li:hover{
+      border-bottom-color: #2979ff;
+      border-right-color: #2979ff;
+      
+  }
+  @media screen and (max-width: 800px){
+    .post-list li{
+      border-bottom-color: #2979ff;
+      border-right-color: #2979ff;
+    }
+  }
+
+
+
+
+  /*footer*/
+
+footer{
+    background-color: #f6f9fc;
+    border-top-color: #000000;
+}
+  
+  
+footer h4{
+    border-bottom-color:#000000;
+    border-right-color :#000000;
+  }
+  
+footer h4:hover{
+    border-bottom-color: none;
+    border-right-color : none;
+    background-color   : #3d5afe;
+    color              : #ffffff; 
+  }
+footer li:hover{
+  background-color     : #ffffff;
+}
+  
+  
+.closure{
+    border-top-color   : #000000;
+}
+  
+/*Section small 1***********************************************************************/
+.footer-light-list-wrap-about{
+    background-color           : inherit;
+}
+.footer-light-list-wrap-about li{
+  border-left-color            : #000000;
+  }
+.footer-light-title-about{
+    border-left-color          : inherit;
+    background                 : inherit;
+  }
+/*big screens*/
+@media screen and (min-width: 800px){
+  .footer-light-title-about{
+    background                 : inherit;
+    }
+  .footer-light-title-about-inner{
+    background                 : inherit;
+    }
+  }
+  
+  
+/*Section small 2***********************************************************************/
+  
+  .footer-light-list-wrap-contact{
+    background-color           : inherit;
+ }
+  .footer-light-title-contact{
+    border-right-color         : inherit;
+    background                 : inherit;
+  }
+  /*big screens*/
+  @media screen and (min-width: 800px){
+    .footer-light-title-contact{
+        background             : inherit;
+    }
+    .footer-light-title-contact-inner{
+        background             : inherit;
+    }
+  }
+  
+  
+  
+  /*Section small 3***********************************************************************/
+  
+  .footer-light-list-wrap-learn{
+    background-color           : inherit;
+  }
+  
+  .footer-light-title-learn{
+    background                 : inherit;
+  }
+  /*big screens*/
+  @media screen and (min-width: 800px){
+    .footer-light-title-learn{
+        background             : inherit;
+    }
+    .footer-light-title-learn-inner{
+        background             : inherit;
+      }
+  }
+  
+  
+  
+  /*Section small 4***********************************************************************/
+  
+  .footer-light-list-wrap-follow{
+    background-color           : inherit;
+   }
+  .footer-light-title-follow{
+    border-left-color          :#ffffff;
+    background                 : inherit;
+  }
+  .footer-light-list-wrap-follow li{
+    border-right-color:#ffffff;
+  }
+  /*big screens*/
+  @media screen and (min-width: 800px){
+    .footer-light-title-follow{
+        background: inherit;
+    }
+    .footer-light-title-follow-inner{
+        background: inherit;
+    }
+  }
+  
+  
+  /*-----Small screens-----*/
+  @media screen and (max-width: 500px){
+    footer li{
+      border-right-color           :#000000;
+      border-left-color            :orangered;
+    }
+  }
+  

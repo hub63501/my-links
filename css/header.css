@@ -1,3 +1,4 @@
+
 .trigger {
     padding              : 8px;
 }
@@ -6,11 +7,9 @@
     border               : none;
 }
 .site-header a:hover{
-    color                :  inherit;
-    background-color     :  none;
-    border-radius        :  0px;
-    border-bottom        :  0px;
-    border-bottom-style  :  solid;
+    border-radius        : 0px;
+    border-bottom        : 0px;
+    border-bottom-style  : solid;
 }
 .site-header li{
     box-shadow           : 0 0px 0px 0 rgba(0, 0, 0, 0), 0 0px 0px 0 rgba(0, 0, 0, 0);
@@ -26,7 +25,6 @@
 }
 
 .nav{
-    background-color     : #fbff18;
     border-radius        : 0.5em;
     font-size            : 1.5em;
     filter               : opacity(80%);
@@ -37,14 +35,10 @@
     box-shadow           : 0 0px 0px 0 rgba(0, 0, 0, 0), 0 0px 0px 0 rgba(0, 0, 0, 0);
 }
 .nav a{
-    color                : #000000;
     filter               : opacity(100%);
     padding              : 2px;
     margin-left          : 2px;
     margin-right         : 2px;
-}
-.nav a:hover{
-    color                : #ff0263;
 }
 @media screen and (min-width: 1000px){
     .nav:hover{

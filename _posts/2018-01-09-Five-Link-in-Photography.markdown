@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: Display
 title:  "Five-link in Photography"
 date:   2018-01-09 14:50:21 +0100
 categories: Images and Photography
