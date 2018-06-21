@@ -15,7 +15,7 @@ html{
 }
 body{
     /*background-color:#0c101c;*/
-    background-image     : url("/assets/img/background_04.svg");
+    background-image     : url("/assets/img/blur_01.svg");
     background-repeat    : no-repeat;
     background-size      : cover;
     background-attachment: fixed;
@@ -137,11 +137,12 @@ Home
     background-color: inherit;
   }
   .post-list li{
+      /*
     background-image: url("/assets/img/blur_01.svg");
     background-repeat    : no-repeat;
     background-size      : cover;
-    background-attachment: fixed;
-    /*background-color: #fcfcfd;*/
+    background-attachment: fixed;*/
+    background-color: #fcfcfd;
     border-top-color:  #2979FF;
     border-left-color: none;
     color: #000000;    
