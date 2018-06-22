@@ -1,0 +1,234 @@
+---
+layout: default_2
+title: Sports Scores
+description: Today there will be live updates from the Football/Soccer World Cup.
+---
+
+<script>
+    //Times
+    var Time_1 = 0;
+    var Time_2 = 0;
+    var Time_3 = 0;
+
+    if (Time_1 === 90){
+        Time_1 = "FT";
+    }
+    if (Time_2 === 90){
+        Time_2 = "FT";
+    }
+    if (Time_3 === 90){
+        Time_3 = "FT";
+    }
+
+    //Teams first game
+    var Group_1 = "E";
+    var Team_1 = "Brazil";
+    var Team_2 = "Costa Rica";
+
+
+    //scores first game
+    var Score_1 = 0
+    var Score_2 = 0
+    
+
+
+    //Teams second game
+    var Group_2 = "D";
+    var Team_3 = "Nigeria";
+    var Team_4 = "Iceland";
+
+    //scores second game
+    var Score_3 = 0
+    var Score_4 = 0
+
+
+    //Teams third game
+    var Group_3 = "E";
+    var Team_5 = "Serbia";
+    var Team_6 = "Switzerland";
+
+    //scores third game
+    var Score_5 = 0
+    var Score_6 = 0
+</script>
+
+
+<div class="Front-title">
+<div class="Front-title-inner">
+<h1>{{ page.title }}</h1>
+<div class="sub-heading">
+<h2>{{ page.description }}</h2>
+</div>
+</div>
+</div>
+
+<div class="display-class-1">
+    <div class="display-class-1-inner">
+        <h1>
+            Group:
+                <script>
+                    document.write(Group_1);
+                </script>
+        </h1>
+    </div>
+    <div class="display-class-1-inner">
+        <h1>
+            Time:
+            <script>
+                document.write(Time_1);
+            </script>
+        </h1>
+    </div>
+    
+</div>
+
+<div class="Sect-m-1">
+        <div class="About-para-m-1">
+            <div class="About-para-m-1-a" style="background-color: yellow;">
+                <h1 style="color:black">
+                <script>
+                    document.write(Team_1);
+                </script>
+                </h1>
+                <div class="Score">
+                    <h1>
+                        <script>
+                            document.write(Score_1);
+                        </script>  
+                    </h1>
+                </div>
+            </div>
+        </div>
+    </div>
+<div class="Sect-m-2">
+    <div class="About-para-m-2">
+        <div class="About-para-m-2-a" style="background-color: red;">
+            <h1 style="color:white">
+                <script>
+                    document.write(Team_2)
+                </script>
+            </h1>
+            <div class="Score">
+                    <h1>
+                        <script>
+                            document.write(Score_2);
+                        </script>  
+                    </h1>
+            </div>
+        </div>
+    </div>
+</div>
+    
+<div class="display-class-1">
+        <div class="display-class-1-inner">
+                <h1>
+                    Group:
+                        <script>
+                            document.write(Group_2);
+                        </script>
+                </h1>
+            </div>
+    
+        <div class="display-class-1-inner">
+            <h1>
+                Time:
+                <script>
+                    document.write(Time_2);
+                </script>
+            </h1>
+        </div>
+    </div>
+    
+    <div class="Sect-m-1">
+            <div class="About-para-m-1">
+                <div class="About-para-m-1-a" style="background-color: green;">
+                    <h1 style="color:white">
+                    <script>
+                        document.write(Team_3);
+                    </script>
+                    </h1>
+                    <div class="Score">
+                        <h1>
+                            <script>
+                                document.write(Score_3);
+                            </script>  
+                        </h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <div class="Sect-m-2">
+        <div class="About-para-m-2">
+            <div class="About-para-m-2-a" style="background-color: blue;">
+                <h1 style="color:white">
+                    <script>
+                        document.write(Team_4)
+                    </script>
+                </h1>
+                <div class="Score">
+                        <h1>
+                            <script>
+                                document.write(Score_4);
+                            </script>  
+                        </h1>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="display-class-1">
+            <div class="display-class-1-inner">
+                    <h1>
+                        Group:
+                            <script>
+                                document.write(Group_3);
+                            </script>
+                    </h1>
+                </div>
+            <div class="display-class-1-inner">
+                <h1>
+                    Time:
+                    <script>
+                        document.write(Time_3);
+                    </script>
+                </h1>
+
+            </div>
+        </div>
+        
+        <div class="Sect-m-1">
+                <div class="About-para-m-1">
+                    <div class="About-para-m-1-a" style="background-color: red;">
+                        <h1 style="color:white">
+                        <script>
+                            document.write(Team_5);
+                        </script>
+                        </h1>
+                        <div class="Score">
+                            <h1>
+                                <script>
+                                    document.write(Score_5);
+                                </script>  
+                            </h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <div class="Sect-m-2">
+            <div class="About-para-m-2">
+                <div class="About-para-m-2-a" style="background-color: white;">
+                    <h1 style="color:red">
+                        <script>
+                            document.write(Team_6);
+                        </script>
+                    </h1>
+                    <div class="Score">
+                            <h1>
+                                <script>
+                                    document.write(Score_6);
+                                </script>  
+                            </h1>
+                    </div>
+                </div>
+            </div>
+        </div>
