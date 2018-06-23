@@ -550,10 +550,12 @@ input[type=button]:hover{
 }
 
 .Score{
-    background-color: white;
+    background-color: #282830;
     padding: 0px;
     text-align: center;
 }
-
+.Score h1{
+color: #ffffff;
+}
 
 
