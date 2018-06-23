@@ -545,8 +545,7 @@ input[type=button]:hover{
         border-style: none;
     }
     .About-para-m-2-a{
-        padding: 10px;
-        text-align: center;
+        padding: 0px;
     }
 }
 
