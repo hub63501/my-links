@@ -135,23 +135,11 @@ input[type=button]:hover{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.site-title{
+    padding-left: 1px;
+    padding-right: 1px;
+    border-radius: 0.1em;
+}
 
 
 
@@ -161,6 +149,7 @@ input[type=button]:hover{
     width: 100%;
     padding-left: 50px;
     padding-right: 50px;
+    margin-bottom: 5px;
 }
 .Front-title-inner{
     padding-left: 10px;
@@ -203,7 +192,7 @@ input[type=button]:hover{
 
 
 .sub-heading{
-    border-right: 2px solid;
+    border-right: 0px solid;
     border-top-right-radius: 0.1em;
     border-top: 1px solid ;
     border-bottom-left-radius: 2em;
@@ -229,14 +218,12 @@ input[type=button]:hover{
     border-right: 0px solid #408af8;
     border-top: 0px solid #408af8;
     */
-    margin-left: -2.2%;
-    margin-right: -2.2%;
+    margin-left: 2%;
+    margin-right: 2%;
     margin-bottom: 1%; 
     padding: 5%;
   }
-  .sub-heading::before{
-    filter: blur(10px);
-  }
+  
 }
 
 

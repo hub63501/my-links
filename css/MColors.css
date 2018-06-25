@@ -15,16 +15,16 @@ html{
 }
 body{
     /*background-color:#0c101c;*/
-    background-image     : url("/assets/img/background_02.svg");
+    background-image     : url("/assets/img/background_01.svg");
     background-repeat    : no-repeat;
     background-size      : cover;
     background-attachment: fixed;
 
-color:rgb(28, 49, 58)
+    color:#1c313a
 }
 /*header*/
 .nav{
-    background-color     : #3d5afe;
+    background-color     : rgb(62, 90, 254);
 }
 .nav a{
     color:#ffffff;
@@ -45,6 +45,16 @@ color:rgb(28, 49, 58)
     border-top-color  :#408af8;
 }
 
+.post-title{
+    color: #000000;
+}
+
+.site-title{
+    /*
+    background-color: #ffffff;
+    */
+   
+}
 
 
 
@@ -133,8 +143,9 @@ Home
   .home a{
       color:#000000;
   }
-  .front-heading{
-    background-color: inherit;
+  .front-heading, .Front-title{
+      color:#000000;
+    /*background-color: #fafafa;*/
   }
   .post-list li{
       /*
