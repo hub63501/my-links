@@ -4,6 +4,10 @@ title: Sports Scores
 description: Today we are doing live updates for Columbia vs Senegal.
 ---
 
+Still 0-0 with 70 min gone.
+
+___
+
 Half Time
 
 ___
