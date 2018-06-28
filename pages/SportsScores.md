@@ -5,6 +5,8 @@ description: Today we are doing live updates for Columbia vs Senegal.
 ---
 
 
+no Penalty!
+
 ___
 
 
