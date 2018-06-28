@@ -4,6 +4,18 @@ title: Sports Scores
 description: Today we are doing live updates for Columbia vs Senegal.
 ---
 
+
+___
+
+
+Penalty is being reviewed by VAR(Video assisted referee)
+
+___
+
+Penalty to Senegal Mane brought down in the box.
+
+___
+
 A draw would send Senegal through.
 
 ___
