@@ -48,13 +48,13 @@ body{
 .post-title{
     color: #000000;
 }
-
+/*
 .site-title{
-    /*
+    
     background-color: #ffffff;
-    */
+    
    
-}
+}*/
 
 
 
@@ -96,17 +96,18 @@ body{
 /*Section medium 1_________________________________________________________________________________________________________*/
 
 .Sect-m-1{
-    background-color: inherit;
+    background-color: none;
 }
 .About-para-m-1{
     background      : inherit;
 }
+
+.About-para-m-1-a{
+    background-color: #fcec10;
+}
 /*big screens*/
 @media screen and (min-width: 800px){
     .About-para-m-1{
-        background: inherit;
-    }
-    .About-para-m-1-a{
         background: inherit;
     }
 }
@@ -118,14 +119,17 @@ body{
 .About-para-m-2{
     background: inherit;
 }
+.About-para-m-2-a{
+    background-color: #09a53d;
+}
+.About-para-m-2-a p{
+    color: #ffffff;
+}
 
 /*big screens*/
 @media screen and (min-width: 800px){
     .About-para-m-2{
-        background: inherit;
-    }
-    .About-para-m-2-a{
-        background: inherit;
+        background: none;
     }
 }
 

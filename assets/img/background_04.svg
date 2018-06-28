@@ -26,10 +26,10 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.7"
-     inkscape:cx="542.05114"
-     inkscape:cy="383.42205"
+     inkscape:cx="516.05455"
+     inkscape:cy="466.63733"
      inkscape:document-units="mm"
-     inkscape:current-layer="layer5"
+     inkscape:current-layer="layer1"
      showgrid="false"
      inkscape:window-width="1533"
      inkscape:window-height="837"
@@ -57,7 +57,7 @@
      inkscape:groupmode="layer"
      id="layer6"
      inkscape:label="Layer 6"
-     style="opacity:1" />
+     style="display:inline;opacity:1" />
   <g
      inkscape:groupmode="layer"
      id="layer5"
@@ -71,19 +71,40 @@
        x="-13.635794"
        y="-6.5639796" />
     <rect
-       style="display:inline;opacity:1;fill:#ffff00;fill-opacity:1;stroke:#000000;stroke-width:0.19946173;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="display:inline;opacity:1;fill:#ffaaaa;fill-opacity:1;stroke:#000000;stroke-width:0.12345177;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect10-36-3"
-       width="321.13483"
-       height="130.00787"
-       x="-13.331046"
-       y="-6.8290901" />
+       width="159.67599"
+       height="100.15968"
+       x="-13.635794"
+       y="123.50179" />
+    <rect
+       style="display:inline;opacity:1;fill:#ff2a2a;fill-opacity:1;stroke:#000000;stroke-width:0.14156301;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect10-36-3-3"
+       width="161.68677"
+       height="130.06577"
+       x="146.04021"
+       y="93.595703" />
+    <rect
+       style="display:inline;opacity:1;fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:0.14068;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect10-36-3-6"
+       width="159.67599"
+       height="130.06577"
+       x="-13.635794"
+       y="-6.5639796" />
+    <rect
+       style="display:inline;opacity:1;fill:#ff8080;fill-opacity:1;stroke:#000000;stroke-width:0.12422665;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect10-36-3-7"
+       width="161.68678"
+       height="100.15968"
+       x="146.04021"
+       y="-6.5639796" />
   </g>
   <g
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
      transform="translate(0,-87)"
-     style="display:inline;opacity:0.50100062" />
+     style="display:inline;opacity:0.50100086" />
   <g
      inkscape:groupmode="layer"
      id="layer2"

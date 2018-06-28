@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  {% include head.html %}
+  <body>
+    {% include header.html %}
+    <div class="container">
+            <div class="Front-title">
+                <div class="Front-title-inner">
+                    <h1>{{page.title}}</h1>
+                <div class="sub-heading">
+                    <h2>{{page.description}}</h2>
+                </div>
+                </div>
+            </div>
+            <div class="Sect-m-1">
+                    <div class="About-para-m-1">
+                        <div class="About-para-m-1-a">
+                            {%include score.html%}
+                        </div>
+                    </div>
+            </div>
+            <div class="Sect-m-2">
+                <div class="About-para-m-2">
+                        <div class="About-para-m-2-a">
+                            
+                        <h3>
+                            {{content}}
+                        </h3>
+                       
+                    </div>
+                </div>
+            </div>
+    </div>
+    {% include footer.html %}
+  </body>
+</html>
+
