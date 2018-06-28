@@ -12,8 +12,8 @@ Ospina
 Defenders
 Arias   Mina    D Sánchez  Mojica
 
-Midfielders
-        Sánchez      Uribe
+Midfielders<br>
+        Sánchez      Uribe<br>
 Ju Cuadrado     Quintero    Rodríguez
 
 Strikers
@@ -43,7 +43,7 @@ Khadim N'Diaye
 Defenders
 Gassama     Sane    Koulibaly   Sabaly
 
-Midfielders
+Midfielders<br>
 
 Sarr    Kouyate     Gueye   Mane
 
