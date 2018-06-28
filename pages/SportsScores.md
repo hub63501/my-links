@@ -4,6 +4,10 @@ title: Sports Scores
 description: Today we are doing live updates for Columbia vs Senegal.
 ---
 
+Half Time
+
+___
+
 20 min has been played.
 
 ___
