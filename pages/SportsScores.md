@@ -4,6 +4,12 @@ title: Sports Scores
 description: Today we are doing live updates for Columbia vs Senegal.
 ---
 
+As it stands a point will mean both teams go through.<br>
+Japan are losing to poland.
+
+___
+
+
 Still 0-0 with 70 min gone.
 
 ___
