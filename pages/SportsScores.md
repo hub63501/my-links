@@ -4,6 +4,15 @@ title: Sports Scores
 description: Today we are doing live updates for Columbia vs Senegal.
 ---
 
+Free Kick comes to nothing
+
+___
+
+7 min<br>
+Free kick to Senegal on the left.
+
+___
+
 Kick Off
 
 ___
