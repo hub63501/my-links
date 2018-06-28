@@ -4,6 +4,11 @@ title: Sports Scores
 description: Today we are doing live updates for Columbia vs Senegal.
 ---
 
+A draw would send Senegal through.
+
+___
+
+15 minutes played and it's still evenly poised at 0-0.
 
 ___
 
