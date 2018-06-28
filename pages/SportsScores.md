@@ -4,6 +4,13 @@ title: Sports Scores
 description: Today we are doing live updates for Columbia vs Senegal.
 ---
 
+
+___
+
+Free kick to Columbia on the left is saved by the Goalkeeper.
+
+___
+
 Free Kick comes to nothing
 
 ___
