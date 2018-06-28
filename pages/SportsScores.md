@@ -4,22 +4,27 @@ title: Sports Scores
 description: Today we are doing live updates for Columbia vs Senegal.
 ---
 
+
+
+___
+
+
 Colombia Team
 
-Goalkeeper
+Goalkeeper<br>
 Ospina
 
-Defenders
+Defenders<br>
 Arias   Mina    D Sánchez  Mojica
 
 Midfielders<br>
         Sánchez      Uribe<br>
 Ju Cuadrado     Quintero    Rodríguez
 
-Strikers
+Strikers<br>
 Falcao
 
-Subs
+Subs<br>
 Zapata
 Murillo
 Barrios
