@@ -1,9 +1,12 @@
 ---
 layout: SportsScores
-title: Sports Scores
+title: Columbia vs Senegal  
 description: Today we are doing live updates for Columbia vs Senegal.
+team: Columbia vs Senegal
 ---
 FT
+
+Columbia win 1 - 0 With a header by Mina. Senegal are out; Japan and Columbia are through.<br>
 
 ___
 

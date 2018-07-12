@@ -3,10 +3,6 @@
 /*text color*/
 
 
-*{
-  color  : #000000;
-}
-
 
 /*Base css*/
 html{
@@ -14,21 +10,51 @@ html{
     background-color     : #f6f9fc;
 }
 body{
-    /*background-color:#0c101c;*/
+
+    background-color:#fafafa;/*
     background-image     : url("/assets/img/background_01.svg");
     background-repeat    : no-repeat;
     background-size      : cover;
-    background-attachment: fixed;
-
-    color:#1c313a
+    background-attachment: fixed;*/
+    color:#000000;
 }
 /*header*/
+
+.site-header{
+    background-color        : #000000;
+    border-bottom-color     : #3d5afe;     
+}
+.site-header li{
+    border-color: #3d5afe;
+}
+.site-header li:hover{
+    border-bottom-color: #aafc27;
+}
+
 .nav{
-    background-color     : rgb(62, 90, 254);
+    background-color        : #000000;
 }
-.nav a{
-    color:#ffffff;
+
+.trigger{
+    background-color: #000000;
 }
+
+.page-link h1{
+    color: #f6f9fc;
+}
+
+
+.site-header a.site-title{
+    color: #ffffff;
+}
+
+
+.site-header a.page-link{
+    color: #ffffff;
+}
+
+
+
 
 
 
@@ -44,17 +70,19 @@ body{
     border-right-color:#408af8;
     border-top-color  :#408af8;
 }
+.sub-heading h2{
+    color: #ffffff;
+}
+.sub-heading h4{
+    color: #ffffff;
+}
 
 .post-title{
     color: #000000;
 }
-/*
-.site-title{
+
     
-    background-color: #ffffff;
-    
-   
-}*/
+
 
 
 
@@ -103,7 +131,7 @@ body{
 }
 
 .About-para-m-1-a{
-    background-color: #fcec10;
+    background-color: #fafafa;
 }
 /*big screens*/
 @media screen and (min-width: 800px){
@@ -120,10 +148,10 @@ body{
     background: inherit;
 }
 .About-para-m-2-a{
-    background-color: #023011;
+    background-color: #fafafa;
 }
 .About-para-m-2-a p{
-    color: #ffffff;
+    color: #000000;
 }
 
 /*big screens*/
@@ -147,10 +175,24 @@ Home
   .home a{
       color:#000000;
   }
-  .front-heading, .Front-title{
-      color:#000000;
+  .front-heading{
+      background-color: none;
+      
     /*background-color: #fafafa;*/
   }
+  .Front-title{
+      background-color: #000000;
+  }
+ 
+
+  .front-heading h1{
+    color:#fafafa;
+  }
+
+.Front-title h1{
+    color: #ffffff;
+}
+
   .post-list li{
       /*
     background-image: url("/assets/img/blur_01.svg");
@@ -300,3 +342,13 @@ footer li:hover{
     }
   }
   
+
+
+
+ .Score{
+    background-color: #282830;
+ }
+
+.Score h1{
+    color           : #ffffff;
+}

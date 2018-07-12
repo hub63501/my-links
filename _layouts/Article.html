@@ -1,23 +1,23 @@
 <!Doctype html>
 <html lang="en">
-  {% include head.html %}
-  <body>
-    <div class="container">
-      {%include header.html%}
-      <div class="Front-title">
-        <div class="Front-title-inner">
-          <h1>{{ page.title }}</h1>
-          <div class="sub-heading">
-            <h4>Author : {{ page.author }}</h4>
-          </div>
-        </div>
-      </div>
-      <div class="Sect-l-1">
-        <div class="About-para-l-1">
-          {{ content }}
-        </div>
-      </div>
-      {% include footer.html %}
-    </div>
-  </body>
+{% include head.html %}
+<body>
+{%include header.html%}
+<div class="container">
+<div class="Front-title">
+<div class="Front-title-inner">
+<h1>{{page.title}}</h1>
+<div class="sub-heading">
+<h4>Author : {{ page.author }}</h4>
+</div>
+</div>
+</div>
+<div class="Sect-l-1">
+<div class="About-para-l-1">
+{{ content }}
+</div>
+</div>
+{% include footer.html %}
+</div>
+</body>
 </html>

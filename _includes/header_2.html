@@ -3,9 +3,11 @@
     <div class="nav-text">
       <ul>
         <li><a class="page-link" href="{{ site.baseurl }}/">Home</a></li>
-        <li><a class="page-link" href="{{ site.baseurl }}/pages/books.html">Books</a></li>
-        <li><a class="page-link" href="{{ site.baseurl }}/pages/Films.html">Films</a></li>
-        <li><a class="page-link" href="{{ site.baseurl }}/pages/SportsScores.html">Sports Scores</a></li>
+        {% for my_page in site.pages %}
+        {% if my_page.title %}
+        <li><a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a></li>
+{% endif %}
+{% endfor %}
       </ul>
     </div>
   </div>
