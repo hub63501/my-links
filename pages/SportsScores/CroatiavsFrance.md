@@ -4,6 +4,11 @@ title: Croatia vs France
 description: We are doing live updates for the world cup Final between France and Croatia.
 ---
 <br>
+10 min
+<br>
+Rakatic and Modric bossing the midfield. France haven't quite got going.
+
+<br>
 5 min
 <br>
 Five mins gone and Croatia start the brighter out of the two sides.
