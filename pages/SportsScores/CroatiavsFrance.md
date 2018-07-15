@@ -3,6 +3,10 @@ layout: SportsScores.1
 title: Croatia vs France
 description: We are doing live updates for the world cup Final between France and Croatia.
 ---
+<br>
+Full Time<br>
+Croatia couldn't quite get another goal and France are World Champions. Congratulations.
+<br>
 Mistake by Loris gives life line for Croatia.
 <br>
 65 min
