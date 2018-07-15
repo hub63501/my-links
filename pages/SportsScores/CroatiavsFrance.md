@@ -4,14 +4,22 @@ title: Croatia vs France
 description: We are doing live updates for the world cup Final between France and Croatia.
 ---
 
+Stats<br>
+Possession:<br>Croatia : 66.5 % -- France : 33.5 %<br>
+Total Shots:<br>Croatia : 7 -- France : 7<br>
+Corners:<br>Croatia : 4 -- France : 4<br> 
+
+
+<br>
+
+
 ___
 
-Half Time<br>
+<br><b>Half Time</b><br>
 Croatia have been the better side.
 
 ___
 
-<br>
 <br>
 38 min
 <br>
