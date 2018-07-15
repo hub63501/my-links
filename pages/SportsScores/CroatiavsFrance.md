@@ -3,6 +3,14 @@ layout: SportsScores.1
 title: Croatia vs France
 description: We are doing live updates for the world cup Final between France and Croatia.
 ---
+
+<br>
+19 min
+<br>
+Goal France<br>
+Own Goal Mandzukic against the run of play.<br>
+Free kick France after a soft foul and then the free kick was glanced in by the Croatian striker.
+
 <br>
 10 min
 <br>
