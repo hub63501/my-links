@@ -3,7 +3,10 @@ layout: SportsScores.1
 title: Croatia vs France
 description: We are doing live updates for the world cup Final between France and Croatia.
 ---
-
+<br>
+28 min
+<br>
+Goal Croatia Perisic with a great stike from inside the area after a free kick from the Croats.
 <br>
 25 min
 <br>
