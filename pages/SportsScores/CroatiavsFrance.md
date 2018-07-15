@@ -4,6 +4,13 @@ title: Croatia vs France
 description: We are doing live updates for the world cup Final between France and Croatia.
 ---
 
+___
+
+Half Time<br>
+Croatia have been the better side.
+___
+
+<br>
 <br>
 38 min
 <br>
