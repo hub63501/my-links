@@ -3,7 +3,10 @@ layout: SportsScores.1
 title: Croatia vs France
 description: We are doing live updates for the world cup Final between France and Croatia.
 ---
+60 min<br>
+Croatia are attacking with ugency in the second half France look dangerous on the counter with Mbappe.
 
+<br>
 Stats<br>
 Possession:<br>Croatia : 66.5 % -- France : 33.5 %<br>
 Total Shots:<br>Croatia : 7 -- France : 1<br>
