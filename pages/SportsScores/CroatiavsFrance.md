@@ -12,7 +12,7 @@ ___
 Croatia couldn't quite get another goal and France are World Champions. Congratulations.
 <br>
 <br>
-Mistake by Loris gives life line for Croatia.
+Mistake by Loris gives life line for Croatia.<br>
 <br>
 65 min
 <br>
