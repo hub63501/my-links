@@ -5,6 +5,10 @@ description: We are doing live updates for the world cup Final between France an
 ---
 
 <br>
+25 min
+<br>
+That Goal has woken France up and are now pressing for a second. Still Croatia are dangerous on the counter attack.
+<br>
 19 min
 <br>
 Goal France<br>
