@@ -4,8 +4,13 @@ title: Croatia vs France
 description: We are doing live updates for the world cup Final between France and Croatia.
 ---
 <br>
-Full Time<br>
+Full Time
+s<br>
+
+___
+
 Croatia couldn't quite get another goal and France are World Champions. Congratulations.
+<br>
 <br>
 Mistake by Loris gives life line for Croatia.
 <br>
@@ -15,7 +20,9 @@ Mbappe has Scored a goal from outside the box an absolutley fantastic goal.
 
 <br>
 
-60 min<br>
+___
+
+<br>60 min<br>
 Croatia are attacking with ugency in the second half France look dangerous on the counter with Mbappe.
 
 <br>
