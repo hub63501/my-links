@@ -6,8 +6,8 @@ description: We are doing live updates for the world cup Final between France an
 
 Stats<br>
 Possession:<br>Croatia : 66.5 % -- France : 33.5 %<br>
-Total Shots:<br>Croatia : 7 -- France : 7<br>
-Corners:<br>Croatia : 4 -- France : 4<br> 
+Total Shots:<br>Croatia : 7 -- France : 1<br>
+Corners:<br>Croatia : 4 -- France : 1<br> 
 
 
 <br>
