@@ -3,10 +3,26 @@ layout: SportsScores.1
 title: Croatia vs France
 description: We are doing live updates for the world cup Final between France and Croatia.
 ---
+
+<br>
+38 min
+<br>
+Griezman Scores the Penalty. 
+<br>
+
+<br>
+35 min
+<br>
+Have a VAR (video assisted referee) decision for a hand ball. The ref has given a penalty to France.
+<br>
+
+___
+
 <br>
 28 min
 <br>
-Goal Croatia Perisic with a great stike from inside the area after a free kick from the Croats.
+Goal Croatia<br>
+Perisic with a great stike from inside the area after a free kick from the Croats.
 <br>
 25 min
 <br>
