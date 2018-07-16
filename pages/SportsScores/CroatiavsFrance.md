@@ -8,11 +8,18 @@ Full Time
 <br>
 
 ___
-
+<br>
 Croatia couldn't quite get another goal and France are World Champions. Congratulations.
 <br>
 <br>
-Mistake by Loris gives life line for Croatia.<br>
+
+___
+<br>
+Mistake by Loris gives life line for Croatia.
+<br>
+
+___
+
 <br>
 65 min
 <br>
@@ -25,6 +32,9 @@ ___
 <br>60 min<br>
 Croatia are attacking with ugency in the second half France look dangerous on the counter with Mbappe.
 
+<br>
+
+___
 <br>
 Stats<br>
 Possession:<br>Croatia : 66.5 % -- France : 33.5 %<br>
@@ -48,6 +58,7 @@ ___
 Griezman Scores the Penalty. 
 <br>
 
+___
 <br>
 35 min
 <br>
@@ -62,9 +73,14 @@ ___
 Goal Croatia<br>
 Perisic with a great stike from inside the area after a free kick from the Croats.
 <br>
+
+___
 25 min
 <br>
 That Goal has woken France up and are now pressing for a second. Still Croatia are dangerous on the counter attack.
+<br>
+
+___
 <br>
 19 min
 <br>
@@ -73,11 +89,15 @@ Own Goal Mandzukic against the run of play.<br>
 Free kick France after a soft foul and then the free kick was glanced in by the Croatian striker.
 
 <br>
+
+___
 10 min
 <br>
 Rakatic and Modric bossing the midfield. France haven't quite got going.
 
 <br>
+
+___
 5 min
 <br>
 Five mins gone and Croatia start the brighter out of the two sides.
