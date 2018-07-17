@@ -32,9 +32,19 @@ Home
   overflow: auto;
   white-space: nowrap;
 }
-.front-heading{
+.front-heading{  
   text-align: center;
   width: 100%;
+  padding: 25px;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 30px;
+}
+@media screen and (max-width: 650px){
+  .front-heading{
+    padding-left: 5px;
+    padding-right: 5px;
+  }
 }
 .page-heading{
   font-size: 3em;

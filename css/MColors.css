@@ -11,12 +11,13 @@ html{
 }
 body{
 
-    background-color:#fafafa;/*
-    background-image     : url("/assets/img/background_01.svg");
+    background-color:#74e6ba;
+    /*
+    background-image     : url("/assets/img/background_02.JPG");
     background-repeat    : no-repeat;
     background-size      : cover;
-    background-attachment: fixed;*/
-    color:#000000;
+    background-attachment: fixed;
+    color:#000000;*/
 }
 /*header*/
 
@@ -28,7 +29,7 @@ body{
     border-color: #3d5afe;
 }
 .site-header li:hover{
-    border-bottom-color: #aafc27;
+    border-bottom-color: #74e6ba;
 }
 
 .nav{
@@ -39,7 +40,7 @@ body{
     background-color: #000000;
 }
 
-.page-link h1{
+.page-link h2{
     color: #f6f9fc;
 }
 
@@ -182,7 +183,7 @@ Home
  
 
   .front-heading{
-    background-image     : url("/assets/img/background_01.svg");
+    background-image     : url("/assets/img/background_02.svg");
     background-repeat    : no-repeat;
     background-size      : cover;
     background-attachment: fixed;
