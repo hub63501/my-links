@@ -4,7 +4,6 @@ title: Books
 description: Top Books to read.
 ---
 
-{{ page.description }}
 <ul>
 <li><img src="http://1.bp.blogspot.com/_NnmwTsSwy9g/TFccp-d4FjI/AAAAAAAAAFw/q5nSARGsakM/s1600/holy+Bible.jpg"></li>
 
