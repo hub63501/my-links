@@ -21,6 +21,28 @@ body{
     */
     
 }
+
+table{
+    border-color: #3d5afe;
+}
+
+#iron-man{
+    background-color: none;
+    color: #000000;
+}
+#hulk{
+    border-right-color: #74e6ba;
+}
+
+#rotten-tomatoes{
+    background-color: #df1c1c;
+    color: #ffffff;
+}
+
+#IMDB{
+    background-color: #ffd327;
+}
+
 /*header*/
 
 .site-header{

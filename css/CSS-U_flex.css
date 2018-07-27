@@ -43,8 +43,6 @@ body{
     margin               : 0%;
 }
 
-
-
 a{
   text-decoration: none;
 }
@@ -102,6 +100,19 @@ span{
 	    border-radius: 50px;
         box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0), 0 0px 20px 0 rgba(0, 0, 0, 0.19);
     }
+}
+
+
+td{
+    padding-left: 10px;
+    padding-right: 20px;
+    border-right: solid 0px;
+}
+
+
+table{
+    border-left: solid 10px;
+    display: center;
 }
 
 
@@ -294,7 +305,7 @@ input[type=button]:hover{
     }
     .About-para-l-1{
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-        padding-top: 5px;
+        padding-top: 3%;
         padding-right: 40px;
         padding-left: 40px;
         padding-bottom: 20px;
@@ -586,7 +597,7 @@ input[type=button]:hover{
 /*Section small 1***********************************************************************/
 .Sect-s-1{
     text-align: left;
-    background-color: #ffffff;
+    background-color: none;
     width: 100%;
     padding-left: 60px;
     padding-right: 60px;
@@ -613,7 +624,7 @@ input[type=button]:hover{
         padding-left: 0px;
         padding-top: 0px;
         padding-right: 0px;
-        background: white;
+        background: none;
         border-style: none;
     }
     .About-para-s-1-a{
@@ -892,7 +903,7 @@ input[type=button]:hover{
 
 .Sect-s-4{
     text-align: left;
-    background-color: #ffffff;
+    background-color: none;
     width: 100%;
     padding-left: 60px;
     padding-right: 60px;
@@ -919,7 +930,7 @@ input[type=button]:hover{
         padding-left: 0px;
         padding-top: 0px;
         padding-right: 0px;
-        background: white;
+        background: none;
         border-style: none;
     }
     .About-para-s-4-a{
@@ -1021,7 +1032,7 @@ input[type=button]:hover{
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .About-para-s-4:hover{
-  background-color:aquamarine;
+  background-color:#7fffd4;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .About-para-s-3-a:hover{
