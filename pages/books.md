@@ -1,7 +1,7 @@
 ---
 layout: Display
 title: Books
-description: Top Books to read.
+description: Books to read.
 ---
 
 <ul>

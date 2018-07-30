@@ -1,7 +1,7 @@
 ---
 layout: Display
 title: Podcasts
-description: Top five Podcasts of the week.
+description: Five Podcasts of the week.
 ---
 
 This is what I've been listening to this week.
