@@ -21,7 +21,7 @@ description: "Five links to Read."
         </a>
     </li>
     <li>
-        <a href="https://www.fastcodesign.com/90164215/reinventing-the-piano-as-a-piece-of-modern-furniture" target="_blank"><h2>Reinventing the piano as a piece of modern furniture</h4>
+        <a href="https://www.fastcodesign.com/90164215/reinventing-the-piano-as-a-piece-of-modern-furniture" target="_blank"><h2>Reinventing the piano as a piece of modern furniture</h2>
         </a>
     </li>
     <li>
