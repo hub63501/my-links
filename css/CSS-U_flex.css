@@ -255,7 +255,15 @@ input[type=button]:hover{
 
 
 
-
+.bible{
+    background-image     : url("http://1.bp.blogspot.com/_NnmwTsSwy9g/TFccp-d4FjI/AAAAAAAAAFw/q5nSARGsakM/s1600/holy+Bible.jpg");
+    background-repeat    : no-repeat;
+    background-size      : contain;
+    background-attachment: scroll;
+}
+li h2.bible-heading{
+    text-align          : right;
+}
 
 
 

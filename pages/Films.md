@@ -14,8 +14,8 @@ description: Films to look out for this week
 
 <h1><u>Christopher Robin</u></h1>
 <table>
-    <tr id="rotten-tomatoes"><td><h2>Rotten Tomatoes</h2></td><td><h2>-</h2></td></tr>
-    <tr id="IMDB"><td><h2>IMDB Meta Score</h2></td><td><h2>-</h2></td></tr>
+    <tr id="rotten-tomatoes"><td><h2>Rotten Tomatoes</h2></td><td><h2>70</h2></td></tr>
+    <tr id="IMDB"><td><h2>IMDB Meta Score</h2></td><td><h2>60</h2></td></tr>
 </table>
 <br>
 <h1><u>Ant Man and the Wasp</u></h1>

@@ -4,9 +4,7 @@ title: Books
 description: Books to read.
 ---
 <ul>
-<li>
-<img style="width:30%;" src="http://1.bp.blogspot.com/_NnmwTsSwy9g/TFccp-d4FjI/AAAAAAAAAFw/q5nSARGsakM/s1600/holy+Bible.jpg">
-</li>
+<li class="bible"><h2 class="bible-heading">The Holy Bible</h2></li>
 <li>
 <img style="width:30%;" src="http://www.travelthruhistory.tv/ThruHistory/wp-content/uploads/2014/01/twelve-years-a-slave-book-cover-01-379x600.jpg">
 </li>
