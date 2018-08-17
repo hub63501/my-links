@@ -1,7 +1,8 @@
 ---
 layout: SportsScores.1
 title: Croatia vs France
-description: We are doing live updates for the world cup Final between France and Croatia.
+description: This was a live updates page for the world cup Final between France and Croatia.
+category: "Football"
 ---
 <br>
 Full Time

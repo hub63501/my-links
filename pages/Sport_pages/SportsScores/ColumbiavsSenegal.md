@@ -1,7 +1,7 @@
 ---
 layout: SportsScores
 title: Columbia vs Senegal  
-description: Today we are doing live updates for Columbia vs Senegal.
+description: This was a live updates page for Columbia vs Senegal.
 team: Columbia vs Senegal
 ---
 FT

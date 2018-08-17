@@ -266,6 +266,32 @@ li h2.bible-heading{
 }
 
 
+.arsenal{
+    background-image     : url("http://1.bp.blogspot.com/-FOQg-cbKaIk/Trpuk_XQoxI/AAAAAAAAFnU/pvbTXEKB-ig/s1600/Arsenal+2002-2011.png");
+    background-repeat    : no-repeat;
+    background-size      : contain;
+    background-attachment: scroll;
+}
+.liverpool{
+    background-image   :url("https://duckduckgo.com/i/c48416af.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-attachment: scroll;
+}
+
+li h2.club-player-heading{
+    text-align          : right;
+}
+
+.s_mane{
+    background-image   :url("https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/FK_Austria_Wien_vs._FC_Red_Bull_Salzburg_20131006_%2821%29.jpg/1200px-FK_Austria_Wien_vs._FC_Red_Bull_Salzburg_20131006_%2821%29.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-attachment: scroll;
+}
+
+
+
 
 
 
@@ -419,7 +445,6 @@ li h2.bible-heading{
     .display-class-1-inner{
         padding: 5px;
     }
-
     .display-class-1-inner li{
         margin-left: -6.2%;
     }
