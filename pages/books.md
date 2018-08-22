@@ -4,10 +4,10 @@ title: Books
 description: Books to read.
 ---
 <ul>
-<li class="bible"><h2 class="book">The Holy Bible</h2></li>
+<li class="bible"><h2 class="book-heading">The Holy Bible</h2></li>
 <li>
 
-<li class="twelve-years-a-slave"><h2 class="book">Twelve years a Slave</h2></li>
+<li class="twelve-years-a-slave"><h2 class="book-heading">Twelve years a Slave</h2></li>
 
 
 
