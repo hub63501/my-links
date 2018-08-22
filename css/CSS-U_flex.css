@@ -261,9 +261,19 @@ input[type=button]:hover{
     background-size      : contain;
     background-attachment: scroll;
 }
-li h2.bible-heading{
+li h2.book-heading{
     text-align          : right;
 }
+
+.twelve-years-a-slave{
+    background-image     : url("http://www.travelthruhistory.tv/ThruHistory/wp-content/uploads/2014/01/twelve-years-a-slave-book-cover-01-379x600.jpg");
+    background-repeat    : no-repeat;
+    background-size      : contain;
+    background-attachment: scroll;
+}
+
+
+
 
 
 .arsenal{
