@@ -4,23 +4,20 @@ title: Books
 description: Books to read.
 ---
 <ul>
+
 <li class="bible"><h2 class="book-heading">The Holy Bible</h2></li>
 
 
 <li class="twelve-years-a-slave"><h2 class="book-heading">Twelve years a Slave</h2></li>
 
 
+<li class="being-mortal"><h2 class="book-heading">Being Mortal: by Atul Gawande</h2></li>
+
+<li class="twelve-angels-from-hell"><h2 class="book-heading">Twelve angels from Hell: by David Wilkerson</h2></li>
+
+<li class="return-of-the-king"><h2 class="book-heading">Lord of the Rings: the Return of the King</h2></li>
 
 
-<li>
-<img style="width:30%;" src="https://alittleblogofbooks.files.wordpress.com/2015/02/being-mortal.jpg">
-</li>
-<li>
-<img style="width:30%;" src="http://ecx.images-amazon.com/images/I/511sd0MHCNL._SY344_BO1,204,203,200_.jpg">
-</li>
-<li>
-<img style="width:30%;" src="http://ecx.images-amazon.com/images/I/41Qx%2BidkxsL.jpg">
-</li>
 </ul>
 
 
