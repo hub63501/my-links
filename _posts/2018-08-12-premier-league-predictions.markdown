@@ -29,7 +29,7 @@ Here are my predictions using a few data sets including goals scored chances cre
 [(322.0, 'Huddersfield')]<br>
 
 
-promoted
+promoted<br>
 [(504.0, 'Fulham')]<br>
 [(491.0, 'Wolves')]<br>
 [(488.0, 'Cardiff')]<br>
