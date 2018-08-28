@@ -253,7 +253,9 @@ input[type=button]:hover{
 
 
 
-
+li h2.book-heading{
+    text-align          : right;
+}
 
 .bible{
     background-image     : url("http://1.bp.blogspot.com/_NnmwTsSwy9g/TFccp-d4FjI/AAAAAAAAAFw/q5nSARGsakM/s1600/holy+Bible.jpg");
@@ -261,8 +263,34 @@ input[type=button]:hover{
     background-size      : contain;
     background-attachment: scroll;
 }
-li h2.bible-heading{
-    text-align          : right;
+
+
+.twelve-years-a-slave{
+    background-image     : url("http://www.travelthruhistory.tv/ThruHistory/wp-content/uploads/2014/01/twelve-years-a-slave-book-cover-01-379x600.jpg");
+    background-repeat    : no-repeat;
+    background-size      : contain;
+    background-attachment: scroll;
+}
+
+.being-mortal{
+    background-image     : url("https://alittleblogofbooks.files.wordpress.com/2015/02/being-mortal.jpg");
+    background-repeat    : no-repeat;
+    background-size      : contain;
+    background-attachment: scroll;
+}
+
+.twelve-angels-from-hell{
+    background-image     : url("http://ecx.images-amazon.com/images/I/511sd0MHCNL._SY344_BO1,204,203,200_.jpg");
+    background-repeat    : no-repeat;
+    background-size      : contain;
+    background-attachment: scroll;
+}
+
+.return-of-the-king{
+    background-image     : url("http://ecx.images-amazon.com/images/I/41Qx%2BidkxsL.jpg");
+    background-repeat    : no-repeat;
+    background-size      : contain;
+    background-attachment: scroll;
 }
 
 
