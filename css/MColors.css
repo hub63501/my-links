@@ -114,7 +114,9 @@ table{
     background-color:none;
 }
 .About-para-l-1{
-    background: #ffffff;
+    background-color: #21D4FD;
+    background-image: linear-gradient(118deg, #21D4FD 0%, #B721FF 100%);
+
 }
 
 

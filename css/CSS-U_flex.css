@@ -30,6 +30,8 @@ fonts to use
     font-family: 'Source Sans Pro', sans-serif;
 
 
+
+
 wall
 background-image: url("/assets/Pics/drawing-4.svg");
 
@@ -70,6 +72,9 @@ img {
 span{
     font-size: 1em;
     letter-spacing: 1px;
+    padding: 5px;
+    color: #ffffff;
+    font-family: 'Comfortaa', cursive;
 }
 .highlight{
     border-top: 1px solid;
@@ -342,9 +347,10 @@ li h2.club-player-heading{
     margin-bottom: 1%;
 }
 .About-para-l-1{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border: 0px;
     border-style: none;
-    border-radius: 5px;
+    border-radius: 1px;
     padding: 20px;
     
 }
@@ -366,7 +372,6 @@ li h2.club-player-heading{
         margin: 0px;
     }
     .About-para-l-1{
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
         padding-top: 3%;
         padding-right: 40px;
         padding-left: 40px;
@@ -666,11 +671,11 @@ li h2.club-player-heading{
     margin-bottom: 0%;
 }
 .About-para-s-1{
-    color: #000000;
+    color: #ffffff;
     border: 0px;
     border-style: none;
     padding: 20px;
-    background: #4fc3f7;
+    background: #143a4b;
 }
 /*big screens*/
 @media screen and (min-width: 800px){
@@ -690,7 +695,7 @@ li h2.club-player-heading{
         border-style: none;
     }
     .About-para-s-1-a{
-        background: #4fc3f7;
+        background: #22323a;
         padding: 20px;
         margin-bottom: 2%;
     }
@@ -761,7 +766,7 @@ li h2.club-player-heading{
 
 .Sect-s-2{
     text-align: left;
-    background-color: #ffffff;
+    background-color: none;
     width: 100%;
     padding-left: 60px;
     padding-right: 60px;
@@ -772,7 +777,6 @@ li h2.club-player-heading{
     border: 0px;
     border-style: none;
     padding: 20px;
-    background: #81d4fa;
 }
 /*big screens*/
 @media screen and (min-width: 800px){
@@ -780,6 +784,7 @@ li h2.club-player-heading{
         text-align: left;
         padding: 0px;
         width: 25%;
+        background-color: none;        
     }
     .About-para-s-2-a h2{
         text-align: center;
@@ -788,7 +793,7 @@ li h2.club-player-heading{
         padding-left: 0px;
         padding-top: 0px;
         padding-right: 0px;
-        background: white;
+        background-color: none;
         border-style: none;
     }
     .About-para-s-2-a{
@@ -862,7 +867,7 @@ li h2.club-player-heading{
 
 .Sect-s-3{
     text-align: left;
-    background-color: #ffffff;
+    background-color: none;
     width: 100%;
     padding-left: 60px;
     padding-right: 60px;
@@ -874,7 +879,7 @@ li h2.club-player-heading{
     border: 0px;
     border-style: none;
     padding: 20px;
-    background: #e1f5fe;
+    background-color: none;
 }
 /*big screens*/
 @media screen and (min-width: 800px){
@@ -890,11 +895,11 @@ li h2.club-player-heading{
         padding-left: 0px;
         padding-top: 0px;
         padding-right: 0px;
-        background: white;
+        background-color: none;
         border-style: none;
     }
     .About-para-s-3-a{
-        background: #e1f5fe;
+        background: #143a4b;
         padding: 20px;
         margin-bottom: 2%;
     }
@@ -1068,7 +1073,6 @@ li h2.club-player-heading{
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .About-para-s-1-a:hover{
-  background-color:aquamarine;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .About-para-s-2-a:hover{
@@ -1085,8 +1089,7 @@ li h2.club-player-heading{
   background-color:#7fffd4;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-.About-para-s-1:hover{
-  background-color:#7fffd4;
+.About-para-s-1:hover{  
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .About-para-s-2:hover{
@@ -1103,6 +1106,7 @@ li h2.club-player-heading{
 }
 .About-para-s-1-a:hover{
   background-color: none;
+  
  box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0), 0 0px 0px 0 rgba(0, 0, 0, 0);
 }
 .About-para-s-2-a:hover{
