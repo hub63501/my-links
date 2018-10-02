@@ -1,5 +1,5 @@
 ---
-layout: Display.1   
+layout: Article  
 title: 'Premier league club profile: Liverpool'
 date: 2018-08-01 12:05:21 +0100
 categories: Football

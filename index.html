@@ -20,6 +20,7 @@ layout: Home_page
         <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
       </h2>
       {{ post.description }}
+      {%include post-image.html%}
     </li>
     {% endfor %}
   </ul>
