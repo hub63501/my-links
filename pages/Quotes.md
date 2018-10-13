@@ -1,10 +1,13 @@
 ---
 layout: Display.1
 title: Quotes
-description: Hello there... Welcome to FIVE-LINK's Quotes page where i'll be posting insightful and meaningful quotes from some of historys great leaders and thinkers. 
+description: Hello there... Welcome to FIVE-LINK's Quotes page where i'll be posting insightful and meaningful quotes from some of historys great leaders and thinkers.
 ---
 <h1>Quotes</h1>
+<h2>“I am fundamentally an optimist. Whether that comes from nature or nurture, I cannot say. Part of being optimistic is keeping one's head pointed toward the sun, one's feet moving forward. There were many dark moments when my faith in humanity was sorely tested, but I would not and could not give myself up to despair. That way lays defeat and death.”</h2>
+<p>― Nelson Mandela</p>
 
+---
 <h2>“I don't like that man. I must get to know him better.”</h2>
 <p>― Abraham Lincoln</p>
 
