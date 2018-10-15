@@ -16,13 +16,13 @@ body{
     background-repeat    : no-repeat;
     background-size      : cover;
     background-attachment: fixed;
-    
+
     background-color: #FFE53B;
     background-image: linear-gradient(147deg, #FFE53B 0%, #FF2525 74%);
     */
 
     background-color:#f6f9ff;
-    
+
 }
 
 table{
@@ -50,7 +50,7 @@ table{
 
 .site-header{
     background-color        : #000000;
-    border-bottom-color     : #3d5afe;     
+    border-bottom-color     : #3d5afe;
 }
 .site-header li{
     border-color: #3d5afe;
@@ -108,7 +108,7 @@ table{
     color: #000000;
 }
 
-    
+
 
 
 
@@ -119,7 +119,7 @@ table{
 }
 .About-para-l-1{
     background-color: #6085ff;
-
+    color: #ffffff;
 
 
 }
@@ -205,12 +205,12 @@ Home
   .home a{
       color:#000000;
   }
-   
+
   .Front-title{
     background-color: #000000;
-    
+
   }
- 
+
 
   .front-heading{
     background-image     : none;
@@ -218,7 +218,7 @@ Home
     background-size      : cover;
     background-attachment: fixed;
   }
-  
+
 
 
 .Front-title h1{
@@ -234,12 +234,12 @@ Home
     background-color: #fcfcfd;
     border-top-color:  #2979FF;
     border-left-color: none;
-    color: #000000;    
+    color: #000000;
   }
   .post-list li:hover{
       border-bottom-color: #2979ff;
       border-right-color: #2979ff;
-      
+
   }
   @media screen and (max-width: 800px){
     .post-list li{
@@ -257,28 +257,28 @@ footer{
     background-color: #f6f9fc;
     border-top-color: #000000;
 }
-  
-  
+
+
 footer h4{
     border-bottom-color:#000000;
     border-right-color :#000000;
   }
-  
+
 footer h4:hover{
     border-bottom-color: none;
     border-right-color : none;
     background-color   : #3d5afe;
-    color              : #ffffff; 
+    color              : #ffffff;
   }
 footer li:hover{
   background-color     : #ffffff;
 }
-  
-  
+
+
 .closure{
     border-top-color   : #000000;
 }
-  
+
 /*Section small 1***********************************************************************/
 .footer-light-list-wrap-about{
     background-color           : inherit;
@@ -299,10 +299,10 @@ footer li:hover{
     background                 : inherit;
     }
   }
-  
-  
+
+
 /*Section small 2***********************************************************************/
-  
+
   .footer-light-list-wrap-contact{
     background-color           : inherit;
  }
@@ -319,15 +319,15 @@ footer li:hover{
         background             : inherit;
     }
   }
-  
-  
-  
+
+
+
   /*Section small 3***********************************************************************/
-  
+
   .footer-light-list-wrap-learn{
     background-color           : inherit;
   }
-  
+
   .footer-light-title-learn{
     background                 : inherit;
   }
@@ -340,11 +340,11 @@ footer li:hover{
         background             : inherit;
       }
   }
-  
-  
-  
+
+
+
   /*Section small 4***********************************************************************/
-  
+
   .footer-light-list-wrap-follow{
     background-color           : inherit;
    }
@@ -364,8 +364,8 @@ footer li:hover{
         background: inherit;
     }
   }
-  
-  
+
+
   /*-----Small screens-----*/
   @media screen and (max-width: 500px){
     footer li{
@@ -373,7 +373,7 @@ footer li:hover{
       border-left-color            :orangered;
     }
   }
-  
+
 
 
 
