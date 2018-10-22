@@ -68,7 +68,7 @@ p{
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 1.2em;
     letter-spacing: 0.25px;
-    padding: 15px; 
+    padding: 15px;
 }
 img {
     border-radius: 5px;
@@ -92,24 +92,24 @@ span{
     object-fit: cover;
     margin: 10px;
     float: right;
-    width: 100px;
-    height: 100px;
-    -moz-border-radius: 50px;
-    -webkit-border-radius: 50px;
-    border-radius: 50px;
+    width: 200px;
+    height: 200px;
+    -moz-border-radius: 100px;
+    -webkit-border-radius: 100px;
+    border-radius: 100px;
     box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0), 0 0px 20px 0 rgba(0, 0, 0, 0.19);
 }
 @media screen and (max-width: 420px){
     .circle-Image img{
-        object-fit: cover;
-        margin: 10px;
-        float: right;
-        width: 50px;
+      object-fit: cover;
+      margin: 10px;
+      float: right;
+      width: 50px;
 	    height: 50px;
 	    -moz-border-radius: 50px;
 	    -webkit-border-radius: 50px;
 	    border-radius: 50px;
-        box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0), 0 0px 20px 0 rgba(0, 0, 0, 0.19);
+      box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0), 0 0px 20px 0 rgba(0, 0, 0, 0.19);
     }
 }
 
@@ -239,7 +239,7 @@ input[type=button]:hover{
     }
 }
 @media screen and (max-width: 800px){
-  .sub-heading{ 
+  .sub-heading{
     text-align: right;
     /*
     border-left: 0px solid #408af8;
@@ -249,10 +249,10 @@ input[type=button]:hover{
     */
     margin-left: 2%;
     margin-right: 2%;
-    margin-bottom: 1%; 
+    margin-bottom: 1%;
     padding: 5%;
   }
-  
+
 }
 
 
@@ -318,6 +318,15 @@ li h2.book-heading{
     background-attachment: scroll;
 }
 
+.fluminense{
+    background-image   :url("https://upload.wikimedia.org/wikipedia/en/thumb/9/9e/Fluminense_fc_logo.svg/200px-Fluminense_fc_logo.svg.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-attachment: scroll;
+}
+
+
+
 li h2.club-player-heading{
     text-align          : right;
 }
@@ -330,7 +339,23 @@ li h2.club-player-heading{
 }
 
 
+#captain{
+  background-color: #7f0000;
+  color: #ffffff;
+}
+#captain a{
+  color: #ffffff;
+}
 
+#loan{
+  background-color: #1976d2;
+  color: #ffffff;
+}
+
+#loaned-out{
+  background-color: #004d40;
+  color: #ffffff;
+}
 
 
 
@@ -358,7 +383,7 @@ li h2.club-player-heading{
     border-style: none;
     border-radius: 1px;
     padding: 20px;
-    
+
 }
 /*small screens*/
 @media screen and (max-width: 500px){
@@ -419,14 +444,14 @@ li h2.club-player-heading{
     text-align: left;
     width: 100%;
     padding-top: 0px;
-    padding-bottom: 5px; 
+    padding-bottom: 5px;
     padding-left: 50px;
     padding-right: 50px;
     border-left: 0px solid ;
     border-bottom: 0px solid ;
     border-right: 0px solid ;
     border-top: 0px solid ;
-    
+
 }
 .display-class-1-inner{
     border-left: 1px solid ;
@@ -435,7 +460,7 @@ li h2.club-player-heading{
     border-top: 0px solid ;
     border-radius: 0px;
     padding-left: 10px;
-    padding-right: 10px; 
+    padding-right: 10px;
     margin-bottom: 1%;
 }
 
@@ -455,9 +480,9 @@ li h2.club-player-heading{
 .display-class-1-inner li:hover{
     border-right: 1px solid;
     border-top-right-radius: 0em;
-    border-bottom-left-radius: 0em; 
+    border-bottom-left-radius: 0em;
     box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0), 0 0px 0px 0 rgba(0, 0, 0, 0);
-    margin-left: -1%; 
+    margin-left: -1%;
 }
 
 
@@ -479,7 +504,7 @@ li h2.club-player-heading{
     .display-class-1{
         padding: 2px;
         margin-bottom: 1px;
-        
+
     }
     .display-class-1-inner{
         padding: 5px;
@@ -540,7 +565,7 @@ li h2.club-player-heading{
 }
 .About-para-m-1-a{
     padding: 10px;
-    text-align: center;    
+    text-align: center;
 }
 /*big screens*/
 @media screen and (min-width: 800px){
@@ -790,7 +815,7 @@ li h2.club-player-heading{
         text-align: left;
         padding: 0px;
         width: 25%;
-        background-color: none;        
+        background-color: none;
     }
     .About-para-s-2-a h2{
         text-align: center;
@@ -1095,7 +1120,7 @@ li h2.club-player-heading{
   background-color:#7fffd4;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-.About-para-s-1:hover{  
+.About-para-s-1:hover{
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .About-para-s-2:hover{
@@ -1112,7 +1137,7 @@ li h2.club-player-heading{
 }
 .About-para-s-1-a:hover{
   background-color: none;
-  
+
  box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0), 0 0px 0px 0 rgba(0, 0, 0, 0);
 }
 .About-para-s-2-a:hover{

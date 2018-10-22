@@ -9,7 +9,8 @@ description: "Football/Soccer Profile of Arsenal Football Club"
 <div class="circle-Image">
     <img src="http://1.bp.blogspot.com/-FOQg-cbKaIk/Trpuk_XQoxI/AAAAAAAAFnU/pvbTXEKB-ig/s1600/Arsenal+2002-2011.png">
 </div>
-
+<table>
+<td>
 <h1>Arsenal</h1>
 
 
@@ -18,11 +19,16 @@ description: "Football/Soccer Profile of Arsenal Football Club"
 <p>Stadium Capacity: 59,867</p>
 <p>Present Head Coach: Unai Emery</p>
 <br>
+</td>
+</table>
+<br>
 
 ---
 <br>
-<h2><u>Present Squad</u></h2>
-<h3>Goalkeepers</h3>	
+<h1 style="text-align: center;"><u>Present Squad</u></h1>
+{%include football_keys.html%}
+<br>
+<h1>Goalkeepers</h1>
 
 <table>
 <tr><td>
@@ -31,7 +37,7 @@ description: "Football/Soccer Profile of Arsenal Football Club"
 <tr><td>
 <p>Bernd Leno</p>
 </td></tr>
-<tr><td>
+<tr><td id="loaned-out">
 <p>David Ospina</p>
 </td></tr>
 <tr><td>
@@ -41,7 +47,7 @@ description: "Football/Soccer Profile of Arsenal Football Club"
 <br>
 
 
-<h3>Defenders</h3>	
+<h1>Defenders</h1>
 
 <table>
 <tr><td></td></tr>
@@ -52,7 +58,7 @@ description: "Football/Soccer Profile of Arsenal Football Club"
 <tr><td>
 <p>Sokratis Papastathopoulos</p>
 </td></tr>
-<tr><td>
+<tr><td id="captain">
 <p>Laurent Koscielny</p>
 </td></tr>
 <tr><td>
@@ -81,7 +87,7 @@ description: "Football/Soccer Profile of Arsenal Football Club"
 
 
 
-<h3>Midfeilders</h3>	
+<h1>Midfeilders</h1>
 
 <table>
 <tr><td>
@@ -115,7 +121,7 @@ description: "Football/Soccer Profile of Arsenal Football Club"
 
 
 
-<h3>Attackers</h3>	
+<h1>Attackers</h1>
 
 <table>
 <tr><td>
@@ -135,7 +141,3 @@ description: "Football/Soccer Profile of Arsenal Football Club"
 </td></tr>
 </table>
 <br>
-
-
-
-

@@ -3,13 +3,15 @@ layout: Article
 title: 'Premier league club profile: Liverpool'
 date: 2018-08-01 12:05:21 +0100
 categories: Football
-description: "Football/Soccer Profile of Liverpool Football Club"
+description: Football/Soccer Profile of Liverpool Football Club
 ---
 
 <div class="circle-Image">
 <img src="https://duckduckgo.com/i/c48416af.png">
 </div>
 
+<table>
+<td>
 <h1>Liverpool</h1>
 
 
@@ -17,19 +19,26 @@ description: "Football/Soccer Profile of Liverpool Football Club"
 <p>Stadium name: Anfield</p>
 <p>Stadium Capacity: 54,074</p>
 <p>Present Manager: Jurgen Klopp</p>
+</td>
+</table>
+
 <br>
 
 ---
 
 <br>
-<h2><u>Present Squad</u></h2>
-<h3>Goalkeepers</h3>	
+<h1 style="text-align: center;"><u>Present Squad</u></h1>
+
+{%include football_keys.html%}
+<br>
+
+<h1>Goalkeepers</h1>
 
 <table>
 <tr><td>
 <p>Alison Becker</p>
 </td></tr>
-<tr><td>
+<tr><td id="loaned-out">
 <p>Loris Karius</p>
 </td></tr>
 <tr><td>
@@ -45,7 +54,7 @@ description: "Football/Soccer Profile of Liverpool Football Club"
 <br>
 
 
-<h3>Defenders</h3>	
+<h1>Defenders</h1>
 
 <table>
 <tr><td></td></tr>
@@ -88,7 +97,7 @@ description: "Football/Soccer Profile of Liverpool Football Club"
 
 
 
-<h3>Midfeilders</h3>	
+<h1>Midfeilders</h1>
 
 <table>
 <tr><td>
@@ -109,7 +118,7 @@ description: "Football/Soccer Profile of Liverpool Football Club"
 <tr><td>
 <p>Sheyi Ojo</p>
 </td></tr>
-<tr><td>
+<tr><td id="captain">
 <p>Jordan Henderson</p>
 </td></tr>
 <tr><td>
@@ -140,7 +149,7 @@ description: "Football/Soccer Profile of Liverpool Football Club"
 
 
 
-<h3>Attackers</h3>	
+<h1>Attackers</h1>
 
 <table>
 <tr><td>
@@ -166,8 +175,3 @@ description: "Football/Soccer Profile of Liverpool Football Club"
 </td></tr>
 </table>
 <br>
-
-
-
-
-

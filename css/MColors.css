@@ -118,11 +118,17 @@ table{
     background-color:none;
 }
 .About-para-l-1{
-    background-color: #6085ff;
-    color: #ffffff;
-
-
+    background-color: #fafafa;
+    color: #000000;
+    font-weight: bolder;
 }
+.About-para-l-1 a{
+  letter-spacing: normal;
+  color: #ff0266;
+  font-family: 'Comfortaa', sans-serif;
+  font-weight: 700;
+}
+
 
 
 /*Section display 1+++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
@@ -225,7 +231,7 @@ Home
     color: #ffffff;
 }
 
-  .post-list li{
+  .post-list a{
       /*
     background-image: url("/assets/img/blur_01.svg");
     background-repeat    : no-repeat;
@@ -236,13 +242,13 @@ Home
     border-left-color: none;
     color: #000000;
   }
-  .post-list li:hover{
+  .post-list a:hover{
       border-bottom-color: #2979ff;
       border-right-color: #2979ff;
 
   }
   @media screen and (max-width: 800px){
-    .post-list li{
+    .post-list a{
       border-bottom-color: #2979ff;
       border-right-color: #2979ff;
     }
