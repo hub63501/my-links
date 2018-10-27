@@ -358,7 +358,15 @@ li h2.club-player-heading{
 }
 
 
+#qualification{
+  background-color: #4b08e5;
+  color: #ffffff;
+}
 
+#euroQualification{
+  background-color: orangered;
+  color: #ffffff;
+}
 
 
 
@@ -383,6 +391,7 @@ li h2.club-player-heading{
     border-style: none;
     border-radius: 1em;
     padding: 20px;
+    margin-top: 0.5em;
 
 }
 /*small screens*/
