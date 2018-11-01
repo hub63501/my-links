@@ -113,21 +113,39 @@ span{
     }
 }
 
-
-td{
-    padding-left: 10px;
-    padding-right: 20px;
-    border-right: solid 0px;
-}
-
-
-table{
-    border-left: solid 10px;
-    display: center;
+.table-overflow{
+  overflow-x: auto;
 }
 
 
 
+table {
+  border-left: solid 10px;
+  border-color: #3d5afe;
+  width: 100%;
+  border-collapse: collapse;
+}
+/* Zebra striping */
+tr:nth-of-type(even) {
+  background: #E8EAF6;
+  color: #000000;
+}
+th {
+  background-color: #3621fd;
+  color: #ffffff;
+  text-align: left;
+  font-weight: bold;
+  padding: 0.1em;
+}
+td {
+  padding: 1em;
+  border: 0px solid #000000;
+  text-align: center;
+}
+#sportsTabel td:nth-of-type(1):before { content: "Position"; }
+#sportsTabel td:nth-of-type(2):before { content: "Club"; }
+#sportsTabel td:nth-of-type(3):before { content: "Points"; }
+#sportsTabel td:nth-of-type(4):before { content: "Goal Difference"; }
 
 
 
@@ -358,18 +376,15 @@ li h2.club-player-heading{
 }
 
 
-#qualification{
-  background-color: #4b08e5;
-  color: #ffffff;
+
+
+#championsLeagueImage{
+  background-image   :url("https://duckduckgo.com/i/3d21531b.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-attachment: scroll;
+  text-align: right;
 }
-
-#euroQualification{
-  background-color: orangered;
-  color: #ffffff;
-}
-
-
-
 
 
 

@@ -25,9 +25,7 @@ body{
 
 }
 
-table{
-    border-color: #3d5afe;
-}
+
 
 #iron-man{
     background-color: none;
@@ -214,7 +212,12 @@ Home
 
   .Front-title{
     background-color: #000000;
-
+    /*
+    background-image     : url("/assets/img/background_02.svg");
+    background-repeat    : no-repeat;
+    background-size      : cover;
+    background-attachment: fixed;
+    */
   }
 
 
