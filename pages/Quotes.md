@@ -4,6 +4,12 @@ title: Quotes
 description: Hello there... Welcome to FIVE-LINK's Quotes page where i'll be posting insightful and meaningful quotes from some of historys great leaders and thinkers.
 ---
 <div class="About-para-l-1">
+<h2>“Keep Going
+
+Your hardest times often lead to the greatest moments of your life. Keep going. Tough situations build strong people in the end.”</h2>
+<p>― Roy T. Bennett</p>
+</div>
+<div class="About-para-l-1">
 <h2>“The fool doth think he is wise, but the wise man knows himself to be a fool.”</h2>
 <p>― William Shakespeare</p>
 </div>
