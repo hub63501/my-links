@@ -213,12 +213,13 @@ Home
   .Front-title{
     background-color: #000000;
     /*
-    background-image     : url("/assets/img/background_02.svg");
+    background-image     : url("/assets/img/background_01.svg");
     background-repeat    : no-repeat;
     background-size      : cover;
     background-attachment: fixed;
     */
   }
+
 
 
   .front-heading{
@@ -227,6 +228,7 @@ Home
     background-size      : cover;
     background-attachment: fixed;
   }
+
 
 
 

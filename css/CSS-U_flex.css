@@ -116,9 +116,15 @@ span{
 .table-overflow{
   overflow-x: auto;
 }
-
-
-
+@media screen and (min-width: 600px){
+#goal-scorers{
+  color: #8e8da9;
+  max-width: 100px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: wrap;
+  }
+}
 table {
   border-left: solid 10px;
   border-color: #3d5afe;
@@ -133,7 +139,8 @@ tr:nth-of-type(even) {
 th {
   background-color: #3621fd;
   color: #ffffff;
-  text-align: left;
+  text-align: center;
+  border: solid 1px #ffffff;
   font-weight: bold;
   padding: 0.1em;
 }
@@ -146,6 +153,13 @@ td {
 #sportsTabel td:nth-of-type(2):before { content: "Club"; }
 #sportsTabel td:nth-of-type(3):before { content: "Points"; }
 #sportsTabel td:nth-of-type(4):before { content: "Goal Difference"; }
+
+
+
+
+
+
+
 
 
 
@@ -413,6 +427,10 @@ li h2.club-player-heading{
 @media screen and (max-width: 500px){
     .Sect-l-1{
         padding: 0px;
+        margin-bottom: 1px;
+    }
+    .About-para-l-1{
+        padding: 10px;
         margin-bottom: 1px;
     }
 }
@@ -692,7 +710,8 @@ li h2.club-player-heading{
 }
 
 .Score{
-    padding: 0px;
+    padding-left: 2em;
+    padding-right: 2em;
     text-align: center;
 }
 

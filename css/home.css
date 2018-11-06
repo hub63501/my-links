@@ -92,21 +92,20 @@ Home
 }
 @media screen and (max-width: 800px){
   .front-heading{
-    margin: 0%;.post-list ul{
-
+    margin: 0%;
+}
 }
 
-  .post-list ul{
+.post-list ul{
     display: block;
     margin: 0%;
     padding: 0px;
     text-align: center;
-  }
-  .post-list a{
+}
+.post-list a{
     border-bottom: #2979ff solid 0px;
     border-right: #2979ff solid 0px;
     display: block;
     margin-top: 1%;
-    overflow: hidden;
   }
 }

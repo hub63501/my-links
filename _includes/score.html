@@ -1,119 +1,274 @@
 
 <script language="javascript">
-var Competition = "Champions League";
-var Group = "E";
 
+//group a
 
-var Team_1       = "AEK Athens";
+var Team_1       = "Monoco";
 var Score_1      = 0;
 var Team_1_goals = "";
 
-var Team_2       = "Bayern Munich";
-var Score_2      = 2;
-var Team_2_goals = "62' Javier Martinez, 64' Lewandowski";
+var Team_2       = "Club Brugge";
+var Score_2      = 0;
+var Team_2_goals = "";
 
 
-var Team_3       = "Ajax";
-var Score_3      = 1;
-var Team_3_goals = "90' N.Mazraoui";
+var Team_3       = "Atletico Madrid";
+var Score_3      = 0;
+var Team_3_goals = "";
 
-var Team_4       = "Benfica";
+var Team_4       = "Borussia Dortmund";
 var Score_4      = 0;
 var Team_4_goals = "";
 
 
+//group b
+
+var Team_5      = "AEK Athens";
+var Score_5      = 0;
+var Team_5_goals = "";
+
+var Team_6       = "Bayern Munich";
+var Score_6      = 2;
+var Team_6_goals = "62' Javier Martinez, 64' Lewandowski";
+
+
+var Team_7       = "Ajax";
+var Score_7      = 1;
+var Team_7_goals = "90' N.Mazraoui";
+
+var Team_8       = "Benfica";
+var Score_8      = 0;
+var Team_8_goals = "";
+
+
+//group c
+
+var Team_9       = "AEK Athens";
+var Score_9      = 0;
+var Team_9_goals = "";
+
+var Team_10       = "Bayern Munich";
+var Score_10      = 2;
+var Team_10_goals = "62' Javier Martinez, 64' Lewandowski";
+
+
+var Team_11       = "Ajax";
+var Score_11      = 1;
+var Team_11_goals = "90' N.Mazraoui";
+
+var Team_12       = "Benfica";
+var Score_12      = 0;
+var Team_12_goals = "";
+
+
+//group d
+
+var Team_13       = "Porto";
+var Score_13      = 0;
+var Team_13_goals = "";
+
+var Team_14       = "Locomotive Moscow";
+var Score_14      = 0;
+var Team_14_goals = "";
+
+
+var Team_15       = "Schalke 04";
+var Score_15      = 0;
+var Team_15_goals = "";
+
+var Team_16       = "Galatasary";
+var Score_16      = 0;
+var Team_16_goals = "";
+
+//group e
+
+var Team_17       = "Bayern Munich";
+var Score_17      = 0;
+var Team_17_goals = "";
+
+var Team_18       = "AEK Athens";
+var Score_18      = 0;
+var Team_18_goals = "";
+
+
+var Team_19       = "Benfica";
+var Score_19      = 0;
+var Team_19_goals = "";
+
+var Team_20       = "Ajax";
+var Score_20      = 0;
+var Team_20_goals = "";
 </script>
 
 
-<h1>Competition: <script>document.write(Competition)</script></h1>
-<h1>Group: <script>document.write(Group)</script></h1>
 
 
-<div class="display-class-1-inner">
-
-<h1>
+<div class="table-overflow">
+<table>
+<thead>
+<h1>Champions League</h1>
+<h1>Group: A</h1>
+</thead>
+<tr>
+<td>
+<h2>
+<script>document.write(Team_1);</script>
+</h2>
+</td>
+<td>
+<div class="Score"><h1><script>document.write(Score_1);</script></h1></div>
+</td>
+<td>
+<div class="Score"><h1><script>document.write(Score_2);</script></h1></div>
+</td>
+<td>
+<h2>
 <script>
-    document.write(Team_1);
+document.write(Team_2);
 </script>
-</h1>
-<div class="Score">
-    <h1>
-        <script>
-            document.write(Score_1);
-        </script>
-    </h1>
-</div>
+</h2>
+</td>
+</tr>
+<tr>
+<td id = "goal-scorers">
+
 <p>
-    <script>
-        document.write(Team_1_goals)
-    </script>
+<script>document.write(Team_1_goals);</script>
 </p>
 
+</td>
+<td>
+</td>
+<td>
+</td>
+<td id="goal-scorers">
 
+<p><script>document.write(Team_2_goals);</script></p>
 
-<h1>
-    <script>
-    document.write(Team_2);
-    </script>
-</h1>
-<div class="Score">
-    <h1>
-        <script>
-            document.write(Score_2);
-        </script>
-    </h1>
-</div>
-<p>
-    <script>
-        document.write(Team_2_goals)
-    </script>
-</p>
-
-
-
-
-
-</div>
-
-
-<div class="display-class-1-inner">
-
-
-<h1>
+</td>
+</tr>
+<tr>
+<td>
+<h2>
+<script>document.write(Team_3);</script>
+</h2>
+</td>
+<td>
+<div class="Score"><h1><script>document.write(Score_3);</script></h1></div>
+</td>
+<td>
+<div class="Score"><h1><script>document.write(Score_4);</script></h1></div>
+</td>
+<td>
+<h2>
 <script>
-    document.write(Team_3);
+document.write(Team_4);
 </script>
-</h1>
-<div class="Score">
-    <h1>
-        <script>
-            document.write(Score_3);
-        </script>
-    </h1>
-</div>
+</h2>
+</td>
+</tr>
+<tr>
+<td id="goal-scorers">
+
 <p>
-    <script>
-        document.write(Team_3_goals)
-    </script>
+<script>document.write(Team_3_goals);</script>
 </p>
 
+</td>
+<td>
+</td>
+<td>
+</td>
+<td id="goal-scorers">
 
+<p><script>document.write(Team_4_goals);</script></p>
 
-<h1>
-    <script>
-    document.write(Team_4);
-    </script>
-</h1>
-<div class="Score">
-    <h1>
-        <script>
-            document.write(Score_4);
-        </script>
-    </h1>
+</td>
+</tr>
+</table>
 </div>
+
+
+
+<div class="table-overflow">
+<table>
+<thead>
+<h1>Group: E</h1>
+</thead>
+<tr>
+<td>
+<h2>
+<script>document.write(Team_17);</script>
+</h2>
+</td>
+<td>
+<div class="Score"><h1><script>document.write(Score_17);</script></h1></div>
+</td>
+<td>
+<div class="Score"><h1><script>document.write(Score_18);</script></h1></div>
+</td>
+<td>
+<h2>
+<script>
+document.write(Team_18);
+</script>
+</h2>
+</td>
+</tr>
+<tr>
+<td id="goal-scorers">
+
 <p>
-    <script>
-        document.write(Team_4_goals)
-    </script>
+<script>document.write(Team_17_goals);</script>
 </p>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td id="goal-scorers">
+
+<p><script>document.write(Team_18_goals);</script></p>
+
+</td>
+</tr>
+<tr>
+<td>
+<h2>
+<script>document.write(Team_19);</script>
+</h2>
+</td>
+<td>
+<div class="Score"><h1><script>document.write(Score_19);</script></h1></div>
+</td>
+<td>
+<div class="Score"><h1><script>document.write(Score_20);</script></h1></div>
+</td>
+<td>
+<h2>
+<script>
+document.write(Team_20);
+</script>
+</h2>
+</td>
+</tr>
+<tr>
+<td id="goal-scorers">
+
+<p>
+<script>document.write(Team_19_goals);</script>
+</p>
+
+</td>
+<td>
+</td>
+<td>
+</td>
+<td id="goal-scorers">
+
+<p><script>document.write(Team_20_goals);</script></p>
+
+</td>
+</tr>
+</table>
 </div>
