@@ -13,8 +13,8 @@ var Team_2_goals = "12' Hans Vanaken, 17'(p) Hans Vanaken, 24' Wesley, 85' Ruud 
 
 
 var Team_3       = "Atletico Madrid";
-var Score_3      = 1;
-var Team_3_goals = "33' Saul Niguez";
+var Score_3      = 2;
+var Team_3_goals = "33' Saul Niguez, 80' Griezmann";
 
 var Team_4       = "Borussia Dortmund";
 var Score_4      = 0;
@@ -53,8 +53,8 @@ var Team_10_goals = "62' Javier Martinez, 64' Lewandowski";
 
 
 var Team_11       = "Ajax";
-var Score_11      = 1;
-var Team_11_goals = "90' N.Mazraoui";
+var Score_11      = 0;
+var Team_11_goals = "";
 
 var Team_12       = "Benfica";
 var Score_12      = 0;
@@ -107,8 +107,14 @@ var Team_20_goals = "";
 <table>
 <thead>
 <h1>Champions League</h1>
-<h1>Group: A</h1>
 </thead>
+
+<tr>
+<th>
+<h1>Group: A</h1>
+</th>
+</tr>
+
 <tr>
 <td>
 <h2>
@@ -129,24 +135,22 @@ document.write(Team_2);
 </h2>
 </td>
 </tr>
+
 <tr>
 <td id = "goal-scorers">
-
 <p>
 <script>document.write(Team_1_goals);</script>
 </p>
-
 </td>
 <td>
 </td>
 <td>
 </td>
 <td id="goal-scorers">
-
 <p><script>document.write(Team_2_goals);</script></p>
-
 </td>
 </tr>
+
 <tr>
 <td>
 <h2>
@@ -167,29 +171,31 @@ document.write(Team_4);
 </h2>
 </td>
 </tr>
+
 <tr>
 <td id="goal-scorers">
-
 <p>
 <script>document.write(Team_3_goals);</script>
 </p>
-
 </td>
 <td>
 </td>
 <td>
 </td>
 <td id="goal-scorers">
-
 <p><script>document.write(Team_4_goals);</script></p>
-
 </td>
 </tr>
 
-<tr>
 
+
+
+<tr>
+<th>
 <h1>Group: E</h1>
+</th>
 </tr>
+
 <tr>
 <td>
 <h2>
@@ -265,5 +271,8 @@ document.write(Team_20);
 
 </td>
 </tr>
+
+
+
 </table>
 </div>
