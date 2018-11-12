@@ -4,6 +4,7 @@ title: 'Football/Soccer Palyer profile: Sadio Mane'
 date: 2018-08-01 12:05:21 +0100
 categories: Football
 description: "Football/Soccer Profile of Sadio Mane"
+adallow: 0
 ---
 
 <div class="circle-Image">
@@ -38,5 +39,3 @@ description: "Football/Soccer Profile of Sadio Mane"
 </ul>
 
 </div>
-
-

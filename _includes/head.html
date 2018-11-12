@@ -24,15 +24,20 @@
         <link href= {{ "/css/footer.css" | relative_url }} rel="stylesheet" type="text/css"/>
 
 
-                <link rel="icon" href="\assets\img\drawing_01.svg" sizes="16x16">
-                <link rel="icon" href="\assets\img\drawing_01.svg" sizes="32x32">
-                <link rel="icon" href="\assets\img\drawing_01.svg" sizes="96x96">
+        <link rel="icon" href="\assets\img\drawing_01.svg" sizes="16x16">
+        <link rel="icon" href="\assets\img\drawing_01.svg" sizes="32x32">
+        <link rel="icon" href="\assets\img\drawing_01.svg" sizes="96x96">
 
 
         <link href= {{ "/css/MColors.css" | relative_url }} rel="stylesheet" type="text/css"/>
 
         <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
         <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
+
+        {% if page.adallow != 0 %}
+        {% include adsense.html %}  
+        {% endif %}
+
         {% if jekyll.environment == 'production' and site.google_analytics %}
         {% include google-analytics.html %}
         {% endif %}

@@ -4,7 +4,11 @@ title: 'Premier league profile: Arsenal'
 date: 2018-08-01 12:05:21 +0100
 categories: Football
 description: "Football/Soccer Profile of Arsenal Football Club"
+adallow: 0
 ---
+
+
+
 
 <table>
 <th>
@@ -17,10 +21,6 @@ description: "Football/Soccer Profile of Arsenal Football Club"
 <p>Stadium Capacity: 59,867</p>
 <p>Present Head Coach: Unai Emery</p>
 <br>
-</td>
-<td>
-<img src="http://1.bp.blogspot.com/-FOQg-cbKaIk/Trpuk_XQoxI/AAAAAAAAFnU/pvbTXEKB-ig/s1600/Arsenal+2002-2011.png">
-
 </td>
 </tr>
 </table>

@@ -2,6 +2,7 @@
 layout: Display.1
 title: Quotes
 description: Hello there... Welcome to FIVE-LINK's Quotes page where i'll be posting insightful and meaningful quotes from some of historys great leaders and thinkers.
+adallow: 0
 ---
 <div class="About-para-l-1">
 <h2>“Keep Going
