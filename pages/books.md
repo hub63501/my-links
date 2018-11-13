@@ -2,6 +2,7 @@
 layout: Display
 title: Books
 description: Books to read.
+adallow: 0
 ---
 <ul>
 
@@ -19,10 +20,3 @@ description: Books to read.
 
 
 </ul>
-
-
-
-
-
-
-
