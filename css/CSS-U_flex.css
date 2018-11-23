@@ -6,7 +6,7 @@
     -moz-transition-duration   : 0.2s;
     -webkit-transition-duration: 0.2s;
     -o-transition-duration     : 0.2s;
-    font-family: 'Tajawal', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     text-rendering             : optimizeLegibility;
     -webkit-font-smoothing     : antialiased;
     -moz-osx-font-smoothing    : grayscale;
@@ -80,7 +80,7 @@ span{
     letter-spacing: 1px;
     padding: 5px;
     color: #ffffff;
-    font-family: 'Allerta Stencil', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 .highlight{
     border-top: 1px solid;
@@ -217,7 +217,9 @@ input[type=button]:hover{
     padding-left: 10px;
     padding-right: 10px;
     }
-
+.Front-title-inner h1{
+    font-size: 3em;
+}
 
 @media screen and (min-width: 1100px){
     .Front-title{
@@ -279,8 +281,8 @@ input[type=button]:hover{
     border-right: 0px solid #408af8;
     border-top: 0px solid #408af8;
     */
-    margin-left: 2%;
-    margin-right: 2%;
+    margin-left: 2px;
+    margin-right: 2px;
     margin-bottom: 1%;
     padding: 5%;
   }
@@ -295,46 +297,6 @@ input[type=button]:hover{
 
 
 
-
-li h2.book-heading{
-    text-align          : right;
-}
-
-.bible{
-    background-image     : url("http://1.bp.blogspot.com/_NnmwTsSwy9g/TFccp-d4FjI/AAAAAAAAAFw/q5nSARGsakM/s1600/holy+Bible.jpg");
-    background-repeat    : no-repeat;
-    background-size      : contain;
-    background-attachment: scroll;
-}
-
-
-.twelve-years-a-slave{
-    background-image     : url("http://www.travelthruhistory.tv/ThruHistory/wp-content/uploads/2014/01/twelve-years-a-slave-book-cover-01-379x600.jpg");
-    background-repeat    : no-repeat;
-    background-size      : contain;
-    background-attachment: scroll;
-}
-
-.being-mortal{
-    background-image     : url("https://alittleblogofbooks.files.wordpress.com/2015/02/being-mortal.jpg");
-    background-repeat    : no-repeat;
-    background-size      : contain;
-    background-attachment: scroll;
-}
-
-.twelve-angels-from-hell{
-    background-image     : url("http://ecx.images-amazon.com/images/I/511sd0MHCNL._SY344_BO1,204,203,200_.jpg");
-    background-repeat    : no-repeat;
-    background-size      : contain;
-    background-attachment: scroll;
-}
-
-.return-of-the-king{
-    background-image     : url("http://ecx.images-amazon.com/images/I/41Qx%2BidkxsL.jpg");
-    background-repeat    : no-repeat;
-    background-size      : contain;
-    background-attachment: scroll;
-}
 
 
 .arsenal{
@@ -610,7 +572,7 @@ li h2.club-player-heading{
 }
 .About-para-m-1-a{
     padding: 10px;
-    text-align: center;
+    text-align: left;
 }
 /*big screens*/
 @media screen and (min-width: 800px){
@@ -645,9 +607,9 @@ li h2.club-player-heading{
         border-style: none;
     }
     .About-para-m-1-a{
-        padding: 0px;
+        padding: 5px;
         padding-top: 5px;
-        text-align: center;
+        text-align: left;
     }
 }
 
@@ -669,7 +631,7 @@ li h2.club-player-heading{
 }
 
 .About-para-m-2-a{
-    padding: 15px;
+    padding: 5px;
 }
 
 /*big screens*/
@@ -680,7 +642,7 @@ li h2.club-player-heading{
         padding: 0px;
     }
     .About-para-m-2-a h2{
-        text-align: center;
+        text-align: left;
     }
     .About-para-m-2{
         padding-left: 0px;
@@ -705,7 +667,7 @@ li h2.club-player-heading{
         border-style: none;
     }
     .About-para-m-2-a{
-        padding: 10px;
+        padding: 5px;
     }
 }
 
