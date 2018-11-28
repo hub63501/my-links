@@ -5,4 +5,4 @@ description: Sport Scores and Results.
 category: sport
 ---
 
-{%include score.html%}
+{%include champions_league_scores.html%}
