@@ -58,7 +58,7 @@ body{
 }
 
 .nav{
-    background-color        : #000000;
+    background-color        : #424242;
 }
 
 .trigger{
@@ -211,7 +211,7 @@ Home
   }
 
   .Front-title{
-    background-color: #000000;
+    background-color: #424242;
     /*
     background-image     : url("/assets/img/background_01.svg");
     background-repeat    : no-repeat;
