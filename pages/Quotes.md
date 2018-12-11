@@ -1,9 +1,21 @@
 ---
 layout: Display.1
 title: Quotes
-description: Hello there... Welcome to FIVE-LINK's Quotes page where i'll be posting insightful and meaningful quotes from some of historys great leaders and thinkers.
+description: Hello there... Welcome to FIVE-LINK's Quotes page where I'll be posting insightful and meaningful quotes from some of history's great leaders and thinkers.
 adallow: 0
 ---
+<div class="About-para-l-1">
+<h2>“Do I not destroy my enemies when I make them my friends?”</h2>
+<p>― Abraham Lincoln</p>
+</div>
+
+<div class="About-para-l-1">
+<h2>“Yesterday is history, tomorrow is a mystery, today is a gift of God, which is why we call it the present.”
+</h2>
+<p>― Bill Keane</p>
+</div>
+
+
 <div class="About-para-l-1">
 <h2>“Keep Going
 
