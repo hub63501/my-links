@@ -5,6 +5,11 @@ description: Hello there... Welcome to FIVE-LINK's Quotes page where I'll be pos
 adallow: 0
 ---
 <div class="About-para-l-1">
+<h2>“As I have said, the first thing is to be honest with yourself. You can never have an impact on society if you have not changed yourself... Great peacemakers are all people of integrity, of honesty, but humility.”</h2>
+<p>― Nelson Mandela</p>
+</div>
+
+<div class="About-para-l-1">
 <h2>“Do I not destroy my enemies when I make them my friends?”</h2>
 <p>― Abraham Lincoln</p>
 </div>
