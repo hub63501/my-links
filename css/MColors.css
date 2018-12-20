@@ -47,7 +47,7 @@ body{
 /*header*/
 
 .site-header{
-    background-color        : #000000;
+    background-color        : #424242;
     border-bottom-color     : #3d5afe;
 }
 .site-header li{
@@ -58,7 +58,7 @@ body{
 }
 
 .nav{
-    background-color        : #424242;
+    background-color        : inherit;
 }
 
 .trigger{
