@@ -4,6 +4,12 @@ title: Quotes
 description: Hello there... Welcome to FIVE-LINK's Quotes page where I'll be posting insightful and meaningful quotes from some of history's great leaders and thinkers.
 adallow: 0
 ---
+
+<div class="About-para-l-1">
+<h2>“A man on a thousand mile walk has to forget his goal and say to himself every morning, 'Today I'm going to cover twenty-five miles and then rest up and sleep.” </h2>
+<p>― Leo Tolstoy, War and Peace</p>
+</div>
+
 <div class="About-para-l-1">
 <h2>“As I have said, the first thing is to be honest with yourself. You can never have an impact on society if you have not changed yourself... Great peacemakers are all people of integrity, of honesty, but humility.”</h2>
 <p>― Nelson Mandela</p>
