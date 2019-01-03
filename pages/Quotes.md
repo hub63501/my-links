@@ -5,6 +5,13 @@ description: Hello there... Welcome to FIVE-LINK's Quotes page where I'll be pos
 adallow: 0
 ---
 
+
+<div class="About-para-l-1">
+<h2>“Consult not your fears but your hopes and your dreams. Think not about your frustrations, but about your unfulfilled potential.
+Concern yourself not with what you tried and failed in, but with what it is still possible for you to do.”</h2>
+<p>― Pope John XXIII </p>
+</div>
+
 <div class="About-para-l-1">
 <h2>“A man on a thousand mile walk has to forget his goal and say to himself every morning, 'Today I'm going to cover twenty-five miles and then rest up and sleep.” </h2>
 <p>― Leo Tolstoy, War and Peace</p>

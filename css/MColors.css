@@ -6,22 +6,26 @@
 
 /*Base css*/
 html{
-    /*background-color:#0c101c;*/
-    background-color     : #f6f9fc;
+    /*background-color:#0c101c;
+    background-color     : #f6f9fc;*/
+    background-color: #ffffff;
+
+    background-image     : url("/assets/img/blob-green.svg");
+    background-repeat    : no-repeat;
+    background-size      : cover;
+    background-attachment: fixed;
 }
 body{
 
-    /*
-    background-image     : url("/assets/img/background_04.svg");
+
+    background-image     : inherit;
     background-repeat    : no-repeat;
     background-size      : cover;
     background-attachment: fixed;
 
-    background-color: #FFE53B;
-    background-image: linear-gradient(147deg, #FFE53B 0%, #FF2525 74%);
-    */
 
-    background-color:#f6f9ff;
+
+    background-color:none;
 
 }
 
@@ -47,8 +51,7 @@ body{
 /*header*/
 
 .site-header{
-    background-color        : #424242;
-    border-bottom-color     : #3d5afe;
+    background-color        : #ffffff;
 }
 .site-header li{
     border-color: #3d5afe;
@@ -76,7 +79,7 @@ body{
 
 
 .site-header a.page-link{
-    color: #ffffff;
+    color: #000000;
 }
 
 
@@ -96,7 +99,7 @@ body{
     border-top-color  :#408af8;
 }
 .sub-heading h2{
-    color: #ffffff;
+    color: #000000;
 }
 .sub-heading h4{
     color: #ffffff;
@@ -211,13 +214,13 @@ Home
   }
 
   .Front-title{
-    background-color: #424242;
-    /*
-    background-image     : url("/assets/img/background_01.svg");
+    background-color: #ffffff;
+
+    background-image     : url("/assets/img/blob-green.svg");
     background-repeat    : no-repeat;
     background-size      : cover;
     background-attachment: fixed;
-    */
+
   }
 
 
@@ -233,7 +236,7 @@ Home
 
 
 .Front-title h1{
-    color: #ffffff;
+    color: #000000;
 }
 
   .post-list a{
