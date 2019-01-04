@@ -355,11 +355,7 @@ li h2.club-player-heading{
 
 
 #championsLeagueImage{
-  background-image   :url("https://duckduckgo.com/i/3d21531b.png");
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-attachment: scroll;
-  text-align: right;
+  background-color: none;
 }
 
 

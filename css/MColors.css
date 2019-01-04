@@ -7,10 +7,12 @@
 /*Base css*/
 html{
     /*background-color:#0c101c;
-    background-color     : #f6f9fc;*/
+    background-color     : #f6f9fc;
+    background-image     : url("/assets/img/blob-green.svg");
+    */
+    background-image: none;
     background-color: #ffffff;
 
-    background-image     : url("/assets/img/blob-green.svg");
     background-repeat    : no-repeat;
     background-size      : cover;
     background-attachment: fixed;
@@ -214,9 +216,10 @@ Home
   }
 
   .Front-title{
+    /*url("/assets/img/blob-green.svg")*/
     background-color: #ffffff;
 
-    background-image     : url("/assets/img/blob-green.svg");
+    background-image     : none;
     background-repeat    : no-repeat;
     background-size      : cover;
     background-attachment: fixed;
