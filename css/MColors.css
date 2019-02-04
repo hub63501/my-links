@@ -11,25 +11,51 @@ html{
     background-image     : url("/assets/img/blob-green.svg");
     */
     background-image: none;
-    background-color: #ffffff;
+    background-color: #FFFFFF;
+    background-image: linear-gradient(195deg, #FFFFFF 0%, #d2dce7 50%);
 
-    background-repeat    : no-repeat;
-    background-size      : cover;
+    /*
+    background-color: #070721;
+    background-image: linear-gradient(19deg, #070721 0%, #005588 100%);
+    */
+    background-repeat: no-repeat;
+    background-size: cover;
     background-attachment: fixed;
+
 }
 body{
+  background-image     : inherit;
+  background-repeat    : no-repeat;
+  background-size      : cover;
+  background-attachment: fixed;
+  background-color:none;
+}
+.Front-title{
+  color: #000000;
+}
+
+/*
+.Front-title{
+  background-color: #ffffff;
+  background-image     : url("/assets/img/background_04.svg");
+  background-repeat    : no-repeat;
+  background-size      : cover;
+  background-attachment: fixed;
 
 
-    background-image     : inherit;
+}
+
+
+
+.front-heading{
+    background-image     : none;
     background-repeat    : no-repeat;
     background-size      : cover;
     background-attachment: fixed;
-
-
-
-    background-color:none;
-
 }
+
+*/
+
 
 
 
@@ -53,7 +79,8 @@ body{
 /*header*/
 
 .site-header{
-    background-color        : #ffffff;
+    background-color: transparent;
+
 }
 .site-header li{
     border-color: #3d5afe;
@@ -63,11 +90,11 @@ body{
 }
 
 .nav{
-    background-color        : inherit;
+    background-color: transparent;
 }
 
 .trigger{
-    background-color: #000000;
+    background-color: transparent;
 }
 
 .page-link h2{
@@ -76,7 +103,7 @@ body{
 
 
 .site-header a.site-title{
-    color: #ffffff;
+    color: #000000;
 }
 
 
@@ -100,16 +127,7 @@ body{
     border-right-color:#408af8;
     border-top-color  :#408af8;
 }
-.sub-heading h2{
-    color: #000000;
-}
-.sub-heading h4{
-    color: #ffffff;
-}
 
-.post-title{
-    color: #000000;
-}
 
 
 
@@ -210,39 +228,12 @@ Home
 
 .home{
     background-color: none;
-  }
-  .home a{
-      color:#000000;
-  }
-
-  .Front-title{
-    /*url("/assets/img/blob-green.svg")*/
-    background-color: #ffffff;
-
-    background-image     : none;
-    background-repeat    : no-repeat;
-    background-size      : cover;
-    background-attachment: fixed;
-
-  }
-
-
-
-  .front-heading{
-    background-image     : none;
-    background-repeat    : no-repeat;
-    background-size      : cover;
-    background-attachment: fixed;
-  }
-
-
-
-
-.Front-title h1{
     color: #000000;
+  }
+.home a{
+      color:#000000;
 }
-
-  .post-list a{
+.post-list a{
       /*
     background-image: url("/assets/img/blur_01.svg");
     background-repeat    : no-repeat;
@@ -252,23 +243,23 @@ Home
     border-top-color:  #2979FF;
     border-left-color: none;
     color: #000000;
-  }
-  .post-list a:hover{
+}
+.post-list a:hover{
       border-bottom-color: #2979ff;
       border-right-color: #2979ff;
 
+}
+@media screen and (max-width: 800px){
+  .post-list a{
+    border-bottom-color: #2979ff;
+    border-right-color: #2979ff;
   }
-  @media screen and (max-width: 800px){
-    .post-list a{
-      border-bottom-color: #2979ff;
-      border-right-color: #2979ff;
-    }
-  }
+}
 
 
 
 
-  /*footer*/
+/*footer*/
 
 footer{
     background-color: #f6f9fc;
@@ -400,4 +391,7 @@ footer li:hover{
 
 .Score h1{
     color           : #ffffff;
+}
+.sect-50{
+  background-color: black;
 }

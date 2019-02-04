@@ -230,14 +230,17 @@ input[type=button]:hover{
 @media screen and (max-width: 800px){
     .Front-title{
         text-align: center;
-        padding-left: 1%;
-        padding-right: 1%;
+        padding-left: 0em;
+        padding-right: 0em;
       }
     .Front-title-inner{
         padding: 0px;
-        padding-left: 5px;
-        padding-right: 5px;
+        padding-left: 0.5em;
+        padding-right: 0.5em;
       }
+    .Front-title h1{
+      font-size: 2em;
+    }
 }
 
 
@@ -285,6 +288,7 @@ input[type=button]:hover{
     margin-right: 2px;
     margin-bottom: 1%;
     padding: 5%;
+    font-size: 0.8em;
   }
 
 }
@@ -1150,4 +1154,12 @@ li h2.club-player-heading{
   background-color: none;
  box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0), 0 0px 0px 0 rgba(0, 0, 0, 0);
 }
+}
+
+
+
+
+
+.sect-50{
+  width: 50%;
 }

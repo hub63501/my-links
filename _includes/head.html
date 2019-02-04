@@ -11,18 +11,17 @@
         <link href="https://fonts.googleapis.com/css?family=Bitter|Josefin+Sans|Questrial|Vollkorn" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Tajawal" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Allerta+Stencil" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css?family=Allerta+Stencil" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Raleway:800" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 
 
 
-
-        <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
-        <link href= {{ "/css/CSS-U_flex.css" | relative_url }} rel="stylesheet" type="text/css"/>
-        <link href= {{ "/css/header.css" | relative_url }} rel="stylesheet" type="text/css"/>
-        <link href= {{ "/css/home.css" | relative_url }} rel="stylesheet" type="text/css"/>
-        <link href= {{ "/css/footer.css" | relative_url }} rel="stylesheet" type="text/css"/>
+       <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
+       <link href= {{ "/css/CSS-U_flex.css" | relative_url }} rel="stylesheet" type="text/css"/>
+       <link href= {{ "/css/header.css" | relative_url }} rel="stylesheet" type="text/css"/>
+       <link href= {{ "/css/home.css" | relative_url }} rel="stylesheet" type="text/css"/>
+       <link href= {{ "/css/footer.css" | relative_url }} rel="stylesheet" type="text/css"/>
 
 
         <link rel="icon" href="\assets\img\drawing_01.svg" sizes="16x16">
@@ -36,11 +35,11 @@
         <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
 
         {% if page.adallow != 0 %}
-        {% include adsense.html %}  
+        {% include adsense.html %}
         {% endif %}
 
         {% if jekyll.environment == 'production' and site.google_analytics %}
         {% include google-analytics.html %}
         {% endif %}
 
-    </head>
+  </head>
