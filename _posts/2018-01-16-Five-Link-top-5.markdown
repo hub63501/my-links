@@ -1,5 +1,5 @@
 ---
-layout: Display
+layout: Article
 title:  "Five-link top 5 reads"
 date:   2018-01-16 15:05:21 +0100
 categories: Top 5 reads
@@ -8,7 +8,7 @@ description: "Read these five links."
 
 
 <ul>
-    <li>
+<li>
         <a href="https://lawsofux.com/" target="_blank"><h2>Laws of UX</h2>
         </a>
     </li>

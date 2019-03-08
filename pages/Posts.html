@@ -3,32 +3,38 @@ layout: default
 title: Posts from Five-Link
 ---
 
-
-
-<div class="home">
-
-
-  <h1 class="page-heading">Posts</h1>
+<header class="sans-serif">
+  <div class="mw9 center pa4 pt5-ns ph7-l">
+    <time class="f6 mb2 dib ttu tracked"><small>{{page.date}}</small></time>
+    <h3 class="f2 f1-m f-headline-l measure-narrow lh-title mv0"style="text-align: center;">
+      <span class="bg-black-90 lh-copy white pa1 tracked-tight" >
+        {{page.title}}
+      </span>
+    </h3>
+    <h4 class="f3 fw1 georgia i"></h4>
+    <h5 class="f6 ttu tracked black-80"></h5>
+  </div>
+</header>
+<section class="mw7 center avenir">
 
   <ul class="post-list">
-
-
-    {% for post in site.posts %}
-
-    <li>
-      <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
-          <h3>{{ post.title }}</h3>
-          <span class="post-meta">{{post.description}}</span>
-        </a>
-
-      {%include post-image.html%}
-    </li>
-
-    {% endfor %}
+  {% for post in site.posts %}
+  <li>
+  <article class="bt bb b--black-10">
+    <a class="db pv4 ph3 ph0-l no-underline black " style="background-color: #ffffff;" href="{{ post.url | prepend: site.baseurl }}">
+      <div class="flex flex-column flex-row-ns">
+        <div class="pr3-ns mb4 mb0-ns w-100 w-40-ns">
+          <img src="/assets/img/drawing_01.svg" class="db" alt="Photo of a dimly lit room with a computer interface terminal.">
+        </div>
+        <div class="w-100 w-60-ns pl3-ns">
+          <h1 class="f3 fw1 mt0 lh-title">{{ post.title }}</h1>
+          <p class="f6 f5-l lh-copy">{{ post.description }} </p>
+          <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+        </div>
+      </div>
+    </a>
+  </article>
+  </li>
+  {% endfor %}
   </ul>
-
-  <div class="display-class-1-inner">
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-  </div>
-</div>
+</section>

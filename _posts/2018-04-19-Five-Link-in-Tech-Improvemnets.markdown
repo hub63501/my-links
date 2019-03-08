@@ -1,5 +1,5 @@
 ---
-layout: Display
+layout: Article
 title:  "Five-link in Tech Improvemnets"
 date:   2018-04-19 11:00:21 +0100
 categories: Technology

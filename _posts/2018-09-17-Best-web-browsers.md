@@ -1,8 +1,8 @@
 ---
-layout: Display
+layout: Article
 title: Some Web browsers to look at.
 date:   2018-09-15 12:05:21 +0100
-categories: Articles 
+categories: Articles
 description: "My five best web browsers"
 ---
 
@@ -11,22 +11,19 @@ description: "My five best web browsers"
 
 
 <ul>
+<a class="post-link" href="https://www.mozilla.org/en-US/firefox/" target="_blank"><li><h2>Firefox</h2></li></a>
 
-
-<li>
-<a href="https://www.mozilla.org/en-US/firefox/" target="_blank"><h2>Firefox</h2></a>
-</li>
 
 <li>
 <a href="https://www.opera.com/" target="_blank"><h2>Opera</h2></a>
 </li>
 
 <li>
-<a href="https://www.google.com/chrome/" target="_blank"><h2>Chrome</h2></a>
+<a href="https://www.google.com/chrome/" target="_blank"><h2>Chrome/</h2></a><a href="https://www.chromium.org/Home" target="_blank"><h2>Chromium</h2></a>
 </li>
 
 <li>
-<a href="https://www.chromium.org/Home" target="_blank"><h2>Chromium</h2></a>
+<a href="https://brave.com/" target="_blank"><h2>Brave</h2></a>
 </li>
 
 
@@ -38,9 +35,6 @@ description: "My five best web browsers"
 <h1><u>Honerable Mentions</u></h1>
 
 
-<li>
-<a href="https://brave.com/" target="_blank"><h2>Brave</h2></a>
-</li>
 
 
 <li>

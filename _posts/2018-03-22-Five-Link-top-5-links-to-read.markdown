@@ -1,8 +1,8 @@
 ---
-layout: Display
+layout: Article
 title:  "Five-link top 5 Reads"
 date:   2018-03-22 12:05:21 +0100
-categories: Top 5 things to read 
+categories: Top 5 things to read
 description: "Five links to Read."
 ---
 

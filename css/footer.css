@@ -14,8 +14,8 @@ footer{
     align-content: flex-start;
     width: 100%;
   }
-  
-  
+
+
   footer ul{
       text-decoration: none;
       padding-left: 0;
@@ -25,7 +25,7 @@ footer{
       padding: 5px;
       text-decoration: none;
   }
-  
+
   footer a{
     text-decoration: none;
     font-size: 18px;
@@ -33,7 +33,7 @@ footer{
   footer a:hover{
     text-decoration: none;
   }
-  
+
   footer h4{
     text-align: center;
     border: 1px solid;
@@ -44,14 +44,14 @@ footer{
     border-bottom: 1px solid;
     border-right: 1px solid;
   }
-  
+
   footer h4:hover{
       border-bottom: 2.5px solid;
       border-right: 2.5px solid;
       border-radius: 0px;
   }
-  
-  
+
+
   footer li{
     padding: 15px;
     margin: 0%;
@@ -60,8 +60,8 @@ footer{
   footer li:hover{
     border-radius: 0px;
   }
-  
-  
+
+
   .closure{
     width: 100%;
     display: inline-block;
@@ -69,11 +69,11 @@ footer{
     padding: 5px;
     text-align: center;
   }
-  
-  
-  
-  
-  
+
+
+
+
+
   /*Section small 1***********************************************************************/
   .footer-light-list-wrap-about{
     text-align: left;
@@ -113,15 +113,15 @@ footer{
     }
     .footer-light-title-about{
         border-style: none;
-  
+
     }
   }
-  
-  
-  
-  
+
+
+
+
   /*Section small 2***********************************************************************/
-  
+
   .footer-light-list-wrap-contact{
     width: 100%;
     padding-left: 60px;
@@ -158,21 +158,21 @@ footer{
     }
     .footer-light-title-contact{
         border-style: none;
-  
+
     }
   }
-  
-  
-  
+
+
+
   /*Section small 3***********************************************************************/
-  
+
   .footer-light-list-wrap-learn{
     width: 100%;
     padding-left: 60px;
     padding-right: 60px;
     margin-bottom: 0%;
   }
-  
+
   .footer-light-title-learn{
     border: 0px;
     border-style: none;
@@ -184,7 +184,7 @@ footer{
         padding: 0px;
         width: 25%;
     }
-  
+
     .footer-light-title-learn{
         padding-left: 0px;
         padding-top: 0px;
@@ -204,14 +204,14 @@ footer{
     }
     .footer-light-title-learn{
         border-style: none;
-  
+
     }
   }
-  
-  
-  
+
+
+
   /*Section small 4***********************************************************************/
-  
+
   .footer-light-list-wrap-follow{
     width: 100%;
     padding-left: 60px;
@@ -251,26 +251,148 @@ footer{
     }
     .footer-light-title-follow{
         border-style: none;
-  
+
     }
   }
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
+
+
+
+
+  /************************/
+  /*footer*/
+
+  footer{
+      background-color: #f6f9fc;
+      border-top-color: #000000;
+  }
+
+
+  footer h4{
+      border-bottom-color:#000000;
+      border-right-color :#000000;
+    }
+
+  footer h4:hover{
+      border-bottom-color: none;
+      border-right-color : none;
+      background-color   : #3d5afe;
+      color              : #ffffff;
+    }
+  footer li:hover{
+    background-color     : #ffffff;
+  }
+
+
+  .closure{
+      border-top-color   : #000000;
+  }
+
+  /*Section small 1***********************************************************************/
+  .footer-light-list-wrap-about{
+      background-color           : inherit;
+  }
+  .footer-light-list-wrap-about li{
+    border-left-color            : #000000;
+    }
+  .footer-light-title-about{
+      border-left-color          : inherit;
+      background                 : inherit;
+    }
+  /*big screens*/
+  @media screen and (min-width: 800px){
+    .footer-light-title-about{
+      background                 : inherit;
+      }
+    .footer-light-title-about-inner{
+      background                 : inherit;
+      }
+    }
+
+
+  /*Section small 2***********************************************************************/
+
+    .footer-light-list-wrap-contact{
+      background-color           : inherit;
+   }
+    .footer-light-title-contact{
+      border-right-color         : inherit;
+      background                 : inherit;
+    }
+    /*big screens*/
+    @media screen and (min-width: 800px){
+      .footer-light-title-contact{
+          background             : inherit;
+      }
+      .footer-light-title-contact-inner{
+          background             : inherit;
+      }
+    }
+
+
+
+    /*Section small 3***********************************************************************/
+
+    .footer-light-list-wrap-learn{
+      background-color           : inherit;
+    }
+
+    .footer-light-title-learn{
+      background                 : inherit;
+    }
+    /*big screens*/
+    @media screen and (min-width: 800px){
+      .footer-light-title-learn{
+          background             : inherit;
+      }
+      .footer-light-title-learn-inner{
+          background             : inherit;
+        }
+    }
+
+
+
+    /*Section small 4***********************************************************************/
+
+    .footer-light-list-wrap-follow{
+      background-color           : inherit;
+     }
+    .footer-light-title-follow{
+      border-left-color          :#ffffff;
+      background                 : inherit;
+    }
+    .footer-light-list-wrap-follow li{
+      border-right-color:#ffffff;
+    }
+    /*big screens*/
+    @media screen and (min-width: 800px){
+      .footer-light-title-follow{
+          background: inherit;
+      }
+      .footer-light-title-follow-inner{
+          background: inherit;
+      }
+    }
+
+
+    /*-----Small screens-----*/
+    @media screen and (max-width: 500px){
+      footer li{
+        border-right-color           :#000000;
+        border-left-color            :orangered;
+      }
+    }
+
+
+
+
+
+
   /*-----Bigger screens-----*/
   @media screen and (min-width: 800px){
-  
+
   }
-  
-  
+
+
   /*-----Small screens-----*/
   @media screen and (max-width: 500px){
     footer li{
@@ -287,4 +409,3 @@ footer{
           border-radius: 0px;
     }
   }
-  

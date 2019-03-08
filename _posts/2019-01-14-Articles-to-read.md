@@ -1,5 +1,5 @@
 ---
-layout: Display
+layout: Article
 title: Five Articles to take a look at.
 date:   2019-01-14 10:05:21 +0100
 categories: top 5 reads
