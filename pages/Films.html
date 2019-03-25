@@ -5,6 +5,11 @@ description: Films to look out for this week
 ---
 
 
+<div class="Sect-l-1">
+<div class="About-para-l-1">
+<h2 style="text-align:center">Film Trailers</h2>
+</div>
+</div>
 <div class="Sect-m-1">
 <div class="About-para-m-1">
 <div class="About-para-m-1-a">
@@ -186,24 +191,60 @@ description: Films to look out for this week
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!--
-<div class="display-class-1">
-<div class="display-class-1-inner">
+<div class="Sect-m-1" style="background-image:url(http://www.wallcoo.net/photography/art/images/w_movie_film_art_2014.jpg); color: #e20a0a;">
+<div class="About-para-m-1" id="link-b-1">
+<h1>Box Office</h1>
+<h1>Now Playing (UK Box Office)</h1>
+<ul>
+    <li>Captain Marvel £6.6M</li>
+    <li>Fisherman's Friends £1.2M</li>
+    <li>What Men Want £0.8M</li>
+    <li>The Lego Movie 2: The Second Part £0.6M</li>
+    <li>Fighting with My Family £0.6M</li>
+</ul>
+</div>
+</div>
+        
+<div class="Sect-m-2">
+<div class="About-para-m-2">
 
 </div>
 </div>
--->
+
+
+
+<div class="Sect-l-1">
+<div class="About-para-l-1">
+<h2 style="text-align:center">Marvel Film Posts</h2>
+<ul>
+{% for post in site.categories.Marvel-Films %}
+<li>
+<a style="background-color: #ffffff;" href="{{ post.url | prepend: site.baseurl  }}">
+<div class="flex flex-column flex-row-ns">
+<div class="pr3-ns mb4 mb0-ns w-100 w-40-ns">
+<img src="https://1000logos.net/wp-content/uploads/2017/08/Font-Marvel-Logo.jpg" class="db" alt="Marvel">
+</div>
+<div class="w-100 w-60-ns pl3-ns">
+<h1 class="f3 fw1 mt0 lh-title">{{ post.title }}</h1>
+<p class="f6 f5-l lh-copy">{{ post.description }} </p>
+<span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+</div>
+</div>
+</a>
+</li>
+{% endfor %}   
+</ul>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
