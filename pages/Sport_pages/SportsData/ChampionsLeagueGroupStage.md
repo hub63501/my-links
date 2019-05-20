@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Sports Tables
-description: Sport Tables.
+title: Champions League
+description: Group Tables.
 category: sport
 ---
 

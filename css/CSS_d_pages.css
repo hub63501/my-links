@@ -6,7 +6,6 @@
     -moz-transition-duration   : 0.2s;
     -webkit-transition-duration: 0.2s;
     -o-transition-duration     : 0.2s;
-    font-family: 'Montserrat', sans-serif;
     text-rendering             : optimizeLegibility;
     -webkit-font-smoothing     : antialiased;
     -moz-osx-font-smoothing    : grayscale;
@@ -15,7 +14,7 @@
 body{
   background-color: #FFFFFF;
   background-image: linear-gradient(195deg, #FFFFFF 0%, #d2dce7 50%);
-
+  font-family: 'Roboto Mono', monospace;
   background-repeat    : no-repeat;
   background-size      : cover;
   background-attachment: fixed;
@@ -43,6 +42,7 @@ li{
 }
 
 
+
 /************************************************************************************/
 .container{
     display: flex;
@@ -64,8 +64,16 @@ li{
 
 /*************************************************************************************/
 
+#bold_title{  
+  font-family: 'Rubik', sans-serif;
+  font-size: 2.5em;
+  text-align: center;
+}
 
-
+#subtitle{
+  text-align: right;
+  border-top: 1px solid #000000;
+}
 
 /*************************************************************************************/
 
@@ -474,19 +482,8 @@ Home
 }
 /************************************************************************************************************************/
 
-.arsenal{
-}
-.liverpool{
-}
 .liverpool:hover{
   text-decoration: underline;
-}
-
-.fluminense{
-}
-
-
-.s_mane{
 }
 
 
@@ -512,5 +509,13 @@ Home
   background-color: none;
 }
 
+#relegation{
+  background-color: #ff3a3a71;
+}
+
+
+#topFour{
+  background-color: #c1d7ff;
+}
 
 /************************************************************************************************************************/
