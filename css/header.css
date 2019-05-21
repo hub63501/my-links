@@ -33,16 +33,15 @@
     margin               : 0%;
     text-align: center;
 }
-.page-link{
-    font-family: 'Rubik', sans-serif;
-
-}
+/*
+.page-link{}
+*/
 
 .nav{
     border-radius        : 0em;
     font-size            : 1.5em;
     border-bottom        : solid 0px;
-    padding-bottom:       5px;
+    padding-bottom:      : 5px;
     overflow: auto;
     white-space: nowrap;
 
