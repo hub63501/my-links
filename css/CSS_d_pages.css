@@ -6,10 +6,7 @@
     -moz-transition-duration   : 0.2s;
     -webkit-transition-duration: 0.2s;
     -o-transition-duration     : 0.2s;
-
     font-family: 'Muli', sans-serif;
-
-
     text-rendering             : optimizeLegibility;
     -webkit-font-smoothing     : antialiased;
     -moz-osx-font-smoothing    : grayscale;
@@ -18,7 +15,6 @@
 body{
   background-color: #FFFFFF;
   background-image: linear-gradient(195deg, #FFFFFF 0%, #d2dce7 50%);
-
   background-repeat    : no-repeat;
   background-size      : cover;
   background-attachment: fixed;
@@ -188,10 +184,30 @@ td {
 
 /*************************************************************************************/
 
+#bold_title{
+  text-align: center;
+  font-size: 3em;
+  font-weight: 800;
+}
 
+#subtitle{
+  border-top: 1px solid #080303;
+  text-align: right;
+}
 
-
-
+#background_1{
+  padding: 5em;
+  color: #ffffff;
+  background-image: url("/assets/img/WP_20141130_16_22_31_Pro__highres.jpg");
+  background-repeat    : no-repeat;
+  background-size      : cover;
+  background-attachment: fixed;
+}
+@media screen and (max-width: 500px){
+  #background_1{
+    padding: 1em;
+  }
+}
 /*************************************************************************************/
 
 /*Section medium 1_________________________________________________________________________________________________________*/
@@ -475,23 +491,13 @@ Home
     display: block;
     margin-top: 1%;
 }
+
+
 /************************************************************************************************************************/
 
-.arsenal{
-}
-.liverpool{
-}
 .liverpool:hover{
   text-decoration: underline;
 }
-
-.fluminense{
-}
-
-
-.s_mane{
-}
-
 
 #captain{
   background-color: #7f0000;
@@ -515,5 +521,12 @@ Home
   background-color: none;
 }
 
+#topFour{
+  background-color: #e7bdff;
+}
+#relegation{
+  background-color: #b63434;
+  color: #ffffff;
+}
 
 /************************************************************************************************************************/

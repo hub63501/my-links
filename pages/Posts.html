@@ -1,20 +1,17 @@
 ---
 layout: default
 title: Five-Link Posts 
+description: Previous links to various websites...
 ---
 
-<header class="sans-serif">
+<header>
   <div class="mw9 center pa4 pt5-ns ph7-l">
-    <time class="f6 mb2 dib ttu tracked"><small>{{page.date}}</small></time>
-    <h3 class="f2 f1-m f-headline-l measure-narrow lh-title mv0"style="text-align: center;">
-      <span class="lh-copy white bg-black-90 pa1 tracked-tight" >
-        {{page.title}}
-      </span>
-    </h3>
-    <h4 class="f3 fw1 georgia i"></h4>
-    <h5 class="f6 ttu tracked black-80"></h5>
+    <time class="f6 mb2 dib ttu tracked"><small>{{site.time}}</small></time>
+    <h2 id="bold_title">{{page.title}}</h2>
+    <h5 class="f6 ttu tracked black-80" id="subtitle">{{page.description}}</h5>
   </div>
 </header>
+
 <section class="mw7 center avenir">
 
   <ul class="post-list">
