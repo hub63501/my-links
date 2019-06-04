@@ -9,7 +9,7 @@
 title: Five-Link
 email: fivelink@outlook.com
 description: > # this means to ignore newlines until "baseurl:"
-  Five-Link offers five links to some of the most interesting topics around the web that will hopefully inspire and encourage you. Thank you for visiting.<br>Beta 0.5.
+  Five-Link offers links to some of the most interesting topics around the web that will hopefully inspire and encourage you. Thank you for visiting.<br>Beta 0.5.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://yourdomain.com" # the base hostname & protocol for your site
 twitter_username: jekyllrb
