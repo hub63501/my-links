@@ -16,7 +16,7 @@ body{
 
   background-color: #FFFFFF;
   background-image: linear-gradient(195deg, #FFFFFF 0%, #d2dce7 50%);
-  
+
   /*background-color: #8BC6EC;
   background-image: linear-gradient(135deg, #8BC6EC 0%, #696dc0 100%);
   */
@@ -193,7 +193,7 @@ td {
   text-align: center;
   font-size: 7em;
   font-weight: 800;
-  color: #424447; 
+  color: #424447;
 }
 
 #subtitle{
@@ -221,7 +221,7 @@ td {
   }
   #bold_title{
     padding: 1em;
-    font-size: 2em;
+    font-size: 3em;
   }
   #subtitle{
     padding: 1em;
