@@ -2,7 +2,7 @@
 layout: post
 title: Brief exploration of TIME Person of the Year.
 date:   2018-12-12 10:05:21 +0100
-categories: Topic exploration
+categories: Topic_Exploration
 description: "List of TIME Person's of the year."
 ---
 
