@@ -193,13 +193,13 @@ td {
   text-align: center;
   font-size: 7em;
   font-weight: 800;
-  color: #424447;
+  color: #fafafa;
 }
 
 #subtitle{
   border-top: 0px solid #080303;
   text-align: right;
-  color: #424447;
+  color: #fafafa;
   background-color: #1976d21e;
   border-radius: 0.5em;
   margin-left: 1em;
@@ -210,6 +210,7 @@ td {
 #background_1{
   padding: 5em;
   color: #ffffff;
+  background-color:#000000;
   /*background-image: url("/assets/img/WP_20141130_16_22_31_Pro__highres.jpg");
   background-repeat    : no-repeat;
   background-size      : cover;
