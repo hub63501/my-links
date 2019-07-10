@@ -2,7 +2,7 @@
 layout: Display
 title: 5 Podcasts to listen to
 date:   2018-08-10 10:44:21 +0100
-categories: Podcasts
+categories: ["Podcasts"]
 description: Five Podcasts of the week.
 ---
 

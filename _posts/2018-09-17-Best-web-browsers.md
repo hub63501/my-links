@@ -2,7 +2,7 @@
 layout: Article
 title: Some Web browsers to look at.
 date:   2018-09-15 12:05:21 +0100
-categories: Web_Browsers
+categories: ["Web Browsers"]
 description: "My five best web browsers"
 ---
 

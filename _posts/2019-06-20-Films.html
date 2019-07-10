@@ -1,12 +1,15 @@
 ---
 layout: Show
-title: Films
+title: Latest Films
 description: Films to look out for this week
+categories: Films
+date: 2019-06-20 12:55:58 +0100
 ---
 
 <div class="Sect-l-1">
 <div class="About-para-l-1">
 <h2 style="text-align:center">Film Trailers</h2>
+<h4>Last Updated: {{page.date}}</h4>
 </div>
 </div>
 
@@ -29,7 +32,7 @@ description: Films to look out for this week
 <br>
 </div>
 </div>
-    
+
 <div class="Sect-m-1">
 <div class="About-para-m-1">
 <div class="About-para-m-1-a">
@@ -37,7 +40,7 @@ description: Films to look out for this week
 </div>
 </div>
 </div>
-    
+
 <div class="Sect-m-2">
 <div class="About-para-m-2">
 <div class="About-para-m-2-a">
@@ -53,12 +56,12 @@ description: Films to look out for this week
 
 <div class="Sect-m-1">
 <div class="About-para-m-1">
-<div class="About-para-m-1-a">    
+<div class="About-para-m-1-a">
 <iframe width="100%" height="315" src="https://www.youtube-nocookie.com/embed/Yb6XBjBrrq4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 </div>
 </div>
-        
+
 <div class="Sect-m-2">
 <div class="About-para-m-2">
 <div class="About-para-m-2-a">
@@ -100,31 +103,5 @@ description: Films to look out for this week
 <div class="Sect-m-2">
 <div class="About-para-m-2">
 
-</div>
-</div>
-
-
-
-<div class="Sect-l-1">
-<div class="About-para-l-1">
-<h2 style="text-align:center">Marvel Film Posts</h2>
-<ul>
-{% for post in site.categories.Marvel-Films %}
-<li>
-<a style="background-color: #ffffff;" href="{{ post.url | prepend: site.baseurl  }}">
-<div class="flex flex-column flex-row-ns">
-<div class="pr3-ns mb4 mb0-ns w-100 w-40-ns">
-<img src="https://1000logos.net/wp-content/uploads/2017/08/Font-Marvel-Logo.jpg" class="db" alt="Marvel">
-</div>
-<div class="w-100 w-60-ns pl3-ns">
-<h1 class="f3 fw1 mt0 lh-title">{{ post.title }}</h1>
-<p class="f6 f5-l lh-copy">{{ post.description }} </p>
-<span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-</div>
-</div>
-</a>
-</li>
-{% endfor %}
-</ul>
 </div>
 </div>

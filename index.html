@@ -20,7 +20,42 @@ layout: default
 
 
 
-<div class="Sect-l-1"><div class="About-para-l-1" style="background-image: url(/assets/img/drawing_01.svg);"></div></div>
+<div class="Sect-l-1">
+<div class="About-para-l-1" id="link-b-1" style="color: #000000;">
 
+  {% for category in site.categories %}
+    <h1 style="text-align: left;" class="bold_title">{{ category[0] }}</h1>
+    <ul>
+      {% for post in category[1] %}
+        <a href="{{ post.url }}"><li class="post-link" style="text-align: right">{{ post.title }}</li></a>
+      {% endfor %}
+    </ul>
+  {% endfor %}
 
+</div>
+</div>
+
+<div class="Sect-l-1">
+<div class="About-para-l-1" id="link-b-1" style="color: #000000;">
+<h2 style="text-align: left;">Football Profiles</h2>
+<ul>
+  {% for post in site.categories.Football %}
+    {% if post.url %}
+        <li style="text-align: right"><a class="post-link" href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endif %}
+  {% endfor %}
+</ul>
+
+</div>
+</div>
+
+<div>
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+  <script>
+    (adsbygoogle = window.adsbygoogle || []).push({
+      google_ad_client: "ca-pub-8613892269045774",
+      enable_page_level_ads: true
+    });
+  </script>
+</div>
 </div>

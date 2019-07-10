@@ -2,7 +2,8 @@
 layout: Show
 title: Football Data
 description: Football profiles and Data on Football teams and players.
-categories: Football
+categories: ["Football Data"]
+date: 2018-07-20 09:55:58 +0100
 ---
 
 <div class="Sect-l-1">
@@ -70,28 +71,13 @@ categories: Football
 <h1>Clubs</h1>
 
 <ul>
-<a href="{{site.baseurl}}/pages/Sport_pages/Profiles/Clubs/Profile_Arsenal.html">
-<li class="arsenal"><h2>Arsenal FC</h2></li>
-</a>
-
-<a href="{{site.baseurl}}/pages/Sport_pages/Profiles/Clubs/Profile_Chelsea_FC.html">
-<li class="chelsea"><h2>Chelsea FC</h2></li>
-</a>
-
-<a href="{{site.baseurl}}/pages/Sport_pages/Profiles/Clubs/Profile_Liverpool.html">
-<li class="liverpool"><h2>Liverpool FC</h2></li>
-</a>
-
-<a href="{{site.baseurl}}/pages/Sport_pages/Profiles/Clubs/Profile_Spurs.html">
-<li class="spurs"><h2>Tottenham Hotspur FC</h2></li>
-</a>
-
-
-<a href="{{site.baseurl}}/pages/Sport_pages/Profiles/Clubs/Profile_Fluminense_FC.html">
-<li class="fluminense"><h2>Fluminense FC</h2></li>
-</a>
-
+  {% for post in site.categories.["Club Profile"] %}
+    {% if post.url %}
+        <li style="text-align: right"><a class="post-link" href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endif %}
+  {% endfor %}
 </ul>
+
 </div>
 </div>
 </div>
@@ -101,10 +87,15 @@ categories: Football
 <div class="About-para-m-2">
 <div class="About-para-m-2-a" id="link-b-1">
 <h1>Players</h1>
+
 <ul>
-<a href="{{site.baseurl}}/pages/Sport_pages/Profiles/Players/Sadio_Mane_Profile.html"><li class="s_mane"><h2 class="club-player-heading">Sadio Mane</h2></li></a>
-<a href="{{site.baseurl}}/pages/Sport_pages/Profiles/Players/Mbappe_Profile.html"><li><h2 class="club-player-heading">Kylian Mbappé</h2></li></a>
+  {% for post in site.categories.["Football Player Profile"] %}
+    {% if post.url %}
+        <li style="text-align: right"><a class="post-link" href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endif %}
+  {% endfor %}
 </ul>
+
 </div>
 </div>
 </div>
@@ -119,11 +110,6 @@ categories: Football
 <div class="About-para-l-1" id="link-b-1">
 <u><h1>Data</h1></u>
 
-<ul>
-<a class="post-link" href="/pages/Sport_pages/SportsData/ChampionsLeagueGroupStage.html"><li>Champions League Group Stage</li></a>
-<a class="page-link" href="/pages/Sport_pages/Highlights/CL_Highlights.html"><li >Champions League Highlights</li></a>
-<a class="post-link" href="/pages/Sport_pages/SportsData/PremierLeagueTable.html"><li>Premier League Table</li></a>
-</ul>
 
 </div>
 </div>

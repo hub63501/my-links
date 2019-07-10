@@ -2,7 +2,7 @@
 layout: post
 title:  "World cup predictions update"
 date:   2018-06-07 07:55:58 +0100
-categories: World-Cup
+categories: ["World Cup"]
 description: My World cup predictions.
 ---
 

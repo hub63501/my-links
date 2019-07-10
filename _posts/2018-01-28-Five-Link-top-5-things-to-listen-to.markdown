@@ -2,7 +2,7 @@
 layout: Article
 title:  "Five-link top 5 Podcasts of the week"
 date:   2018-01-28 15:35:21 +0100
-categories: Podcasts
+categories: ["Podcasts"]
 description: "Listen to these five Podcasts."
 ---
 
