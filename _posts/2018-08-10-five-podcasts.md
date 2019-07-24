@@ -4,6 +4,7 @@ title: 5 Podcasts to listen to
 date:   2018-08-10 10:44:21 +0100
 categories: ["Podcasts"]
 description: Five Podcasts of the week.
+img: /assets/img/drawing_01.svg
 ---
 
 This is what I've been listening to this week.

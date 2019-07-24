@@ -4,6 +4,7 @@ title: Five Podcasts
 date:   2019-01-23 10:05:21 +0100
 categories: ["Podcasts"]
 description: "Five Podcasts"
+img: /assets/img/drawing_01.svg
 ---
 
 

@@ -3,6 +3,7 @@ layout: post
 title:  "Premier league predictions using python"
 date:   2018-08-12 09:55:58 +0100
 categories: ["Predictor"]
+img: /assets/img/drawing_01.svg
 ---
 
 Here are my predictions using a few data sets including goals scored chances created from last season.

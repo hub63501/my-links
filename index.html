@@ -18,28 +18,35 @@ layout: default
 </div>
 </div>
 
+<section class="mw7 center avenir">
 
-
-<div class="Sect-l-1">
-<div class="About-para-l-1" id="link-b-1" style="color: #000000;">
-
-  {% for category in site.categories %}
-    <h1 style="text-align: left;" class="bold_title">{{ category[0] }}</h1>
-    <ul>
-      {% for post in category[1] %}
-        <a href="{{ post.url }}"><li class="post-link" style="text-align: right">{{ post.title }}</li></a>
-      {% endfor %}
-    </ul>
+  <ul class="post-list">
+  {% for post in site.posts %}
+  <li>
+  <article class="bt bb b--black-10">
+    <a class="db pv4 ph3 ph0-l no-underline black " style="background-color: #ffffff;" href="{{ post.url | prepend: site.baseurl }}">
+      <div class="flex flex-column flex-row-ns">
+        <div class="pr3-ns mb4 mb0-ns w-100 w-40-ns">
+          <img  src="{{post.img}}" class="db" alt="Pic">
+        </div>
+        <div class="w-100 w-60-ns pl3-ns">
+          <h1 class="f2 lh-title">{{ post.title }}</h1>
+          <p class="f6">{{ post.description }} </p>
+          <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+        </div>
+      </div>
+    </a>
+  </article>
+  </li>
   {% endfor %}
+  </ul>
+</section>
 
-</div>
-</div>
 
-<div class="Sect-l-1">
-<div class="About-para-l-1" id="link-b-1" style="color: #000000;">
 
-</div>
-</div>
+
+
+
 
 <div>
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
