@@ -108,8 +108,26 @@ date: 2018-07-20 09:55:58 +0100
 
 <div class="Sect-l-1">
 <div class="About-para-l-1" id="link-b-1">
-<u><h1>Data</h1></u>
+<u><h1>Champions League</h1></u>
+<ul>
+  {% for post in site.categories.["Champions League"] %}
+    {% if post.url %}
+        <li style="text-align: right"><a class="post-link" href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endif %}
+  {% endfor %}
+</ul>
+</div>
+</div>
 
-
+<div class="Sect-l-1">
+<div class="About-para-l-1" id="link-b-1">
+<u><h1>Premier League</h1></u>
+<ul>
+  {% for post in site.categories.["Premier League"] %}
+    {% if post.url %}
+        <li style="text-align: right"><a class="post-link" href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endif %}
+  {% endfor %}
+</ul>
 </div>
 </div>

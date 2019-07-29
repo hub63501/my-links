@@ -61,6 +61,12 @@
 }
 
 
+nav{
+  font-family: 'Roboto Slab', serif;
+  margin-bottom: 2em; 
+}
+
+
 
 .nav a{
     font-size: 3em;

@@ -128,6 +128,10 @@ li{
   }
 }
 
+#green{
+  background-color: #90ee02;
+}
+
 /*************************************************************************************/
 
 #iron-man{
@@ -219,6 +223,7 @@ td {
 @media screen and (max-width: 500px){
   #background_1{
     padding: 0em;
+    padding-top: 1em;
   }
   #bold_title{
     padding: 1em;
