@@ -11,12 +11,12 @@ layout: default
 </div>
 
 
-
+<!--class="db pv4 ph3 ph0-l no-underline"--->
 <section class="mw7 center avenir" style="padding-top: 2em;">
   <h1 class="fw1 ph3 ph0-l" id="link-b-1">Latest Posts</h1>
   {% for post in site.posts %}
   <article class="bt bb b--black-10">
-    <a class="db pv4 ph3 ph0-l no-underline black" href="{{ post.url | prepend: site.baseurl }}">
+    <a  href="{{ post.url | prepend: site.baseurl }}">
       <div class="flex flex-column flex-row-ns" id="link-b-1">
         <div class="pr3-ns mb4 mb0-ns w-100 w-40-ns">
           <img src="{{post.img}}" class="db" alt="Photo.">
