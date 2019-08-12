@@ -214,13 +214,14 @@ td {
 }
 
 #background_1{
-  padding: 5em;
-  color: #ffffff;
-  background-color:#000000;
-  /*background-image: url("/assets/img/WP_20141130_16_22_31_Pro__highres.jpg");
+  /*
+  background-image: url("assets/img/IMG_20180203_164048478.jpg");*/
+  background-color: #03072e44;
   background-repeat    : no-repeat;
   background-size      : cover;
-  background-attachment: fixed;*/
+  background-attachment: fixed;
+  color: #ffffff;
+  padding: 5em;
 }
 @media screen and (max-width: 500px){
   #background_1{
