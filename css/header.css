@@ -41,7 +41,6 @@
 
 .nav{
     border-radius        : 0em;
-    font-size            : 1.5em;
     padding-bottom:       0px;
     overflow: auto;
     white-space: nowrap;
@@ -51,7 +50,6 @@
 @media screen and (min-width: 1500px){
     .nav{
         border-radius        : 0em;
-        font-size            : 1.5em;
         padding-bottom              : 5px;
         overflow: auto;
         white-space: nowrap;
@@ -64,18 +62,4 @@
 nav{
   font-family: 'Roboto Slab', serif;
   margin-bottom: 1em;
-}
-
-
-
-.nav a{
-    font-size: 3em;
-    padding              : 1px;
-    margin-left          : 2px;
-    margin-right         : 2px;
-}
-
-@media screen and (max-width: 500px){
-  .nav a{
-      font-size: 1em;}
 }
