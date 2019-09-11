@@ -47,17 +47,6 @@
 
 }
 
-@media screen and (min-width: 1500px){
-    .nav{
-        border-radius        : 0em;
-        padding-bottom              : 5px;
-        overflow: auto;
-        white-space: nowrap;
-        margin-left: 0%;
-        margin-right: 0%;
-    }
-}
-
 
 nav{
   font-family: 'Roboto Slab', serif;
