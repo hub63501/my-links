@@ -1,134 +1,134 @@
 ---
-layout: Show
+layout: page
 title: Football Data
 description: Football profiles and Data on Football teams and players.
-categories: ["Football Data"]
+categories: Football-Data
+permalink: /Footballdata/
 date: 2018-07-20 09:55:58 +0100
-permalink: /football-data/
 ---
+<div class="row">
+<div class="col-md-6">
+    <h1 style="text-align:center;">Scores</h1>
 
-<div class="Sect-l-1">
-<div class="About-para-l-1" id="link-b-1">
-<h1>Scores</h1>
+    <br>
+    
+    <br>
+    <div class="d-flex justify-content-center">
+    <div class="spinner-border" role="status">
+    <span class="sr-only">Loading...</span>
+    </div>
+    </div>
+    <br>
+    
+    <h5 style="text-align: center;">Champions League</h5>
+    <hr>
+    <div class="table-overflow">
+    <table class="table">
+    
+    <tr>
+    <td><p>-</p></td>
+    <td><p>-</p></td>
+    <td><p>-</p></td>
+    <td><p>-</p></td>
+    <td><p>-</p></td>
+    </tr>
+    <tr>
+    <td><p>-</p><p>-</p></td>
+    <td><p>-</p></td>
+    <td><p>-</p></td>
+    <td><p>-</p></td>
+    <td><p>-</p></td>
+    </tr>
+    </table>
+    </div>
+<hr>
+</div>
+<div class="col-md-6">
+<h5>Goals Scored</h5>
+<table class="table-striped">
+  <tr><td id="red"> GOAL </td></tr>
+</table>
+<hr>
 </div>
 </div>
-<div class="Sect-l-1">
-<div class="About-para-l-1" id="link-b-1">
-<h1></h1>
-<h1>-</h1>
-</div>
-</div>
-<div class="Sect-m-1">
-<div class="About-para-m-1">
-<div class="About-para-m-1-a" id="link-b-1">
-  <table>
-  <th style="background: #ffffff;">
-  <h1></h1>
-  </th>
-  <tr>
-  <td><h1></h1></td>
-  </tr>
-  <tr>
-  <td><!--<p>Lacerzette</p>---></td>
-  </tr>
-  </table>
-</div>
-</div>
-</div>
-
-
-<div class="Sect-m-2" >
-<div class="About-para-m-2">
-<div class="About-para-m-2-a" id="link-b-1">
-<table>
-  <th style="background:#ffffff;">
-  <h1></h1>
-  </th>
-  <tr>
-    <td><h1></h1></td>
-  </tr>
-  <tr>
-    <td><!--<p>Hazard</p>---></td>
-  </tr>
-
-  </table>
-</div>
-</div>
-</div>
-
-
-<div class="Sect-l-1">
-<div class="About-para-l-1" id="link-b-1">
-<h1>Profiles</h1>
-</div>
-</div>
-
-
-<div class="Sect-m-1">
-<div class="About-para-m-1">
-<div class="About-para-m-1-a" id="link-b-1">
-
-
+<h1 style="text-align:center;">Profiles</h1>
 <h1>Clubs</h1>
-
-<ul>
-  {% for post in site.categories.["Club Profile"] %}
-    {% if post.url %}
-        <li style="text-align: right"><a class="post-link" href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endif %}
-  {% endfor %}
-</ul>
-
+<br>
+<div class="card-deck">
+{% for post in site.categories.Club-Profile %}
+{% if post.url %}
+<div class="card">
+    <img src="{{ post.img }}" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">{{ post.title }}</h5>
+      <p class="card-text">{{ post.description }}</p>
+      <a  href="{{ post.url }}">Read more</a>
+    </div>
+    <div class="card-footer">
+      <small class="text-muted">Last updated {{ post.updated }}</small>
+    </div>
+  </div>
+{% endif %}
+{% endfor %}
 </div>
-</div>
-</div>
 
 
-<div class="Sect-m-2" >
-<div class="About-para-m-2">
-<div class="About-para-m-2-a" id="link-b-1">
+
+
+<br>
+
 <h1>Players</h1>
-
-<ul>
-  {% for post in site.categories.["Football Player Profile"] %}
-    {% if post.url %}
-        <li style="text-align: right"><a class="post-link" href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endif %}
-  {% endfor %}
-</ul>
-
+<br>
+<div class="table-overflow">
+<table class="table">
+{% for post in site.categories.Football-Player-Profile %}
+{% if post.url %}
+<tr>
+<td><a  href="{{ post.url }}"><h4>{{ post.title }}</h4></a></td>
+</tr>
+{% endif %}
+{% endfor %}
+</table>
 </div>
-</div>
-</div>
+
+
+<br>
 
 
 
 
-
-
-
-<div class="Sect-l-1">
-<div class="About-para-l-1" id="link-b-1">
 <h1>Champions League</h1>
-<ul>
-  {% for post in site.categories.["Champions League"] %}
-    {% if post.url %}
-        <li style="text-align: right"><a class="post-link" href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endif %}
-  {% endfor %}
-</ul>
-</div>
+<br>
+<div class="table-overflow">
+<table class="table">
+{% for post in site.categories.Champions-League %}
+{% if post.url %}
+<tr>
+<td><a  href="{{ post.url }}"><h4>{{ post.title }}</h4></a></td>
+</tr>
+{% endif %}
+{% endfor %}
+<tr><td><a  href="/champions_league_group_table/"><h4>Champions league group table</h4></a></td></tr>
+</table>
 </div>
 
-<div class="Sect-l-1">
-<div class="About-para-l-1" id="link-b-1">
+
+<br>
 <h1>Premier League</h1>
-<ul>
-  {% for post in site.categories.["Premier League"] %}
-    {% if post.url %}
-        <li style="text-align: right"><a class="post-link" href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endif %}
-  {% endfor %}
-</ul>
+<br>
+
+<div class="table-overflow">
+<table class="table">
+{% for post in site.categories.Premier-League %}
+{% if post.url %}
+<tr>
+<td><a  href="{{ post.url }}"><h4>{{ post.title }}</h4></a></td>
+</tr>
+{% endif %}
+
+{% endfor %}
+<tr><td><a  href="/premier_league_table/"><h4>Premier League Table</h4></a></td></tr>
+</table>
 </div>
-</div>
+
+<br>

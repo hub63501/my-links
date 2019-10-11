@@ -1,12 +1,19 @@
 ---
-layout: default-j
+layout: default
 ---
-
-<article class="post">
-<header class="post-header">
-<h1 class="post-title">{{ page.title }}</h1>
-</header>
-<div class="post-content">
-{{ content }}
+<br>
+<div class="container-fluid">
+<div class="row">
+<div class="col align-self-center">
+<div class="jumbotron" id="black-background">
+<h1>{{page.title}}</h1>
+<h4>{{page.description}}</h4>
 </div>
-</article>
+<div class="card border-dark mb-3">
+<div class="card-body" style="text-align: center;">
+{{content}}
+</div>
+</div>
+</div>
+</div>
+</div>
