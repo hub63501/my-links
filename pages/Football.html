@@ -1,0 +1,98 @@
+---
+title: Football
+layout: page
+permalink: /football/
+lastUpdated: 17/12/19
+---
+
+
+<div class="container-fluid">
+  <!-- Stack the columns on mobile by making one full-width and the other half-width -->
+<div class="row">
+<div class="col-md-7">
+<div class="table-overflow">
+<table class="table table-borderless">
+<th class="table-dark"><h1>News</h1></th>
+<tr>
+<td>
+<strong class="d-inline-block mb-2 text-primary">premier league - </strong><strong class="d-inline-block mb-2" id="purple">Everton</strong>
+<p>Anciloti is expected to be the new manager of Everton to be confirmed this friday.</p>
+</td>
+</tr>
+<tr>
+<td>
+<strong class="d-inline-block mb-2 text-primary">premier league - </strong>
+
+<p>Crystal palace hung on to draw with Brighton and Hove Albion</p></td>
+</tr>
+<tr>
+<td></td>
+</tr>
+</table>
+</div>
+
+
+</div>
+<div class="col-md-5">
+<div class="text-right card-body red">
+<h2 class="lead">Scores</h2>
+</div>
+<div class="table-overflow">
+
+  <table class="table">
+  <thead class="thead-light text-center">
+  <tr>
+  <th  colspan="1" scope="col" id="teamOne"></th>
+  <th  colspan="1" scope="col" id="teamTwo"></th>
+  </tr>
+  </thead>
+  <tr class="text-center">
+  <td><h3 id="scoreOne">-</h3></td>
+  <td><h3 id="scoreTwo">-</h3></td>
+  </tr>
+  <tr class="text-center">
+  <td><p id="scorerOne">-</p></td>
+  <td><p id="scorerTwo">-</p></td>
+  </tr>
+</table>
+
+<table class="table">
+<thead class="thead-light text-center">
+<tr>
+<th  colspan="2" scope="col">Posession</th>
+</tr>
+</thead>
+<tr class="text-center">
+<td id="teamOnePosession" class="blue-background">%</td>
+<td id="teamTwoPosession">-</td>
+</tr>
+</table>
+
+<table class="table table-dark">
+<thead class="thead-light text-center">
+<tr>
+<th  colspan="2" scope="col">Shots on target</th>
+</tr>
+</thead>
+<tr class="text-center">
+<td id="teamOneShotsOnTarget" class="blue-background"></td>
+<td id="teamTwoShotsOnTarget">-</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+
+
+<script type="text/javascript">
+document.getElementById("teamOne").innerHTML = "Crystal Palace FC";
+document.getElementById("teamTwo").innerHTML = "Brighton and Hove Albion";
+document.getElementById("scoreOne").innerHTML = 1;
+document.getElementById("scoreTwo").innerHTML = 1;
+document.getElementById("scorerOne").innerHTML = "Zaha 76'";
+document.getElementById("scorerTwo").innerHTML = "Maupay 56'";
+document.getElementById("teamOnePosession").innerHTML = "45%";
+document.getElementById("teamTwoPosession").innerHTML = "55%";
+document.getElementById("teamOneShotsOnTarget").innerHTML = 4;
+document.getElementById("teamTwoShotsOnTarget").innerHTML = 10;
+</script>

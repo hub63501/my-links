@@ -12,18 +12,18 @@ title: "Home"
 </div>
 <div class="container">
 
-<div class="row mb-2">
+<!--<div class="row mb-2">
 <div class="col-md-6">
 <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
 <div class="col-auto d-none d-lg-block">
 <img class="img-thumbnail" src="assets/img/drawing_03.svg" alt="post img" />
 </div>
 <div class="col p-4 d-flex flex-column position-static">
-<strong class="d-inline-block mb-2 text-primary"></strong>
-<h3 class="mb-0">Quotes</h3>
+<strong class="d-inline-block mb-2 text-primary">-</strong>
+<h3 class="mb-0">=</h3>
 <div class="mb-1 text-muted"></div>
-<p class="card-text mb-auto">Inspiring quotes from some of the great leaders and thinkers in history.</p>
-<a href="/quotes/" class="stretched-link">Continue reading</a>
+<p class="card-text mb-auto">-</p>
+<a href="#" class="stretched-link">Continue reading</a>
 </div>
 </div>
 </div>
@@ -33,15 +33,15 @@ title: "Home"
 <img class="img-thumbnail" src="assets/img/background_03.svg" alt="post img" />
 </div>
 <div class="col p-4 d-flex flex-column position-static">
-<strong class="d-inline-block mb-2 text-primary">Football</strong>
-<h3 class="mb-0">Champions League how things look</h3>
-<div class="mb-1 text-muted">Sep 17</div>
-<p class="mb-auto">Champions League group stage table</p>
-<a href="/champions_league_group_table/" class="stretched-link">Continue reading</a>
+<strong class="d-inline-block mb-2 text-primary">-</strong>
+<h3 class="mb-0">-</h3>
+<div class="mb-1 text-muted">-</div>
+<p class="mb-auto">-</p>
+<a href="#" class="stretched-link">Continue reading</a>
 </div>
 </div>
 </div>
-</div>
+</div>-->
 </div>
 
 <main role="main" class="container">
@@ -50,27 +50,41 @@ title: "Home"
 
 <h3 class="pb-4 mb-4 font-bold border-bottom" style="text-align: center;">Posts</h3>
 {% for post in site.categories.posts %}
-<div class="media  pt-3 shadow">
-<div class="media-body pb-3 mb-0 small lh-125 border-bottom border-gray" style="padding:0.5em;">
-<div class="d-flex justify-content-between align-items-center w-100">
-<h4><strong class="text-gray-dark">{{post.title}} </strong></h4>
-<a class="btn btn-outline-primary" href="{{ post.url | prepend: site.baseurl }}">Read</a>
-</div>
-<span class="d-block">{{post.description}}</span>
-</div>
-</div>
-<hr>
-{% endfor %}
+
+<div class="container">
+<div class="row ">
+<div class="col-sm-9">
+<img src="{{post.img}}" alt=""/>
 <br>
-<a class="btn btn-outline-primary" href="/Archieved">Archieved</a>
+<br>
+<h2 class=""><strong>{{post.title}}</strong></h2>
+<div class="row">
+<div class="col-8 col-sm-6"style="padding: 1em;">
+<span class="d-block lead">{{post.description}}</span>
+<br><a class="btn btn-light" href="{{ post.url | prepend: site.baseurl }}">Read</a>
+</div>
+<div class="col-4 col-sm-6" style="padding: 1em; border-top:solid 1px #000000;">
+
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<hr>
+
+{% endfor %}
+
+
+<a class="btn btn-outline-primary" href="#">Archieved</a>
 </div>
 <hr>
 
 <!-- /.blog-main -->
 
 <aside class="col-md-4 blog-sidebar">
-        <br>
-    <div class="p-4 mb-3 bg-light rounded">
+<br>
+<div class="p-4 mb-3 bg-light rounded">
 
 <h4 class="font-italic">About</h4>
 <p class="mb-0">{{site.description}}</p>
@@ -78,7 +92,7 @@ title: "Home"
 </div>
 <hr>
 <div class="p-4">
-<h3 class="display-4 text-center">Explore these Links</h3>
+<h4 class="display-5 text-center text-wrap">Explore these Links</h4>
 <ol class="list-unstyled mb-0">
 <hr>
 <li><a class="list-group-item border-primary shadow" target="_blank" href="http://www.bbc.com/future/story/20190809-how-the-views-of-a-few-can-determine-the-fate-of-a-country?ocid=global_future_rss">How the views of a few can determine the fate of a country?</a></li>
@@ -106,8 +120,8 @@ title: "Home"
 -->
 </aside>
 <div class="card">
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-  <script>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
     (adsbygoogle = window.adsbygoogle || []).push({
       google_ad_client: "ca-pub-8613892269045774",
       enable_page_level_ads: true

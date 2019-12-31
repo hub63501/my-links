@@ -4,17 +4,16 @@ layout: default
 
 <br>
 <div class="container">
-<div class="row featurette">
-<div class="col-md-8">
-<div class="jumbotron">
+
+<div class="jumbotron p-4 p-md-5 text-white rounded bg-dark" style="background-image:{{page.img}};">
 <h1 class="featurette-heading">{{page.title}}</h1>
 </div>
-</div>
-<div class="col-md-4">
-<img class="featurette-image img-responsive center-block" src="{{page.img}}" alt="Generic placeholder image">
-</div>
-</div>
+<div class="row">
 <div class="col-md-8">
 <p class="lead">{{content}}</p>
+</div>
+<div class="col-md-4">
+<img class="featurette-image img-responsive right" src="{{page.img}}" alt="Generic placeholder image">
+</div>
 </div>
 </div><!-- /.container -->
