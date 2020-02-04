@@ -2,7 +2,7 @@ url: ""
 baseurl: ""
 title: "FIVE-LINK"
 description: > # this means to ignore newlines until "baseurl:"
-  Five-Link is changing stay tuned.<br>Beta 0.6.
+  Five-link is an exploration of ideas and culture from around the web. Thank you for visiting.
 email: fivelink@outlook.com
 markdown: kramdown
 
