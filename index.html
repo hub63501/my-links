@@ -1,13 +1,68 @@
 ---
 layout: default
-title: Five-Link
+title: "Home"
 ---
 
-<br>
+<div class="jumbotron text-black" id="black-background">
+<div class="col-md-8 px-0">
+<h1 class="display-4 font-bold">Five-Link</h1>
+<p class="lead my-3">{{ site.description }}</p>
+<p class="lead mb-0"><a href="/about/" class="text-black font-weight-bold">Continue reading...</a></p>
+</div>
+</div>
+<div class="container">
 
-<div class="cover pv5 pv6-m pv7-l" style="background: url(assets/img/background_05.svg) center;">
-<div class="wrapper">
-<h1>Today on Five-Link</h1>
+
+</div>
+
+<main role="main" class="container">
+<div class="row">
+<div class="col-md-8 blog-main">
+
+<h3 class="pb-4 mb-4 font-bold border-bottom" style="text-align: center;">Posts</h3>
+{% for post in site.posts %}
+
+<div class="container">
+<div class="row ">
+<div class="col-sm-9">
+<img src="{{post.img}}" alt="img"/>
+<br>
+<br>
+<h2 class=""><strong>{{post.title}}</strong></h2>
+<div class="row">
+<div class="col-8 col-sm-6"style="padding: 1em; border-bottom: solid 0.01em #c5c5c5;">
+<span class="d-block lead">{{post.description}}</span>
+<br><a class="btn btn-light" href="{{ post.url | prepend: site.baseurl }}">Read</a>
+</div>
+<div class="col-4 col-sm-6" style="padding: 1em; border-top:solid 0.01em #c5c5c5; border-left:solid 0.01em #c5c5c5;">
+
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<hr>
+
+{% endfor %}
+
+
+<a class="btn btn-outline-primary" href="/archieved/">Archieved</a>
+</div>
+<hr>
+
+<!-- /.blog-main -->
+
+<aside class="col-md-4 blog-sidebar">
+<br>
+<div class="p-4 mb-3 bg-light rounded">
+
+<h4 class="font-italic">About</h4>
+<p class="mb-0">{{site.description}}</p>
+<a href="/about/">more info</a>
+</div>
+<hr>
+<div class="p-4">
 <h4 class="display-5 text-center text-wrap">Explore these Links</h4>
 <ol class="list-unstyled mb-0">
 <hr>
@@ -23,67 +78,8 @@ title: Five-Link
 <hr>
 </ol>
 </div>
-</div>
 
-<br>
-
-<div class="wrapper">
-
-  <div class="fl w-100 w-50-l pr2-l pl2-ns mb4 mb0-l mb4 outline">
-    
-    <div class="pa4">
-      
-      <h1 class="f4 f2-l fw7 mt0 pv3-l bb-l bb--black">#Posts</h1>
-      
-      <p class="lh-copy mt2 mt3-m mt5-l f6">
-        
-        <span class="db-ns f6 fw7 lh-solid mb3 mb0-m mb4-l">Quote of the Day</span>
-        
-        <span class="fw9 f6 f1-l db lh-title mb3 mb4-l">“{% include quote_of_the_day.html %}”</span>
-      
-      </p>
-    
-    </div>
-  
-  </div>
-
-</div>
-
-
-<br>
-
-
-{% for post in site.posts %}
-<div class="post-wrapper">
-<div class="post-item">
-<a class="" href="{{ post.url | prepend: site.baseurl }}">
-<span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-<h1>{{ post.title }}</h1>
-<span class="post-meta">{{post.description}}</span>
-</a>
-</div>
-</div>
-{% endfor %}
-
-
-
-
-
-
-
-
-
-<div class="wrapper">
-<div class="">
-<p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-</div>
-
-
-
-
-
-<script> var t = performance.now(); console.log(t); </script>
-
+</aside>
 <div class="card">
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <script>
@@ -91,10 +87,12 @@ title: Five-Link
       google_ad_client: "ca-pub-8613892269045774",
       enable_page_level_ads: true
     });
-</script>
+  </script>
 </div>
+<!-- /.blog-sidebar -->
 
+</div><!-- /.row -->
 
-
+</main><!-- /.container -->
 
 </div>
