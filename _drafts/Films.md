@@ -1,0 +1,131 @@
+---
+layout: page
+title: Films
+description: Films to look out for this week
+permalink: /films/
+---
+
+
+- <iframe width="100%" height="370" src="https://www.youtube-nocookie.com/embed/w4GtJB5WAlQ?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+<div class="Sect-m-2">
+<div class="About-para-m-2">
+<div class="About-para-m-2-a">
+<h1><u>First Man</u></h1>
+<table>
+<tr id="rotten-tomatoes"><td><h2>Rotten Tomatoes</h2></td><td><h2>90%</h2></td></tr>
+<tr id="IMDB"><td><h2>IMDB Meta Score</h2></td><td><h2>84</h2></td></tr>
+</table>
+<br>
+</div>
+</div>
+</div>
+
+
+
+
+
+
+
+<div class="Sect-m-1">
+<div class="About-para-m-1">
+<div class="About-para-m-1-a">
+<iframe width="100%" height="270" src="https://www.youtube-nocookie.com/embed/ZQ-YX-5bAs0?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+</div>
+</div>
+</div>
+
+<div class="Sect-m-2">
+<div class="About-para-m-2">
+<div class="About-para-m-2-a">
+<h1><u>Crazy Rich Asians</u></h1>
+<table>
+<tr id="rotten-tomatoes"><td><h2>Rotten Tomatoes</h2></td><td><h2>92%</h2></td></tr>
+<tr id="IMDB"><td><h2>IMDB Meta Score</h2></td><td><h2>74</h2></td></tr>
+</table>
+<br>
+</div>
+</div>
+</div>
+
+
+
+
+
+<div class="Sect-m-1">
+<div class="About-para-m-1">
+<div class="About-para-m-1-a">
+<iframe width="100%" height="270" src="https://www.youtube-nocookie.com/embed/nSbzyEJ8X9E" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+</div>
+</div>
+</div>
+
+<div class="Sect-m-2">
+<div class="About-para-m-2">
+<div class="About-para-m-2-a">
+<h1><u>A Star is Born</u></h1>
+<table>
+<tr id="rotten-tomatoes"><td><h2>Rotten Tomatoes</h2></td><td><h2>95%</h2></td></tr>
+<tr id="IMDB"><td><h2>IMDB Meta Score</h2></td><td><h2>87</h2></td></tr>
+</table>
+<br>
+</div>
+</div>
+</div>
+
+
+
+
+<div class="Sect-m-1">
+<div class="About-para-m-1">
+<div class="About-para-m-1-a">
+<iframe width="100%" height="270" src="https://www.youtube.com/embed/fQNZhs0QKq0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+</div>
+</div>
+</div>
+
+<div class="Sect-m-2">
+<div class="About-para-m-2">
+<div class="About-para-m-2-a">
+<h1><u>BlacKkKlansman</u></h1>
+<table>
+<tr id="rotten-tomatoes"><td><h2>Rotten Tomatoes</h2></td><td><h2>95%</h2></td></tr>
+<tr id="IMDB"><td><h2>IMDB Meta Score</h2></td><td><h2>83</h2></td></tr>
+</table>
+<br>
+</div>
+</div>
+</div>
+
+
+<!--
+<div class="display-class-1">
+<div class="display-class-1-inner">
+
+</div>
+</div>
+-->
+
+
+<div class="Sect-m-1">
+<div class="About-para-m-1">
+<div class="About-para-m-1-a">
+
+
+<iframe width="100%" height="270" src="https://www.youtube.com/embed/0J-_v38DBgU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+</div>
+</div>
+</div>
+
+<div class="Sect-m-2">
+<div class="About-para-m-2">
+<div class="About-para-m-2-a">
+<h1><u>The Children Act</u></h1>
+<table>
+<tr id="rotten-tomatoes"><td><h2>Rotten Tomatoes</h2></td><td><h2>66%</h2></td></tr>
+<tr id="IMDB"><td><h2>IMDB Meta Score</h2></td><td><h2>61</h2></td></tr>
+</table>
+<br>
+</div>
+</div>
+</div>
