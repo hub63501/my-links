@@ -1,0 +1,33 @@
+/**
+ * Headings
+ */
+ h1, h2, h3, h4, h5, h6 {
+    font-weight: $base-font-weight;
+}
+/**
+ * Lists
+ */
+ ul, ol {
+    margin-left: 0;
+    list-style-type: none; border: 1px solid rgba(0, 0, 0, .1); border-radius: 0; padding-left: 0;
+}
+
+li {
+
+    padding: 1rem;
+    text-align: right;
+
+    border-bottom-style: solid;
+    border-bottom-width: 0.1em;
+    border-color: rgba(0, 0, 0, .1);
+
+    > ul,
+    > ol {
+      margin-bottom: 0;
+    }
+    &:hover {
+      border-color: #189aeb;
+      background-color: #3942;
+    }
+}
+
