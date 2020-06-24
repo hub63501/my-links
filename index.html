@@ -4,17 +4,22 @@ title: "Home"
 ---
 
 <div class="jumbotron text-black" id="black-background">
-  
+
   <div class="col-md-8 px-0">
-    
+
     <h1 class="display-4 font-bold title">Five-Link</h1>
-    
+
     <p class="lead my-3">{{ site.description }}</p>
-    
+
     <p class="lead mb-0">
       <a href="/about/" class="text-black font-weight-bold">Continue reading...</a>
     </p>
-  
+
+    <hr>
+
+    
+
+
   </div>
 </div>
 
@@ -24,62 +29,62 @@ title: "Home"
 <main role="main" class="container">
   <div class="row">
     <div class="col-md-8 blog-main">
-      
+
       <h3 class="pb-4 mb-4 font-bold border-bottom" style="text-align: center;">Posts</h3>
-      
+
       {% for post in site.posts %}
-      
+
       <div class="container">
         <div class="row ">
-          
+
           <div class="col-sm-9">
-            
+
             <img src="{{post.img}}" alt="img"/>
-            
+
             <br>
-            
+
             <br>
-            
+
             <h2 class=""><strong>{{post.title}}</strong></h2>
-            
+
             <div class="row">
-              
+
               <div class="col-8 col-sm-6"style="padding: 1em; border-bottom: solid 0.01em #c5c5c5;">
-                
+
                 <span class="d-block lead">{{post.description}}</span>
-                
+
                 <br>
-                
+
                 <a class="btn btn-light" href="{{ post.url | prepend: site.baseurl }}">Read</a>
-              
+
               </div>
-              
+
               <div class="col-4 col-sm-6" style="padding: 1em; border-top:solid 0.01em #c5c5c5; border-left:solid 0.01em #c5c5c5;">
-              
+
               </div>
             </div>
           </div>
         </div>
       </div>
-      
+
       <hr>
-      
+
       {% endfor %}
 
-      
-      
+
+
     </div>
     <hr>
-    
+
     <!-- /.blog-main -->
-    
-    
+
+
     <aside class="col-md-4 blog-sidebar">
       <br>
-      
+
       <div class="p-4 mb-3 bg-light rounded">
 
-        
+
         <h4 class="font-italic">About</h4>
         <p class="mb-0">{{site.description}}</p>
         <a href="/about/">more info</a>
@@ -88,19 +93,19 @@ title: "Home"
       <div class="p-4">
         <h4 class="display-5 text-center text-wrap">Explore these Links</h4>
         <ol class="list-unstyled mb-0">
-          
+
           <li><a class="list-group-item border-primary shadow" target="_blank" href="https://www.fastcompany.com/90486053/all-the-things-covid-19-will-change-forever-according-to-30-top-experts?/">All the things covid-19 will change forever according to 30 top experts?</a></li>
-          
+
           <li><a class="list-group-item" target="_blank" href="https://getpocket.com/explore/item/the-complete-guide-to-memory">A guide to how memory works</a></li>
-          
+
           <li><a class="list-group-item" target="_blank" href="https://www.theverge.com/2020/4/20/21225061/phone-tablet-android-ios-phone-tablet-pc-webcam-windows-mac-os-how-to-use">How to predict use your phone or tablet as a webcam</a></li>
-          
+
           <li><a class="list-group-item" target="_blank" href="https://www.yankodesign.com/2020/04/20/unconventional-product-designs-that-help-you-keep-calm-and-carry-on-during-quarantine/">Unconventional product designs that help you keep calm</a></li>
-          
+
           <li>
             <a class="list-group-item" target="_blank" href="https://weandthecolor.com/uplifting-modern-art-prints-by-christopher-dina/115744/115744">Uplifting Art Prints</a>
           </li>
-        
+
         </ol>
         <br>
         <ul>
@@ -108,7 +113,7 @@ title: "Home"
         </ul>
       </div>
       <div class="wrapper">
-        
+
       </div>
     </aside>
     <div class="card">
