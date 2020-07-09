@@ -10,8 +10,15 @@ img: "/assets/img/background_01.svg"
 
 <ul>
 
-<li>1
-   <p><a href="https://www.odio.io" target="_blank">Odio</a>: a really nice looking application that streams radio stations from around the world. If you've ever tried the mobile app Tunein then this is like the desktop version of that but in my view a whole lot better.</p>
+<li>
+1
+<a href="https://www.odio.io" target="_blank">
+<h3>Odio</h3>
+</a>
+
+<p>
+A really nice looking application that streams radio stations from around the world. If you've ever tried the mobile app Tunein then this is like the desktop version of that but in my view a whole lot better.
+</p>
 </li>
 
 <li>2
