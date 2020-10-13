@@ -34,7 +34,7 @@ $grey-color-dark:  darken($grey-color, 25%);
   -moz-transition-duration   : 0.2s;
   -webkit-transition-duration: 0.2s;
   -o-transition-duration     : 0.2s;
-  
+
   font-family: 'Muli','Montserrat', sans-serif;
   text-rendering             : optimizeLegibility;
   -webkit-font-smoothing     : antialiased;
@@ -101,7 +101,7 @@ nav{
 }
 /****************************backgrounds*********************************/
 
-.blue-background{
+#blue-background{
   text-align: center;
   color: #ffffff;
   background-color: #3f62ee;
@@ -116,9 +116,14 @@ background-color: #49bcf6;
   background-color: #000000;
   border-radius: 0em;
 }
+#grey-white-background{
+  color: #000;
+  background-color: #828282;
 
-#green{
+}
+#green-background{
   background-color: #74e6ba;
+  color: blue;
 }
 
 .red{
@@ -126,8 +131,9 @@ background-color: #49bcf6;
   color: #ffffff;
 }
 
-#purple{
-  color: #5F4B8B;
+#purple-background{
+  background-color:#5F4B8B;
+
 }
 
 /************************************************************************************************************************/
