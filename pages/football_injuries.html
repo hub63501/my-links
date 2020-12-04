@@ -1,0 +1,52 @@
+---
+title: football injuries
+layout: page
+permalink: /football-injury-list/
+description: Football injury list of the top leagues in europe
+---
+
+<button type="button" name="button" onclick="showElement()">hey</button>
+
+<div class="table-overflow">
+<table class="table table-hover table-dark">
+<thead>
+<tr>
+<th scope="col">#</th>
+<th scope="col">First</th>
+<th scope="col">Last</th>
+<th scope="col">Handle</th>
+</tr>
+</thead>
+    <tbody>
+      <tr>
+        <th scope="row">1</th>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr id="SHID">
+        <th scope="row">2</th>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <th scope="row">3</th>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<script type="text/javascript">
+  function showElement() {
+  var x = document.getElementById("SHID");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>

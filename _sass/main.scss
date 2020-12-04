@@ -99,6 +99,25 @@ nav{
 .margin-0{
   margin: 0em;
 }
+
+.wide-hover:hover{
+  background-color: #3ECF8E;
+  color: #fff;
+  margin-right: -1.9em;
+  transition-duration: 1s;
+}
+.wide-hover a:hover{
+  text-decoration: none;
+}
+
+.explore-links-title{
+  font-size: 1.5em;
+}
+@media screen and (max-width: 50em){
+  .explore-links-title{font-size: 1em;}.wide-hover:hover{margin-right: 0em;}
+}
+
+
 /****************************backgrounds*********************************/
 
 #blue-background{
