@@ -1,18 +1,23 @@
 ---
 layout: default
 ---
-<article class="baskerville pb5">
-  <header class="avenir tc-l ph3 ph4-ns pt4 pt5-ns">
-    <h1 class="f3 f2-m f-subheadline-l measure lh-title fw1 mt0">{{page.title}}</h1>
-    <time class="f5 f4-l db fw1 baskerville mb4"> {{page.date}} </time>
-    <p class="f4 mb4 center measure lh-copy"> {{page.description}} </p>
-    <img class="w-100 dib measure f3" src="{{page.img}}" alt="A photo of {{page.title}}"/>
-  </header>
-  <div class="ph3 ph4-m ph5-l">
-    <div class="measure db center f5 f4-ns lh-copy">
-      <p class="f4 mb4 center measure lh-copy">
-      {{ content }}
-      </p>
+
+<article>
+  <header class="bg-gold sans-serif">
+    <div class="mw9 center pa4 pt5-ns ph7-l">
+      <time class="bg-black-90 f6 white mb2 dib ttu tracked"><small>{{page.lastUpdated}}</small></time>
+      <h3 class="f2 f1-m f-headline-l measure-narrow lh-title mv0">
+        <span class="lh-copy pa1 tracked-tight">
+          {{page.title}}
+        </span>
+      </h3>
+      <h4 class="f3 fw1 georgia i">{{page.description}}</h4>
+      <h5 class="f6 ttu tracked black-80"></h5>
     </div>
+  </header>
+  <div class="pa4 ph7-l georgia mw9-l center">
+    <p class="f5 f3-ns lh-copy measure georgia">
+      {{content}}
+    </p>
   </div>
 </article>

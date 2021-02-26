@@ -2,18 +2,24 @@
 layout: default
 ---
 
-<br>
-<div class="container">
-<div class="jumbotron p-4 p-md-5 text-white rounded bg-dark">
-<h1 class="featurette-heading">{{page.title}}</h1>
-<p class="">{{page.description}}</p>
-</div>
-<div class="row">
-<div class="col-md-8">
-<p class="lead">{{content}}</p>
-</div>
-<div class="col-md-4">
-<img class="featurette-image img-responsive right" src="{{page.img}}" alt="image">
-</div>
-</div>
-</div><!-- /.container -->
+<article class="athelas">
+    <div class="vh-100 dt w-100 tc bg-dark-gray white cover" style="background:url({{page.img}}) no-repeat center;">
+      <div class="dtc v-mid">
+        <header class="white-70">
+          <h2 class="f6 fw1 ttu tracked mb2 lh-title"></h2>
+          <h3 class="f6 fw1 lh-title">{{page.lastUpdated}}</h3>
+        </header>
+        <h1 class="f1 f-headline-l fw1 white-60">{{page.title}}</h1>
+        <blockquote class="ph0 mh0 measure f4 lh-copy center">
+          <p class="fw1 white-70">
+           {{page.description}}
+          </p>
+          <cite class="f6 ttu tracked fs-normal"></cite>
+        </blockquote>
+      </div>
+    </div>
+    <div class="center measure-wide f5 pv5 lh-copy ph2">
+      <h1 class="f1 lh-title">{{page.title}}</h1>
+      {{content}}
+    </div>
+  </article>

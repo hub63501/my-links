@@ -1,19 +1,25 @@
 ---
 layout: default
 ---
-<br>
-<div class="container-fluid">
-<div class="row">
-<div class="col align-self-center">
-<div class="jumbotron" id="black-background">
-<h1 class="title">{{page.title}}</h1>
-<h4>{{page.description}}</h4>
-</div>
-<div class="shadow mb-3">
-<div class="padding-1">
-{{content}}
-</div>
-</div>
-</div>
-</div>
-</div>
+
+
+<article class="cf ph3 ph5-ns pv5">
+  <header class="fn fl-ns w-50-ns pr4-ns">
+    <h1 class="f2 lh-title fw9 mb3 mt0 pt3 bt bw2">
+      {{page.title}}
+    </h1>
+    <h2 class="f3 mid-gray lh-title">
+      {{page.description}}
+    </h2>
+    <time class="f6 ttu tracked gray">{{page.update}}</time>
+    <img class="w-100 dib measure f3" src="{{ page.img }}" alt="image"/>
+  </header>
+  <div class="fn fl-ns w-50-ns">
+    <p class="f5 lh-copy measure mt0-ns">
+      {{content}}
+    </p>
+    <p class="f5 lh-copy measure">
+
+    </p>
+  </div>
+</article>

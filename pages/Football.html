@@ -2,125 +2,22 @@
 title: Football
 layout: page
 permalink: /football/
+img: /assets/img/score.svg
 ---
 
 
-<div class="container-fluid">
-<div class="row">
-<div class="col-md-7">
+<article class="cf">
+  <div class="fl w-100 w-50-ns bg-near-white tc table-overflow">
+    <h1 class="container f3 mid-gray lh-title">Football News</h1>
+    <table>
+      {% include footballNewsLink.html %}
+    </table>
+  </div>
+  <div class="fl w-100 w-50-ns tc">
+    <h1 class="container f3 mid-gray lh-title">Twitter</h1>
+    <a class="twitter-timeline b db pa2 link dim mid-gray" data-height="700" data-theme="dark" href="https://twitter.com/George_Harps/lists/football?ref_src=twsrc%5Etfw">A Twitter List by George_Harps</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+  </div>
+</article>
 
-<div class="table-overflow">
-<table class="table table-borderless">
-<th class="table-dark"><h1>News</h1></th>
-
-<tr>
-<td>
-<strong class="d-inline-block mb-2 text-primary">{% include footballNewsLink.html %}</strong>
-</td>
-</tr>
-
-<tr>
-<td>
-
-</td>
-</tr>
-</table>
-
-
-</div>
-
-</div>
-
-
-
-<div class="col-md-5">
-<div class="text-right card-body red">
-<h2 class="lead">Tweets</h2>
-</div>
-
-<div class="card">
-<a class="twitter-timeline" data-height="700" data-theme="dark" href="https://twitter.com/George_Harps/lists/football?ref_src=twsrc%5Etfw">A Twitter List by George_Harps</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-</div>
-
-
-
-
-
-
-<div class="text-right card-body red">
-<h2 class="lead">Stats</h2>
-</div>
-<div class="table-overflow">
-
-<table class="table">
-<thead class="thead-light text-center">
-
-<tr>
-<th  colspan="1" scope="col"></th>
-<th  colspan="1" scope="col"></th>
-</tr>
-</thead>
-<tr class="text-center">
-<td><h3>Best Performing Player</h3></td>
-<td><h3>Trending Players</h3></td>
-</tr>
-<tr class="text-center">
-
-</tr>
-<tr class="text-center">
-<td><ul>
-  <li><h5>Heung-Min Son</h5></li>
-  <li><h5>Harry Kane</h5></li>
-  <li><h5>Mo Salah</h5></li>
-  <li><h5>Kevin De Bruyne</h5></li>
-</ul></td>
-<td>
-  <ul>
-    <li>Carlos Vinícius</li>
-    <li>Luis Suárez</li>
-    <li>Rhys Williams</li>
-    <li>Sergiño Dest</li>
-    <li>Rhian Brewster</li>
-    <li><a href="https://www.premierleague.com/players/9576/Dominic-Calvert-Lewin/stats" target="_blank">Dominic-Calvert-Lewin</a></li>
-  </ul>
-</td>
-</tr>
-</table>
-
-<table class="table">
-<thead class="thead-light text-center">
-<tr>
-<th  colspan="2" scope="col">Posession Stats</th>
-</tr>
-</thead>
-<tr class="text-center">
-<td id="teamOnePosession">-</td>
-</tr>
-<tr class="text-center">
-<td id="teamTwoPosession"class="blue-background">-</td>
-</tr>
-</table>
-
-<table class="table table-dark">
-<thead class="thead-light text-center">
-<tr>
-<th  colspan="2" scope="col">Shots on target</th>
-</tr>
-</thead>
-<tr class="text-center">
-<td id="teamTwoShotsOnTarget">-</td>
-</tr>
-<tr>
-<td id="teamOneShotsOnTarget" class="blue-background">-</td>
-</tr>
-</table>
-</div>
-
-
-
-</div>
-</div>
-
-<div>
-  <div class "row"><div>  <a class="p-2 text" href="/football-injury-list/">Football Injury List</a></div></div>
-</div>
+<br>
+<a href="/football-injury-list/">football injuries</a>

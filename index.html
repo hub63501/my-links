@@ -1,170 +1,107 @@
 ---
 layout: default
-title: "Home"
 ---
 
-<div class="jumbotron text-black" id="black-background">
+<div class="white-link black-background container">
 
-  <div class="col-md-8 px-0">
+   
+<h1 class="title f2 f1-m f-headline-l measure-narrow lh-title mv0">Five-Link</h1>
 
-    <h1 class="display-4 font-bold title">Five-Link</h1>
+<p class="lead my-3">{{ site.description }}</p>
 
-    <p class="lead my-3">{{ site.description }}</p>
+<p class="lead mb-0">
+<a href="/about/" class="font-weight-bold">Continue reading...</a>
+</p>
 
-    <p class="lead mb-0">
-      <a href="/about/" class="text-black font-weight-bold">Continue reading...</a>
-    </p>
-
-    <hr>
-
-
-
-
-  </div>
-</div>
-
-<div class="jumbotron text-black" id="blue-background">
-<div class="col-md-8 px-0">
-  {% include explore_links.html %}
-</div>
+  
 </div>
 
 
-<main role="main" class="container">
+{% include explore_links.html %}
 
 
-<div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light">
 {% include /podcasts/top-podcasts-01.html %}
-<div class="product-device shadow-sm d-none d-md-block"></div>
-<div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
-</div>
-
-
-
-
-
-
-
-<div class="container">
-<div class="row mb-2">
-
-  <div class="col-md-6">
-    <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
-      <div class="col p-4 d-flex flex-column position-static">
-        <strong class="d-inline-block mb-2 text-primary">Tech</strong>
-        <h3 class="mb-0">Tech News</h3>
-        <div class="mb-1 text-muted">Dec 8 2020</div>
-        {% include techNews.html %}
-      </div>
-    </div>
-  </div>
-
-    <div class="col-md-6">
-      <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
-        <div class="col p-4 d-flex flex-column position-static">
-          <strong class="d-inline-block mb-2 text-success">Design</strong>
-          <h3 class="mb-0">Design and Photography</h3>
-          <div class="mb-1 text-muted">Nov 11</div>
-          {% include design_and_photography.html %}
-        </div>
-      </div>
-    </div>
-  </div>
-
-
-
-
 
 
 
 <main role="main" class="container">
-  <div class="row">
-    <div class="col-md-8 blog-main">
 
-      <h3 class="pb-4 mb-4 font-bold border-bottom" style="text-align: center;">Posts</h3>
+<article class="cf">
+<div class="fl w-50 bg-light-gray container">
+{% include techNews.html %}
+</div>
 
-      {% for post in site.posts %}
-
-      <div class="container">
-        <div class="row ">
-
-          <div class="col-sm-9">
-
-            <img src="{{post.img}}" alt="img"/>
-
-            <br>
-
-            <br>
-
-            <h2 class=""><strong>{{post.title}}</strong></h2>
-
-            <div class="row">
-
-              <div class="col-8 col-sm-6"style="padding: 1em; border-bottom: solid 0.01em #c5c5c5;">
-
-                <span class="d-block lead">{{post.description}}</span>
-
-                <br>
-
-                <a class="btn btn-light" href="{{ post.url | prepend: site.baseurl }}">Read</a>
-
-              </div>
-
-              <div class="col-4 col-sm-6" style="padding: 1em; border-top:solid 0.01em #c5c5c5; border-left:solid 0.01em #c5c5c5;">
-
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <hr>
-
-      {% endfor %}
+<div class="fl w-50 container">
+{% include design_and_photography.html %}
+</div>
+</article>
+<br>
 
 
 
-    </div>
-    <hr>
 
-    <!-- /.blog-main -->
+<h1 class="title f2 f1-m f-headline-l measure-narrow lh-title mv0">Posts</h1>
+{% for post in site.posts %}
+<article class="cf ph3 ph5-ns pv5">
+<header class="fn fl-ns w-50-ns pr4-ns">
+<h1 class="f2 lh-title fw9 mb3 mt0 pt3 bt bw2">{{post.title}}</h1>
+<h2 class="f3 mid-gray lh-title">
+{{post.description}}
+</h2>
+<time class="f6 ttu tracked gray"><a class="" href="{{ post.url | prepend: site.baseurl }}">Read</a></time>
+</header>
+<div class="fn fl-ns w-50-ns">
+<p class="f5 lh-copy measure mt0-ns">
+</p>
+<p class="f5 lh-copy measure">
+<img src="{{post.img}}" alt="img"/>
+</p>
+</div>
+</article>
+<hr>
+{% endfor %}
+
+</div>
+
+<hr>
+
+<!-- /.blog-main -->
+<aside class="container">
+<br>
+<div class="">
 
 
-    <aside class="col-md-4 blog-sidebar">
-      <br>
+<h4 class="font-italic">About</h4>
+<p class="mb-0">{{site.description}}</p>
+<a href="/about/">more info</a>
+</div>
+<hr>
+<div class="">
+<br>
+<ul>
+<li><a class="" href="/archieved/">Archieved</a></li>
+</ul>
+</div>
 
-      <div class="p-4 mb-3 bg-light rounded">
+<div class="wrapper">
+
+</div>
+</aside>
 
 
-        <h4 class="font-italic">About</h4>
-        <p class="mb-0">{{site.description}}</p>
-        <a href="/about/">more info</a>
-      </div>
-      <hr>
-      <div class="p-4">
-        <br>
-        <ul>
-          <li><a class="btn btn-outline-primary" href="/archieved/">Archieved</a></li>
-        </ul>
-      </div>
-      <div class="wrapper">
-
-      </div>
-    </aside>
-    <div class="card">
-      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js">
-      </script>
-      <script>
+<div class="card">
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
           (adsbygoogle = window.adsbygoogle || []).push({
                 google_ad_client: "ca-pub-8613892269045774",
                 enable_page_level_ads: true
                 });
-      </script>
-    </div>
-<!-- /.blog-sidebar -->
+</script>
+</div>
 
-</div><!-- /.row -->
 
-</main><!-- /.container -->
+</div>
+
+</main>
 
 </div>
