@@ -4,16 +4,16 @@ layout: default
 
 <div class="white-link black-background container">
 
-   
-<h1 class="title f2 f1-m f-headline-l measure-narrow lh-title mv0">Five-Link</h1>
 
-<p class="lead my-3">{{ site.description }}</p>
+      <h1 class="title f2 f1-m f-headline-l measure-narrow lh-title mv0">Five-Link</h1>
 
-<p class="lead mb-0">
-<a href="/about/" class="font-weight-bold">Continue reading...</a>
-</p>
+      <p class="lead my-3">{{ site.description }}</p>
 
-  
+      <p class="lead mb-0">
+            <a href="/about/" class="font-weight-bold">Continue reading...</a>
+      </p>
+
+
 </div>
 
 
@@ -26,81 +26,82 @@ layout: default
 
 <main role="main" class="container">
 
-<article class="cf">
-<div class="fl w-50 bg-light-gray container">
-{% include techNews.html %}
-</div>
+      <article class="cf">
+            <div class="fl w-50 bg-light-gray container">
+                  {% include techNews.html %}
+            </div>
 
-<div class="fl w-50 container">
-{% include design_and_photography.html %}
-</div>
-</article>
-<br>
-
-
+            <div class="fl w-50 container">
+                  {% include design_and_photography.html %}
+            </div>
+      </article>
+      <br>
 
 
-<h1 class="title f2 f1-m f-headline-l measure-narrow lh-title mv0">Posts</h1>
-{% for post in site.posts %}
-<article class="cf ph3 ph5-ns pv5">
-<header class="fn fl-ns w-50-ns pr4-ns">
-<h1 class="f2 lh-title fw9 mb3 mt0 pt3 bt bw2">{{post.title}}</h1>
-<h2 class="f3 mid-gray lh-title">
-{{post.description}}
-</h2>
-<time class="f6 ttu tracked gray"><a class="" href="{{ post.url | prepend: site.baseurl }}">Read</a></time>
-</header>
-<div class="fn fl-ns w-50-ns">
-<p class="f5 lh-copy measure mt0-ns">
-</p>
-<p class="f5 lh-copy measure">
-<img src="{{post.img}}" alt="img"/>
-</p>
-</div>
-</article>
-<hr>
-{% endfor %}
-
-</div>
-
-<hr>
-
-<!-- /.blog-main -->
-<aside class="container">
-<br>
-<div class="">
 
 
-<h4 class="font-italic">About</h4>
-<p class="mb-0">{{site.description}}</p>
-<a href="/about/">more info</a>
-</div>
-<hr>
-<div class="">
-<br>
-<ul>
-<li><a class="" href="/archieved/">Archieved</a></li>
-</ul>
-</div>
+      <h1 class="title f2 f1-m f-headline-l measure-narrow lh-title mv0">Posts</h1>
+      {% for post in site.posts %}
+      <article class="cf ph3 ph5-ns pv5">
+            <header class="fn fl-ns w-50-ns pr4-ns">
+                  <h1 class="f2 lh-title fw9 mb3 mt0 pt3 bt bw2">{{post.title}}</h1>
+                  <h2 class="f3 mid-gray lh-title">
+                        {{post.description}}
+                  </h2>
+                  <time class="f6 ttu tracked gray"><a class=""
+                              href="{{ post.url | prepend: site.baseurl }}">Read</a></time>
+            </header>
+            <div class="fn fl-ns w-50-ns">
+                  <p class="f5 lh-copy measure mt0-ns">
+                  </p>
+                  <p class="f5 lh-copy measure">
+                        <img src="{{post.img}}" alt="img" />
+                  </p>
+            </div>
+      </article>
+      <hr>
+      {% endfor %}
 
-<div class="wrapper">
+      </div>
 
-</div>
-</aside>
+      <hr>
 
-
-<div class="card">
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<script>
-          (adsbygoogle = window.adsbygoogle || []).push({
-                google_ad_client: "ca-pub-8613892269045774",
-                enable_page_level_ads: true
-                });
-</script>
-</div>
+      <!-- /.blog-main -->
+      <aside class="container">
+            <br>
+            <div class="">
 
 
-</div>
+                  <h4 class="font-italic">About</h4>
+                  <p class="mb-0">{{site.description}}</p>
+                  <a href="/about/">more info</a>
+            </div>
+            <hr>
+            <div class="">
+                  <br>
+                  <ul>
+                        <li><a class="" href="/archieved/">Archieved</a></li>
+                  </ul>
+            </div>
+
+            <div class="wrapper">
+
+            </div>
+      </aside>
+
+
+      <div class="card">
+            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+            <script>
+                  (adsbygoogle = window.adsbygoogle || []).push({
+                        google_ad_client: "ca-pub-8613892269045774",
+                        enable_page_level_ads: true
+                  });
+            </script>
+      </div>
+
+
+      </div>
 
 </main>
 

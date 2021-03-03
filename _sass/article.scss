@@ -126,7 +126,7 @@
     }
   }
   /********************************************************/
-  .bl {
+.bl {
     border-left-style: solid;
     border-left-width: 1px;
 }
@@ -145,17 +145,17 @@
 
 .sans-serif {
     font-family: -apple-system,
-                 BlinkMacSystemFont,
-                 'avenir next',
-                 avenir,
-                 'helvetica neue',
-                 helvetica,
-                 ubuntu,
-                 roboto,
-                 noto,
-                 'segoe ui',
-                 arial,
-                 sans-serif;
+        BlinkMacSystemFont,
+        'avenir next',
+        avenir,
+        'helvetica neue',
+        helvetica,
+        ubuntu,
+        roboto,
+        noto,
+        'segoe ui',
+        arial,
+        sans-serif;
 }
 
 .georgia {
@@ -227,7 +227,7 @@
 }
 
 .mv0 {
-    margin-top: 0;
+    margin-top   : 0;
     margin-bottom: 0;
 }
 
@@ -261,7 +261,7 @@
 
 .center {
     margin-right: auto;
-    margin-left: auto;
+    margin-left : auto;
 }
 
 @media screen and (min-width: 30em) {
@@ -294,7 +294,7 @@
     }
 
     .ph7-l {
-        padding-left: 16rem;
+        padding-left : 16rem;
         padding-right: 16rem;
     }
 
@@ -303,7 +303,7 @@
     }
 }
 
-  
+
 
 
 /***/
@@ -375,17 +375,17 @@
 }
 
 .pv5 {
-    padding-top: 4rem;
+    padding-top   : 4rem;
     padding-bottom: 4rem;
 }
 
 .ph0 {
-    padding-left: 0;
+    padding-left : 0;
     padding-right: 0;
 }
 
 .ph2 {
-    padding-left: .5rem;
+    padding-left : .5rem;
     padding-right: .5rem;
 }
 
@@ -394,7 +394,7 @@
 }
 
 .mh0 {
-    margin-left: 0;
+    margin-left : 0;
     margin-right: 0;
 }
 
@@ -432,7 +432,7 @@
 
 .center {
     margin-right: auto;
-    margin-left: auto;
+    margin-left : auto;
 }
 
 .v-mid {
@@ -444,4 +444,5 @@
         font-size: 6rem;
     }
 }
+
 /**/

@@ -7,7 +7,8 @@
     border-width: .25rem;
 }
 
-.cf:before, .cf:after {
+.cf:before,
+.cf:after {
     content: " ";
     display: table;
 }
@@ -53,12 +54,12 @@
 }
 
 .pv5 {
-    padding-top: 4rem;
+    padding-top   : 4rem;
     padding-bottom: 4rem;
 }
 
 .ph3 {
-    padding-left: 1rem;
+    padding-left : 1rem;
     padding-right: 1rem;
 }
 
@@ -96,7 +97,7 @@
 
 @media screen and (min-width: 30em) {
     .fl-ns {
-        float: left;
+        float   : left;
         _display: inline;
     }
 
@@ -109,7 +110,7 @@
     }
 
     .ph5-ns {
-        padding-left: 4rem;
+        padding-left : 4rem;
         padding-right: 4rem;
     }
 
@@ -123,4 +124,3 @@
 
 
 /*list style*/
-
