@@ -47,6 +47,17 @@
   color: #ff0379;
 }
 
+.grey-link a {
+  color          : #fafafa;
+  text-decoration: none;
+}
+
+.grey-link a:hover {
+  color: #001aff;
+}
+
+
+
 .rounded-corners {
   border-radius: 0.8em;
 }
