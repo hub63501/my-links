@@ -4,6 +4,7 @@ title: Five things to read and explore.
 date:   2018-07-30 12:05:21 +0100
 categories: Top 5 things to read 
 description: "Five links to explore."
+img: /assets/img/drawing_01.svg
 ---
 
 <ul>

@@ -4,6 +4,7 @@ title:  "Five-link in Photography"
 date:   2018-01-09 14:50:21 +0100
 categories: Images and Photography
 description: "Have a look at these five links in Photography."
+img: /assets/img/drawing_01.svg
 ---
 
 

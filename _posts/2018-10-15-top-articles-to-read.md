@@ -4,6 +4,7 @@ title: Five Interesting Reads.
 date:   2018-10-15 10:05:21 +0100
 categories: top 5 reads
 description: "Five articles to read"
+img: /assets/img/drawing_01.svg
 ---
 
 

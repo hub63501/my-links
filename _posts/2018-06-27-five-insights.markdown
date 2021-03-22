@@ -4,6 +4,7 @@ title:  Five Insights
 date:   2018-06-27 16:00:21 +0100
 categories: 21st century world
 description: Five Insights in the world around us.
+img: /assets/img/drawing_01.svg
 ---
 <ul>
     <li>

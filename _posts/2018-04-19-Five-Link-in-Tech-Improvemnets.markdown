@@ -4,6 +4,7 @@ title:  "Five-link in Tech Improvemnets"
 date:   2018-04-19 11:00:21 +0100
 categories: Technology
 description: "Read these five articles in technology and how we can improve technology in our lives."
+img: /assets/img/drawing_01.svg
 ---
 
 

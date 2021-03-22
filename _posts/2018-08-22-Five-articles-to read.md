@@ -4,6 +4,7 @@ title: Article Links
 date:   2018-08-22 12:05:21 +0100
 categories: Articles 
 description: "Five articles to read"
+img: /assets/img/drawing_01.svg
 ---
 
 <ul>
