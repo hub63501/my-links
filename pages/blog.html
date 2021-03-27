@@ -1,0 +1,33 @@
+---
+layout: post
+title: Blog
+description: Blog posts from Five-Link
+permalink: /blog_posts/
+img: /assets/img/the_walk.jpg
+---
+
+{% for post in site.posts %}
+<article class="cf ph3 ph5-ns pv5">
+    <header class="fn fl-ns w-50-ns pr4-ns">
+        <h1 class="f2 lh-title fw9 mb3 mt0 pt3 bt bw2">{{post.title}}</h1>
+        <h2 class="f3 mid-gray lh-title">
+            {{post.description}}
+        </h2>
+        <time class="f6 ttu tracked gray"><a class="" href="{{ post.url | prepend: site.baseurl }}">Read</a></time>
+    </header>
+    <div class="fn fl-ns w-50-ns">
+        <p class="f5 lh-copy measure mt0-ns">
+        </p>
+        <p class="f5 lh-copy measure">
+            <img src="{{post.img}}" alt="img" />
+        </p>
+    </div>
+</article>
+<hr>
+{% endfor %}
+
+</div>
+
+<hr>
+
+<!-- /.blog-main -->
