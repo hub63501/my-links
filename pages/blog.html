@@ -6,28 +6,24 @@ permalink: /blog_posts/
 img: /assets/img/the_walk.jpg
 ---
 
-{% for post in site.posts %}
-<article class="cf ph3 ph5-ns pv5">
-    <header class="fn fl-ns w-50-ns pr4-ns">
-        <h1 class="f2 lh-title fw9 mb3 mt0 pt3 bt bw2">{{post.title}}</h1>
-        <h2 class="f3 mid-gray lh-title">
-            {{post.description}}
-        </h2>
-        <time class="f6 ttu tracked gray"><a class="" href="{{ post.url | prepend: site.baseurl }}">Read</a></time>
-    </header>
-    <div class="fn fl-ns w-50-ns">
-        <p class="f5 lh-copy measure mt0-ns">
-        </p>
-        <p class="f5 lh-copy measure">
-            <img src="{{post.img}}" alt="img" />
-        </p>
+<div class="home container">
+    <h1 class="page-heading" style="color:#000000">Posts</h1>
+    <ul class="post-list" style="color:#000000">
+      {% for post in site.posts %}
+      <li class="">
+        <span class="post-meta" style="color:#000000">{{ post.date | date: "%b %-d, %Y" }}</span>
+        <a class="" style="color:#000000" href="{{ post.url | prepend: site.baseurl }}">
+          <h3>{{ post.title }}</h3>
+          <span class="post-meta f5 lh-copy measure">{{post.description}}</span>
+        </a>
+      </li>
+      {% endfor %}
+    </ul>
+    <div class="display-class-1-inner">
+      <p class="rss-subscribe">subscribe <a href="{{ " /feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
     </div>
-</article>
-<hr>
-{% endfor %}
+  </div>
 
-</div>
 
-<hr>
 
 <!-- /.blog-main -->

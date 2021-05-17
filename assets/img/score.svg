@@ -8,30 +8,33 @@
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    sodipodi:docname="score.svg"
-   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
+   inkscape:version="1.0.2 (e86c870879, 2021-01-15)"
    id="svg8"
    version="1.1"
    viewBox="0 0 210 297"
    height="297mm"
-   width="210mm">
+   width="210mm"
+   inkscape:export-filename="/home/geo/Documents/Beta/my-links/assets/img/score.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96">
   <defs
      id="defs2">
     <rect
        id="rect36"
-       height="17.386905"
-       width="18.142857"
+       height="13.294116"
+       width="55.627556"
        y="127.75595"
        x="35.529762" />
   </defs>
   <sodipodi:namedview
      inkscape:window-maximized="1"
-     inkscape:window-y="27"
+     inkscape:window-y="0"
      inkscape:window-x="0"
-     inkscape:window-height="836"
-     inkscape:window-width="1600"
+     inkscape:window-height="1000"
+     inkscape:window-width="1920"
      showgrid="false"
      inkscape:document-rotation="0"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="layer3"
      inkscape:document-units="mm"
      inkscape:cy="560"
      inkscape:cx="400"
@@ -55,9 +58,9 @@
     </rdf:RDF>
   </metadata>
   <g
-     id="layer1"
      inkscape:groupmode="layer"
-     inkscape:label="Layer 1">
+     id="layer2"
+     inkscape:label="Red layer">
     <rect
        y="49.892857"
        x="37.041668"
@@ -65,6 +68,11 @@
        width="141.3631"
        id="rect10"
        style="fill:#ff0000;stroke-width:0.264583" />
+  </g>
+  <g
+     id="layer1"
+     inkscape:groupmode="layer"
+     inkscape:label="Layer 1">
     <ellipse
        ry="74.083336"
        rx="72.571426"
@@ -72,13 +80,25 @@
        cx="80.886902"
        id="path12"
        style="fill:#ffff00;stroke-width:0.264583" />
+    <ellipse
+       ry="74.083336"
+       rx="72.571426"
+       cy="145.55923"
+       cx="88.207253"
+       id="path12-7"
+       style="fill:#000080;stroke-width:0.264583" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="Text layer">
     <text
-       transform="matrix(12.024943,0,0,15.40326,-382.60472,-1894.0824)"
-       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect36);fill:#000000;fill-opacity:1;stroke:none;"
+       transform="matrix(10.31842,0,0,10.61524,-344.10631,-1245.2859)"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.73264px;line-height:1.25;font-family:'Droid Sans Hebrew';-inkscape-font-specification:'Droid Sans Hebrew';white-space:pre;shape-inside:url(#rect36);fill:#ffffff;fill-opacity:1;stroke:none;"
        id="text34"
        xml:space="preserve"><tspan
          x="35.529297"
-         y="137.13318"><tspan
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Droid Sans';-inkscape-font-specification:'Droid Sans'">2</tspan></tspan></text>
+         y="131.31423"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.73264px;font-family:'Droid Sans Hebrew';-inkscape-font-specification:'Droid Sans Hebrew';fill:#ffffff">Football</tspan></tspan></text>
   </g>
 </svg>

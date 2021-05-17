@@ -1,40 +1,32 @@
-
-$base-font-family: 'Source Sans Pro',Helvetica, sans-serif;
-$base-font-size:   16px;
+$base-font-family: "Source Sans Pro", Helvetica, sans-serif;
+$base-font-size: 16px;
 $base-font-weight: 400;
-$small-font-size:  $base-font-size * 0.875;
+$small-font-size: $base-font-size * 0.875;
 $base-line-height: 1.5;
 
+$bodyFont: -apple-system, BlinkMacSystemFont, "Segoe UI", "Montserrat", Helvetica, Arial, sans-serif,
+  "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 
-$bodyFont: -apple-system,BlinkMacSystemFont,"Segoe UI",'Montserrat',Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
-
-
-
-$text-color:       #000;
+$text-color: #000;
 $background-color: #ffffff;
-$bodyColor:        #000000;
-$brand-color:      #F50057;
+$bodyColor: #000000;
+$brand-color: #f50057;
 
-
-$grey-color:       #828282;
+$grey-color: #828282;
 $grey-color-light: lighten($grey-color, 40%);
-$grey-color-dark:  darken($grey-color, 25%);
+$grey-color-dark: darken($grey-color, 25%);
 
-
-
-
-*{
-  transition-duration        : 0.2s;
-  -moz-transition-duration   : 0.2s;
+* {
+  transition-duration: 0.2s;
+  -moz-transition-duration: 0.2s;
   -webkit-transition-duration: 0.2s;
-  -o-transition-duration     : 0.2s;
+  -o-transition-duration: 0.2s;
 
-  font-family: 'Muli','Montserrat', sans-serif;
-  text-rendering             : optimizeLegibility;
-  -webkit-font-smoothing     : antialiased;
-  -moz-osx-font-smoothing    : grayscale;
+  font-family: "Muli", "Montserrat", sans-serif;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
-
 
 body {
   background: $background-color;
@@ -43,21 +35,69 @@ body {
   margin: 0;
 }
 
-.container{          
+.container {
   margin: 2em 5em auto;
   max-width: 960;
-  padding: 0 1.0875rem 1.45rem;  
+  padding: 0 1.0875rem 1.45rem;
 }
-@media screen and (min-width: 3em){
-  .container{          
+@media screen and (min-width: 3em) {
+  .container {
     margin: 0em 0em auto;
     max-width: 960;
     padding: 1rem 1.0875rem 1.45rem;
   }
 }
-.paddingTwo{
+.paddingTwo {
   padding: 2.6em;
 }
-@media screen and (max-width: 30rem){
-  .paddingTwo{padding: 1.5em;}
+@media screen and (max-width: 30rem) {
+  .paddingTwo {
+    padding: 1.5em;
+  }
+}
+
+
+img {
+  border-radius: 0em;
+  /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
+  width: 100%;
+}
+
+.hover:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+img:hover {
+  box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0), 0 0px 0px 0 rgba(0, 0, 0, 0);
+}
+
+ul {
+  list-style-type: none;
+  text-decoration: none;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+nav {
+  border-radius: 0em;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  overflow: auto;
+  white-space: nowrap;
+  margin: 0em;
+}
+
+.padding-1 {
+  padding: 1em;
+}
+.padding-0 {
+  padding: 0em;
+}
+.margin-0 {
+  margin: 0em;
 }

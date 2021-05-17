@@ -1,81 +1,90 @@
 ---
 layout: default
+title: "Home"
 ---
 
-<div class="white-link black-background container">
-
-
-      <h1 class="title f2 f1-m f-headline-l measure-narrow lh-title mv0">Five-Link</h1>
-
-      <p class="lead my-3">{{ site.description }}</p>
-
-      <p class="lead mb-0">
-            <a href="/about/" class="font-weight-bold">Continue reading...</a>
-      </p>
-
-
+<div class="p-4 p-md-5 mb-4 text-white black-background">
+  <div class="col-md-8 px-0">
+    <h1 class="display-4 font-bold">Five-Link</h1>
+    <p class="lead my-3">{{ site.description }}</p>
+    <p class="lead mb-0"><a href="/about/" class="text-black font-weight-bold">Continue reading...</a></p>
+  </div>
 </div>
 
-
-{% include explore_links.html %}
-
-
-{% include /podcasts/top-podcasts-01.html %}
-
-<div class="container red-background grey-link"><h3 class="f3 mid-gray lh-title"><a href="https://graphics.reuters.com/world-coronavirus-tracker-and-maps/" target="_blank">Covid tracker and News by reuters.</a></h3></div>
-
 <main role="main" class="container">
+  <div class="row">
+    <div class="col-md-8 blog-main">
+      
+      {% include explore_links.html %}
+    
+      <hr>
+      <div class="rounded shadow">
+        {% include /podcasts/top-podcasts-01.html %}
+      </div>
+      <hr>
+      <div class="container rounded shadow">
+        {% include techNews.html %}
+      </div>
+      <hr>
+      <div class="container rounded shadow">
+      {% include design_and_photography.html %}
+      </div>
+    </div>
+    <hr>
 
-      <article class="cf">
-            <div class="fl w-50 bg-light-gray container">
-                  {% include techNews.html %}
-            </div>
 
-            <div class="fl w-50 container">
-                  {% include design_and_photography.html %}
-            </div>
-      </article>
+    <!-- /.blog-main -->
+
+    <aside class="col-md-4 blog-sidebar">
       <br>
+      <div class="p-4 mb-3 bg-light rounded">
 
-
-
-
-      <aside class="container">
-            <br>
-            <div class="">
-
-
-                  <h4 class="font-italic">About</h4>
-                  <p class="mb-0">{{site.description}}</p>
-                  <a href="/about/">more info</a>
-            </div>
-            <hr>
-            <div class="">
-                  <br>
-                  <ul>
-                        <li><a class="" href="/archieved/">Archieved</a></li>
-                  </ul>
-            </div>
-
-            <div class="wrapper">
-
-            </div>
-      </aside>
-
-
-      <div class="card">
-            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-            <script>
-                  (adsbygoogle = window.adsbygoogle || []).push({
-                        google_ad_client: "ca-pub-8613892269045774",
-                        enable_page_level_ads: true
-                  });
-            </script>
+        <h4 class="font-italic">About</h4>
+        <p class="mb-0">{{site.description}}</p>
+        <a href="/about/">more info</a>
       </div>
-
-
+      <hr>
+      <div class="p-4">
+        <h4 class="display-5 text-center text-wrap">More Links</h4>
+        <ol class="list-unstyled mb-0">
+          <hr>
+          <li><a class="list-group-item border-primary shadow" target="_blank"
+              href="https://www.fastcompany.com/90486053/all-the-things-covid-19-will-change-forever-according-to-30-top-experts?/">All
+              the things covid-19 will change forever according to 30 top experts?</a></li>
+          <hr>
+          <li><a class="list-group-item" target="_blank"
+              href="https://getpocket.com/explore/item/the-complete-guide-to-memory">A guide to how memory works</a>
+          </li>
+          <hr>
+          <li><a class="list-group-item" target="_blank"
+              href="https://www.theverge.com/2020/4/20/21225061/phone-tablet-android-ios-phone-tablet-pc-webcam-windows-mac-os-how-to-use">How
+              to predict use your phone or tablet as a webcam</a></li>
+          <hr>
+          <li><a class="list-group-item" target="_blank"
+              href="https://www.yankodesign.com/2020/04/20/unconventional-product-designs-that-help-you-keep-calm-and-carry-on-during-quarantine/">Unconventional
+              product designs that help you keep calm</a></li>
+          <hr>
+          <li><a class="list-group-item" target="_blank"
+              href="https://weandthecolor.com/uplifting-modern-art-prints-by-christopher-dina/115744/115744">Uplifting
+              Art Prints</a></li>
+          <hr>
+        </ol>
       </div>
+     
+    </aside>
+    <div class="card">
+      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+      <script>
+        (adsbygoogle = window.adsbygoogle || []).push({
+          google_ad_client: "ca-pub-8613892269045774",
+          enable_page_level_ads: true
+        });
+      </script>
+    </div>
+    <!-- /.blog-sidebar -->
 
-</main>
+  </div><!-- /.row -->
+
+</main><!-- /.container -->
 
 </div>
