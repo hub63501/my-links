@@ -1,18 +1,13 @@
 ---
 title: Football
-layout: page
+layout: article
 permalink: /football/
 img: /assets/img/score.svg
 ---
 
 
 <article class="cf">
-  <div class="fl w-100 w-50-ns bg-near-white tc table-overflow">
-    <h1 class="container f3 mid-gray lh-title">Football News</h1>
-    <table>
-      {% include /football/footballNewsLink.html %}
-    </table>
-  </div>
+  
   <div class="fl w-100 w-50-ns tc">
     <h1 class="container f3 mid-gray lh-title">Twitter</h1>
     <a class="twitter-timeline b db pa2 link dim mid-gray" data-height="700" data-theme="dark"
@@ -22,7 +17,12 @@ img: /assets/img/score.svg
 </article>
 
 <br>
-<a href="/football-injury-list/">football injuries</a>
+<div class="container table-overflow">
+  <h1 class="f3 mid-gray lh-title">Football News</h1>
+  <table>
+    {% include /football/footballNewsLink.html %}
+  </table>
+</div>
 
 
 
