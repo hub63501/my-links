@@ -4,58 +4,78 @@ title: "Home"
 ---
 
 <div class="p-4 p-md-5 mb-4 text-white blue-background white-link">
-  <div class="col-md-8 px-0">
-    <h1 class="display-4 font-bold">Five-Link</h1>
-    <p class="lead my-3">{{ site.description }}</p>
-    <p class="lead mb-0"><a href="/about/" class="text-black font-weight-bold">Continue reading...</a></p>
+  <div class="">
+ 
+  <div class="row">
+    <div class="col-md-6 px-0">
+      <h1 class="display-4 font-bold">Today on Five-Link</h1>
+     <hr>
+     <p class="mb-0">{{site.description}}</p>
+     <a class="white-link" href="/about/">more info</a>
+    </div>
+    <hr>
+
+    <aside class="col-md-6">
+      {% include explore_links.html %}
+    </aside>
+   
   </div>
+</div>
 </div>
 
 <main role="main" class="container">
   <div class="row">
-    <div class="col-md-8 blog-main">
-      
-      {% include explore_links.html %}
-    
-      <hr>
-      <div class="rounded container shadow">
-        {% include five-quick-thoughts.html %}
-      </div>
-      <hr>
-      <div class="rounded shadow">
-       
-      </div>
-      <hr>
-      <div class="container rounded shadow">
-        {% include techNews.html %}
-      </div>
-      <hr>
-      <div class="container rounded shadow">
-      {% include design_and_photography.html %}
-      </div>
+    <div class="rounded light-blue white-link shadow container">
+      {%include five-quick-thoughts.html%}
+    </div>
+  </div><!-- /.row -->
+
+  <br>
+  
+  <div class="row">
+    <div class="col-md-8 px-0">
+  <div class="rounded white-background shadow container">
+    <h3 class="display-4">Football Data</h3>
+    {% include /football/premier-league-table.html %}  
+  </div>
+  <div class="rounded white-background shadow container">
+    <h3 class="display-4">Notable Results</h3>
+    {% include /football/footballResults.html %} 
+  </div>
+  </div>
+  <aside class="col-md-4 blog-sidebar">
+    <br>
+    <div class="p-4 mb-3 bg-light rounded">
+
+      <h4 class="font-italic">About</h4>
+      <p class="mb-0">{{site.description}}</p>
+      <a href="/about/">more info</a>
     </div>
     <hr>
-
-
-    <!-- /.blog-main -->
-
-    <aside class="col-md-4 blog-sidebar">
-      <br>
-      <div class="p-4 mb-3 bg-light rounded">
-
-        <h4 class="font-italic">About</h4>
-        <p class="mb-0">{{site.description}}</p>
-        <a href="/about/">more info</a>
-      </div>
-      <hr>
-      {% include /podcasts/top-podcasts-01.html %}
-      
-     
-    </aside>
+    <a class="twitter-timeline b db pa2 link dim mid-gray" data-height="700" data-theme="dark"
+      href="https://twitter.com/George_Harps/lists/football?ref_src=twsrc%5Etfw">A Twitter List by George_Harps</a>
+    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    
    
-    <!-- /.blog-sidebar -->
-
+  </aside>
+ 
+  <!-- /.blog-sidebar -->   
   </div><!-- /.row -->
+  <br>
+  <div class="row">
+    <div class="rounded light-blue white shadow container">
+      {%include hack-of-the-day.html%}
+    </div>
+  </div><!-- /.row -->
+
+  <br>
+  <div class="row">
+    <div class="rounded light-blue white shadow container">
+      {%include /podcasts/top-podcasts-01.html%}
+    </div>
+  </div><!-- /.row -->
+
+
 
 </main><!-- /.container -->
 <div class="card">
