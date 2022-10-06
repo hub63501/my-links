@@ -1,8 +1,8 @@
 ---
-layout: Display
+layout: post
 title: Five-Link top five things to read and explore.
 date:   2018-07-17 12:05:21 +0100
-categories: Top 5 things to read 
+categories: Top 5 things to read
 description: "Five links to explore."
 img: /assets/img/drawing_01.svg
 ---

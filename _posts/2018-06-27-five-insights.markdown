@@ -1,5 +1,5 @@
 ---
-layout: Display
+layout: post
 title:  Five Insights
 date:   2018-06-27 16:00:21 +0100
 categories: 21st century world

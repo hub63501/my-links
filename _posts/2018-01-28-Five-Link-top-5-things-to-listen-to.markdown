@@ -1,5 +1,5 @@
 ---
-layout: Display
+layout: post
 title:  "Five-link top 5 Podcasts of the week"
 date:   2018-01-28 15:35:21 +0100
 categories: Top 5 things to listen to

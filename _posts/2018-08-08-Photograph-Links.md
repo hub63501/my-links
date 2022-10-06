@@ -1,8 +1,8 @@
 ---
-layout: Display
+layout: post
 title: Photograph Links
 date:   2018-08-08 09:05:21 +0100
-categories: Photography 
+categories: Photography
 description: "Five Photography links"
 img: /assets/img/drawing_01.svg
 ---

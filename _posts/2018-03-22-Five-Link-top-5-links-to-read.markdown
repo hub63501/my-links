@@ -1,16 +1,16 @@
 ---
-layout: Display
+layout: post
 title:  "Five-link top 5 Reads"
 date:   2018-03-22 12:05:21 +0100
-categories: Top 5 things to read 
+categories: Top 5 things to read
 description: "Five links to Read."
 img: /assets/img/drawing_01.svg
 ---
 
 
-<ul>
+<ul class="post-list">
     <li>
-        <a href="https://www.irishtimes.com/news/ireland/irish-news/chuck-feeney-the-billionaire-who-gave-it-all-away-1.3413084?utm_source=pocket&utm_medium=email&utm_campaign=pockethits" target="_blank"><h2>The billionaire who gave it all away</h2>
+        <a class="post-list" href="https://www.irishtimes.com/news/ireland/irish-news/chuck-feeney-the-billionaire-who-gave-it-all-away-1.3413084?utm_source=pocket&utm_medium=email&utm_campaign=pockethits" target="_blank"><h2>The billionaire who gave it all away</h2>
         </a>
     </li>
     <li>

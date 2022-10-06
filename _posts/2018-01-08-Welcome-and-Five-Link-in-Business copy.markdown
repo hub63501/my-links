@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: post
 title:  "Welcome. Five-link in Business"
 date:   2018-01-08 10:44:21 +0100
 categories: Business

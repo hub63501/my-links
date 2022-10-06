@@ -1,5 +1,5 @@
 ---
-layout: Display
+layout: post
 title: How to Keep notes and Write Effectively
 date:   2018-10-15 16:05:21 +0100
 categories: note taking

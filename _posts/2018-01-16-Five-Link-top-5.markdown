@@ -1,5 +1,5 @@
 ---
-layout: Display
+layout: post
 title:  "Five-link top 5 reads"
 date:   2018-01-16 15:05:21 +0100
 categories: Top 5 reads

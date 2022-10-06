@@ -1,5 +1,5 @@
 ---
-layout: Display
+layout: post
 title:  "Five-link in Technology"
 date:   2018-01-10 14:50:21 +0100
 categories: Technology
