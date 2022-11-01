@@ -1,10 +1,10 @@
 ---
-layout: post
+layout: display
 title: Links to explore
 date:   2018-09-10 12:05:21 +0100
-categories: Articles
+categories: Articles 
 description: "Interesting Innovations"
-img: /assets/img/drawing_01.svg
+img: /images/drawing_01.svg
 ---
 
 <ul>

@@ -1,10 +1,10 @@
 ---
-layout: post
+layout: display
 title:  5 Articles to Read
 date:   2018-06-13 17:44:21 +0100
 categories: Top 5 Reads
 description: Read these five links
-img: /assets/img/drawing_01.svg
+img: /images/drawing_01.svg
 ---
 <ul>
     <li>
