@@ -2,7 +2,7 @@
 layout: article
 title: Quotes
 permalink: /quotes/
-description: Hello there... Welcome to FIVE-LINK's Quotes page where i'll be posting insightful and meaningful quotes from some of historys great leaders and thinkers.
+description: Hello there... Welcome to FIVE-LINK's Quotes page where I'll be posting insightful and meaningful quotes from some of history's great leaders and thinkers.  
 lastUpdated: 2019/08/07
 img: /assets/img/the_walk.jpg
 ---
