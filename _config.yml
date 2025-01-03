@@ -30,8 +30,7 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-paginate
-  - jekyll-spaceship
-
+  
 
 
 brand_color: "#ea25af"
