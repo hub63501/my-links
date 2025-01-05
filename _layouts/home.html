@@ -18,10 +18,8 @@ title: "Home"
 <main role="main" class="container">
   
   <div class="row">
-    <aside class="col-md-4 blog-sidebar">
-      <br>
+    <div class="col-md-8 border blog-main">
       <div class="p-4 mb-3 bg-light rounded">
-    
         <h4 class="font-italic">About</h4>
         <p class="mb-0">{{site.description}}</p>
         <a href="/about/">more info</a>
@@ -30,9 +28,9 @@ title: "Home"
       <div class="">
         {% include explore_links.html %}
       </div>
-    
-    </aside>
-    <div class="col-md-8 border blog-main">
+      <a class="btn btn-outline-primary" href="/archieved/">Archieved</a>
+    </div>
+    <aside class="col-md-4 blog-sidebar">
 
       <h3 class="pb-4 mb-4 font-bold border-bottom" style="text-align: left;">Posts</h3>
       {% for post in site.posts %}
@@ -63,10 +61,8 @@ title: "Home"
       {% endfor %}
 
 
-      <a class="btn btn-outline-primary" href="/archieved/">Archieved</a>
-    </div>
+    </aside>
     <hr>
-
     <!-- /.blog-main -->
     <div class="card">
       <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
