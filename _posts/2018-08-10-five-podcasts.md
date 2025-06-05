@@ -1,10 +1,12 @@
 ---
-layout: display
+layout: post
 title: 5 Podcasts to listen to
 date:   2018-08-10 10:44:21 +0100
 categories: Podcasts
 description: Five Podcasts of the week.
 img: /images/drawing_01.svg
+right-sidebar: Did you know you can subscribe to unlimited podcasts... but there is no such thing so no you can't.
+author: Five-Link Staff
 ---
 
 This is what I've been listening to this week.

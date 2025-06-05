@@ -4,6 +4,8 @@ title:  "Five linux apps"
 date:   2020-05-12 09:55:58 +0100
 categories: linux
 img: "/images/background_01.svg"
+left-sidebar: main
+author: Five-Link Staff
 ---
 
 

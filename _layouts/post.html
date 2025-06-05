@@ -2,17 +2,23 @@
 layout: default
 ---
 
-<br>
-<div class="container">
-    <div class="jumbotron p-4 p-md-5 text-white rounded bg-dark">
-        <h1 class="featurette-heading">{{page.title}}</h1>
+
+<div class="header padding-top">{% include navbar.html %}</div>
+<div class="post-body">
+  <div class="post-container">
+    <div class="post-header">
+      <div class="site-title">{{site.title}}</div>
+      <h1 class="post-title">{{page.title}}</h1>
+      <h3 class="post-meta">{{page.description}}</h3>
+      <div class="post-meta">date published: {{page.date}}</div>
+      
     </div>
-    <div class="row">
-        <div class="col-md-8">
-            <p class="lead">{{content}}</p>
-        </div>
-        <div class="col-md-4">
-            <img class="featurette-image img-responsive right" src="{{page.img}}" alt="image">
-        </div>
-    </div>
-</div><!-- /.container -->
+    <article class="post-content">
+      <div class="card-image card">
+      <img class="db" src="{{ page.img }}" alt="img"/>
+      </div>
+      <p>{{content}}</p>
+    </article>
+  </div>
+</div>
+{% include footer.html %}

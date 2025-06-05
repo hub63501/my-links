@@ -1,0 +1,23 @@
+<div class="hover margin-1 border-bottom border-top padding-1">
+    <h3 class="">Posts</h3>
+    >>>
+</div>
+<div class="flex-layout">
+
+    {% for post in site.posts %}
+    <div class="box-shadow card rounded-border">
+        <div class="card-image">
+            <img src="{{post.img}}" class="db" alt="Photo">
+        </div>
+        <div class="card-content">
+            <h1 class="f3 fw1 baskerville card-title mt0 lh-title">{{post.title}}</h1>
+            <p class="f6 f5-l card-description lh-copy">
+                {{post.description}}
+            </p>
+            <p class="">By {{post.author}}</p>
+            <a class="" href="{{ post.url | prepend: site.baseurl }}">Read</a>
+        </div>
+    </div>
+    {% endfor %}
+
+</div>

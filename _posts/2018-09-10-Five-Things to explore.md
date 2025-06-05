@@ -1,10 +1,11 @@
 ---
-layout: display
+layout: post
 title: Links to explore
 date:   2018-09-10 12:05:21 +0100
 categories: Articles 
 description: "Interesting Innovations"
 img: /images/drawing_01.svg
+author: Five-Link Staff
 ---
 
 <ul>

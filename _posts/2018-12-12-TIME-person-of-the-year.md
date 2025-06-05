@@ -5,6 +5,7 @@ date: 2018-12-12 10:05:21 +0100
 categories: ["Topic Exploration"]
 img: /images/drawing_01.svg
 description: "List of TIME Person's of the year."
+author: Five-Link Staff
 ---
 
 <h2>What is TIME Person of the Year?</h2>

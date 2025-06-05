@@ -1,10 +1,11 @@
 ---
-layout: article
+layout: post
 title: Top Rated Marvel Films.
 date:   2018-07-27 12:05:21 +0100
 categories: Marvel Films 
 description: "Top Marvel films based on their film ratings"
 img: /images/drawing_01.svg
+author: Five-Link Staff
 ---
 
 <table>

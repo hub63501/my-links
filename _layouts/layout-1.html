@@ -1,0 +1,17 @@
+---
+layout: default
+---
+
+<section class="grid-layout">
+    <div class="header padding-top">{% include navbar.html %}</div>
+    <div class="leftSide top-banner-overlay padding-1 margin-1">
+        <h1>{{page.left-sidebar}}</h1>
+    </div>
+    <div class="body spectral-medium text-center padding-1">
+        {{content}}
+    </div>
+    <div class="rightSide blue-background padding-1 margin-1 rounded-border">
+        <h1>{{page.right-sidebar}}</h1>
+    </div>
+    {% include footer.html %}
+</section>

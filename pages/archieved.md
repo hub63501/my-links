@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: Archieved Links
 permalink: /archieved/
 lastUpdated: 09/09/21

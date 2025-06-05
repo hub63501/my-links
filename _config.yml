@@ -8,6 +8,11 @@ author: GitHub User
 description: >- # this means to ignore newlines until "baseurl:"
   Ideas to explore in sport, technlogy and art.
 
+collections:
+  projects:
+    output: true
+    permalink: /:collection/:name/
+
 
 favicon: "/images/drawing_03.svg"
 
@@ -30,7 +35,7 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-paginate
-  
+
 
 
 brand_color: "#ea25af"
