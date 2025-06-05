@@ -5,6 +5,7 @@ permalink: /about/
 description: Hey there and thank you for reading this about page. This is gonna be brief.
 left-sidebar: Turn Left
 img: /images/blur_01.svg
+date: 12/05/25
 ---
 
 <h2>{{site.description}}</h2>
