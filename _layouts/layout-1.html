@@ -3,11 +3,18 @@ layout: default
 ---
 
 <section class="grid-layout">
+
     <div class="header padding-top">{% include navbar.html %}</div>
+
     <div class="leftSide top-banner-overlay padding-1 margin-1">
         <h1>{{page.left-sidebar}}</h1>
     </div>
     <div class="body spectral-medium text-center padding-1">
+        <div style="background-color: black; color: azure; padding: 2em;">
+            <h3>This website is currently under construction. Some features may not function as expected, and some
+                information
+                may require verification.</h3>
+        </div>
         {{content}}
     </div>
     <div class="rightSide blue-background padding-1 margin-1 rounded-border">
