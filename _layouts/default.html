@@ -5,5 +5,25 @@
 <body>
   {{ content }}
 </body>
+<script>
+  function getGreeting() {
+    const now = new Date();
+    const hour = now.getHours();
+    let greeting;
+
+    if (hour < 12) {
+      greeting = "Chill out this morning";
+    } else if (hour < 18) {
+      greeting = "Peace this afternoon";
+    } else {
+      greeting = "Good evening... read a book.";
+    }
+
+    return greeting;
+  }
+
+  // Display the greeting
+  document.getElementById("greeting").innerText = getGreeting() + ", welcome!";
+</script>
 
 </html>
