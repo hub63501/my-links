@@ -1,5 +1,5 @@
 ---
-layout: layout-plain
+layout: project-page
 title: Projects
 description: Projects that five-link is working on.
 permalink: /projects/

@@ -7,25 +7,9 @@ description: Read these five links
 img: /images/drawing_01.svg
 author: Five-Link Staff
 ---
-<ul>
-    <li>
-        <a href="https://www.fastcompany.com/40582654/bananas-have-died-out-once-before-dont-let-it-happen-again" target="_blank"><h2>Why bananas might die out</h2>
-        </a>
-    </li>
-    <li>
-        <a href="https://www.newyorker.com/magazine/2018/06/18/why-do-we-care-so-much-about-privacy" target="_blank"><h2>Why do we care so much about Privacy</h2>
-        </a>
-    </li>
-    <li>
-        <a href="https://venturebeat.com/2018/06/13/plum-uses-ai-to-hire-people-that-never-would-have-been-discovered-through-a-traditional-hiring-process/" target="_blank"><h2>Plum uses AI to hire people ‘that never would have been discovered through a traditional hiring process’</h2>
-        </a>
-    </li>
-    <li>
-        <a href="https://www.imaginarycloud.com/blog/material-design-is-a-political-choice/" target="_blank"><h2>Matirial design is a Political choice</h2>
-        </a>
-    </li>
-    <li>
-        <a href="https://www.wired.com/story/microsoft-windows-red-team/" target="_blank"><h2>Keeping Windows pc's Safe</h2>
-        </a>
-    </li>
-</ul>
+- ### <a href="https://www.fastcompany.com/40582654/bananas-have-died-out-once-before-dont-let-it-happen-again" target="_blank">Why bananas might die out</a>
+- # <a href="https://www.newyorker.com/magazine/2018/06/18/why-do-we-care-so-much-about-privacy" target="_blank">Why do we care so much about Privacy</a>
+- ## <a href="https://venturebeat.com/2018/06/13/plum-uses-ai-to-hire-people-that-never-would-have-been-discovered-through-a-traditional-hiring-process/" target="_blank">Plum uses AI to hire people ‘that never would have been discovered through a traditional hiring process’</a>
+- ### <a href="https://www.imaginarycloud.com/blog/material-design-is-a-political-choice/" target="_blank">Matirial design is a Political choice</a>
+- ## <a href="https://www.wired.com/story/microsoft-windows-red-team/" target="_blank">Keeping Windows pc's Safe</a>
+    

@@ -1,0 +1,490 @@
+---
+layout: default
+---
+
+<style>
+  :root {
+    --bg:          #061526;
+    --surface:     rgba(9, 27, 48, 0.82);
+    --nav-bg:      rgba(4, 12, 24, 0.94);
+    --border:      rgba(156, 201, 227, 0.1);
+    --border-mid:  rgba(156, 201, 227, 0.18);
+    --text:        #dce3e7;
+    --muted:       #7b96ab;
+    --accent:      #9cc9e3;
+    --accent-bg:   rgba(156, 201, 227, 0.06);
+    --gold:        #d0bb57;
+    --gold-bg:     rgba(208, 187, 87, 0.07);
+  }
+
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  html { scroll-behavior: smooth; }
+
+  body {
+    min-height: 100vh;
+    padding: 4rem 1.5rem 7rem;
+    background:
+      radial-gradient(ellipse 70% 45% at 5% 0%,  rgba(156, 201, 227, 0.055) 0%, transparent 100%),
+      radial-gradient(ellipse 55% 55% at 95% 10%, rgba(84, 140, 200,  0.09)  0%, transparent 100%),
+      var(--bg);
+    color: var(--text);
+    font-family: 'DM Sans', system-ui, sans-serif;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .page {
+    width: min(880px, 100%);
+    margin: 0 auto;
+  }
+
+  /* ── Header ──────────────────────────────────────────── */
+
+  header {
+    margin-bottom: 2.75rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid var(--border);
+  }
+
+  h1 {
+    font-family: 'Syne', sans-serif;
+    font-size: clamp(3.5rem, 10vw, 7rem);
+    font-weight: 700;
+    letter-spacing: -0.065em;
+    line-height: 0.88;
+    color: var(--text);
+  }
+
+  .subtitle {
+    margin-top: 1.1rem;
+    color: var(--muted);
+    font-size: 0.92rem;
+    font-weight: 300;
+    max-width: 440px;
+  }
+
+  /* ── Navigation ──────────────────────────────────────── */
+
+  .topic-nav {
+    position: sticky;
+    top: 0.75rem;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    gap: 0.2rem;
+    padding: 0.35rem;
+    background: var(--nav-bg);
+    border: 1px solid var(--border);
+    border-radius: 999px;
+    margin-bottom: 2rem;
+    overflow-x: auto;
+    scrollbar-width: none;
+    backdrop-filter: blur(24px) saturate(150%);
+    -webkit-backdrop-filter: blur(24px) saturate(150%);
+  }
+
+  .topic-nav::-webkit-scrollbar { display: none; }
+
+  .nav-sep {
+    width: 1px;
+    height: 1rem;
+    background: var(--border);
+    flex-shrink: 0;
+    margin: 0 0.2rem;
+  }
+
+  .nav-btn {
+    appearance: none;
+    border: none;
+    border-radius: 999px;
+    padding: 0.42rem 0.9rem;
+    font: inherit;
+    font-size: 0.83rem;
+    font-weight: 500;
+    white-space: nowrap;
+    cursor: pointer;
+    transition: background 0.15s, color 0.15s;
+    color: var(--muted);
+    background: transparent;
+  }
+
+  .nav-btn:hover        { color: var(--text); background: rgba(156, 201, 227, 0.07); }
+  .nav-btn.active       { color: var(--accent); background: rgba(156, 201, 227, 0.1); }
+  .nav-btn:focus-visible{ outline: 2px solid var(--accent); outline-offset: 2px; }
+
+  /* ── Topics ──────────────────────────────────────────── */
+
+  .topics {
+    display: grid;
+    gap: 0.75rem;
+  }
+
+  .topic {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    padding: 1.5rem 1.5rem 1.25rem;
+  }
+
+  .topic[hidden] { display: none; }
+
+  .topic-header {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 1rem;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .topic h2 {
+    font-size: 1.45rem;
+    font-weight: 600;
+    line-height: 1;
+    color: var(--text);
+  }
+
+  /* Per-topic heading personality — kept from the original */
+  .topic.cybersecurity h2 {
+    font-family: 'Courier New', monospace;
+    font-size: 1.2rem;
+    color: var(--accent);
+    letter-spacing: -0.02em;
+  }
+  .topic.design h2 {
+    font-family: Georgia, 'Times New Roman', serif;
+    font-style: italic;
+    font-weight: 400;
+    letter-spacing: -0.02em;
+  }
+  .topic.learning h2 {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 300;
+    font-size: 1.65rem;
+    letter-spacing: -0.025em;
+  }
+  .topic.tools h2 {
+    font-family: 'Syne', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-size: 1.05rem;
+    color: var(--gold);
+  }
+  .topic.news h2 {
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+    font-weight: 400;
+    font-size: 1.65rem;
+    letter-spacing: 0.01em;
+  }
+
+  .topic-count {
+    color: var(--muted);
+    font-size: 0.8rem;
+    font-weight: 400;
+    white-space: nowrap;
+  }
+
+  /* ── Link list ───────────────────────────────────────── */
+
+  .link-list {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(255px, 1fr));
+    gap: 0.4rem;
+  }
+
+  .link-card {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+    text-decoration: none;
+    color: var(--text);
+    padding: 0.8rem 0.95rem;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    position: relative;
+    overflow: hidden;
+    transition: background 0.15s, border-color 0.15s;
+  }
+
+  .link-card::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 20%;
+    bottom: 20%;
+    width: 2px;
+    background: var(--accent);
+    border-radius: 0 2px 2px 0;
+    transform: scaleY(0);
+    transition: transform 0.18s ease;
+  }
+
+  .link-card:hover,
+  .link-card:focus-visible {
+    background: var(--accent-bg);
+    border-color: var(--border);
+    outline: none;
+  }
+
+  .link-card:hover::before,
+  .link-card:focus-visible::before {
+    transform: scaleY(1);
+  }
+
+  .link-name {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.5rem;
+    font-size: 0.9rem;
+    font-weight: 500;
+  }
+
+  .link-arrow {
+    color: var(--muted);
+    font-size: 0.8rem;
+    flex-shrink: 0;
+    transition: color 0.15s, transform 0.15s;
+  }
+
+  .link-card:hover .link-arrow,
+  .link-card:focus-visible .link-arrow {
+    color: var(--accent);
+    transform: translate(1px, -1px);
+  }
+
+  .link-desc {
+    color: var(--muted);
+    font-size: 0.8rem;
+    font-weight: 300;
+    line-height: 1.45;
+  }
+
+  /* ── Footer ──────────────────────────────────────────── */
+
+  footer {
+    margin-top: 2.5rem;
+    padding-top: 1.25rem;
+    border-top: 1px solid var(--border);
+    color: var(--muted);
+    font-size: 0.8rem;
+    font-weight: 300;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+
+  /* ── Responsive ──────────────────────────────────────── */
+
+  @media (max-width: 560px) {
+    body           { padding: 2.5rem 1rem 5rem; }
+    .topic-nav     { border-radius: 14px; top: 0.5rem; }
+    .link-list     { grid-template-columns: 1fr; }
+    .topic-header  { display: block; }
+    .topic-count   { display: block; margin-top: 0.3rem; }
+  }
+</style>
+
+<body>
+  {% include navbar.html %}
+  <main class="page">
+
+    <header>
+      <h1>Links</h1>
+      <p class="subtitle">A collection of useful sources, grouped by topic.</p>
+    </header>
+
+    <nav class="topic-nav" aria-label="Filter topics">
+      <button class="nav-btn active" data-filter="all">All</button>
+      <div class="nav-sep"></div>
+      <button class="nav-btn" data-filter="cybersecurity">Cybersecurity</button>
+      <button class="nav-btn" data-filter="design">Design</button>
+      <button class="nav-btn" data-filter="learning">Learning</button>
+      <button class="nav-btn" data-filter="tools">Tools</button>
+      <button class="nav-btn" data-filter="news">News &amp; Research</button>
+    </nav>
+
+    <section class="topics" aria-label="Curated link topics">
+
+      <article class="topic cybersecurity" id="cybersecurity" data-topic="cybersecurity">
+        <div class="topic-header">
+          <h2>Cybersecurity</h2>
+          <span class="topic-count">5 links</span>
+        </div>
+        <ul class="link-list">
+          <li><a class="link-card" href="https://owasp.org/" target="_blank" rel="noopener noreferrer">
+            <div class="link-name"><span>OWASP</span><span class="link-arrow">↗</span></div>
+            <p class="link-desc">Open Web Application Security Project resources, standards, and application security guidance.</p>
+          </a></li>
+          <li><a class="link-card" href="https://www.cisa.gov/" target="_blank" rel="noopener noreferrer">
+            <div class="link-name"><span>CISA</span><span class="link-arrow">↗</span></div>
+            <p class="link-desc">Cybersecurity alerts, infrastructure security guidance, and public-sector security resources.</p>
+          </a></li>
+          <li><a class="link-card" href="https://attack.mitre.org/" target="_blank" rel="noopener noreferrer">
+            <div class="link-name"><span>MITRE ATT&amp;CK</span><span class="link-arrow">↗</span></div>
+            <p class="link-desc">A knowledge base of adversary tactics, techniques, and procedures used in real-world attacks.</p>
+          </a></li>
+          <li><a class="link-card" href="https://portswigger.net/web-security" target="_blank" rel="noopener noreferrer">
+            <div class="link-name"><span>Web Security Academy</span><span class="link-arrow">↗</span></div>
+            <p class="link-desc">Hands-on web security labs and explanations from the creators of Burp Suite.</p>
+          </a></li>
+          <li><a class="link-card" href="https://www.sans.org/blog/" target="_blank" rel="noopener noreferrer">
+            <div class="link-name"><span>SANS Blog</span><span class="link-arrow">↗</span></div>
+            <p class="link-desc">Security research, incident response notes, defensive guidance, and industry commentary.</p>
+          </a></li>
+        </ul>
+      </article>
+
+      <article class="topic design" id="design" data-topic="design">
+        <div class="topic-header">
+          <h2>Design</h2>
+          <span class="topic-count">5 links</span>
+        </div>
+        <ul class="link-list">
+          <li><a class="link-card" href="https://www.awwwards.com/" target="_blank" rel="noopener noreferrer">
+            <div class="link-name"><span>Awwwards</span><span class="link-arrow">↗</span></div>
+            <p class="link-desc">Showcases standout web design, visual inspiration, and creative digital experiences.</p>
+          </a></li>
+          <li><a class="link-card" href="https://dribbble.com/" target="_blank" rel="noopener noreferrer">
+            <div class="link-name"><span>Dribbble</span><span class="link-arrow">↗</span></div>
+            <p class="link-desc">A platform for discovering interface, branding, illustration, and product design work.</p>
+          </a></li>
+          <li><a class="link-card" href="https://www.behance.net/" target="_blank" rel="noopener noreferrer">
+            <div class="link-name"><span>Behance</span><span class="link-arrow">↗</span></div>
+            <p class="link-desc">Creative portfolios covering graphic design, motion, UI/UX, photography, and more.</p>
+          </a></li>
+          <li><a class="link-card" href="https://www.figma.com/community" target="_blank" rel="noopener noreferrer">
+            <div class="link-name"><span>Figma Community</span><span class="link-arrow">↗</span></div>
+            <p class="link-desc">Reusable design files, UI kits, wireframes, and community-built design resources.</p>
+          </a></li>
+          <li><a class="link-card" href="https://coolors.co/" target="_blank" rel="noopener noreferrer">
+            <div class="link-name"><span>Coolors</span><span class="link-arrow">↗</span></div>
+            <p class="link-desc">A fast colour palette generator for building clean and consistent visual themes.</p>
+          </a></li>
+        </ul>
+      </article>
+
+      <article class="topic learning" id="learning" data-topic="learning">
+        <div class="topic-header">
+          <h2>Learning</h2>
+          <span class="topic-count">5 links</span>
+        </div>
+        <ul class="link-list">
+          <li><a class="link-card" href="https://www.freecodecamp.org/" target="_blank" rel="noopener noreferrer">
+            <div class="link-name"><span>freeCodeCamp</span><span class="link-arrow">↗</span></div>
+            <p class="link-desc">Free coding lessons, certifications, projects, and technical articles.</p>
+          </a></li>
+          <li><a class="link-card" href="https://developer.mozilla.org/" target="_blank" rel="noopener noreferrer">
+            <div class="link-name"><span>MDN Web Docs</span><span class="link-arrow">↗</span></div>
+            <p class="link-desc">Documentation for HTML, CSS, JavaScript, web APIs, accessibility, and browser standards.</p>
+          </a></li>
+          <li><a class="link-card" href="https://www.khanacademy.org/" target="_blank" rel="noopener noreferrer">
+            <div class="link-name"><span>Khan Academy</span><span class="link-arrow">↗</span></div>
+            <p class="link-desc">Free learning resources across maths, computing, science, economics, and more.</p>
+          </a></li>
+          <li><a class="link-card" href="https://www.coursera.org/" target="_blank" rel="noopener noreferrer">
+            <div class="link-name"><span>Coursera</span><span class="link-arrow">↗</span></div>
+            <p class="link-desc">Online courses, certificates, and degree pathways from universities and organisations.</p>
+          </a></li>
+          <li><a class="link-card" href="https://ocw.mit.edu/" target="_blank" rel="noopener noreferrer">
+            <div class="link-name"><span>MIT OpenCourseWare</span><span class="link-arrow">↗</span></div>
+            <p class="link-desc">Free educational materials from a wide range of MIT courses.</p>
+          </a></li>
+        </ul>
+      </article>
+
+      <article class="topic tools" id="tools" data-topic="tools">
+        <div class="topic-header">
+          <h2>Tools</h2>
+          <span class="topic-count">5 links</span>
+        </div>
+        <ul class="link-list">
+          <li><a class="link-card" href="https://github.com/" target="_blank" rel="noopener noreferrer">
+            <div class="link-name"><span>GitHub</span><span class="link-arrow">↗</span></div>
+            <p class="link-desc">Code hosting, collaboration, documentation, issue tracking, and open-source discovery.</p>
+          </a></li>
+          <li><a class="link-card" href="https://code.visualstudio.com/" target="_blank" rel="noopener noreferrer">
+            <div class="link-name"><span>VS Code</span><span class="link-arrow">↗</span></div>
+            <p class="link-desc">A popular source-code editor with extensions for many languages and workflows.</p>
+          </a></li>
+          <li><a class="link-card" href="https://www.notion.so/" target="_blank" rel="noopener noreferrer">
+            <div class="link-name"><span>Notion</span><span class="link-arrow">↗</span></div>
+            <p class="link-desc">Workspace for notes, planning, documentation, databases, and project organisation.</p>
+          </a></li>
+          <li><a class="link-card" href="https://trello.com/" target="_blank" rel="noopener noreferrer">
+            <div class="link-name"><span>Trello</span><span class="link-arrow">↗</span></div>
+            <p class="link-desc">Visual task boards for managing personal projects, team workflows, and checklists.</p>
+          </a></li>
+          <li><a class="link-card" href="https://www.canva.com/" target="_blank" rel="noopener noreferrer">
+            <div class="link-name"><span>Canva</span><span class="link-arrow">↗</span></div>
+            <p class="link-desc">Simple browser-based design tool for graphics, documents, presentations, and social media.</p>
+          </a></li>
+        </ul>
+      </article>
+
+      <article class="topic news" id="news-research" data-topic="news">
+        <div class="topic-header">
+          <h2>News &amp; Research</h2>
+          <span class="topic-count">5 links</span>
+        </div>
+        <ul class="link-list">
+          <li><a class="link-card" href="https://www.bbc.com/news" target="_blank" rel="noopener noreferrer">
+            <div class="link-name"><span>BBC News</span><span class="link-arrow">↗</span></div>
+            <p class="link-desc">Global news coverage across politics, business, technology, culture, and current affairs.</p>
+          </a></li>
+          <li><a class="link-card" href="https://www.reuters.com/" target="_blank" rel="noopener noreferrer">
+            <div class="link-name"><span>Reuters</span><span class="link-arrow">↗</span></div>
+            <p class="link-desc">International reporting with a focus on business, markets, politics, and world events.</p>
+          </a></li>
+          <li><a class="link-card" href="https://scholar.google.com/" target="_blank" rel="noopener noreferrer">
+            <div class="link-name"><span>Google Scholar</span><span class="link-arrow">↗</span></div>
+            <p class="link-desc">Search engine for academic papers, books, legal opinions, theses, and citations.</p>
+          </a></li>
+          <li><a class="link-card" href="https://arxiv.org/" target="_blank" rel="noopener noreferrer">
+            <div class="link-name"><span>arXiv</span><span class="link-arrow">↗</span></div>
+            <p class="link-desc">Open-access preprints in computer science, maths, physics, statistics, and related fields.</p>
+          </a></li>
+          <li><a class="link-card" href="https://www.nature.com/" target="_blank" rel="noopener noreferrer">
+            <div class="link-name"><span>Nature</span><span class="link-arrow">↗</span></div>
+            <p class="link-desc">Scientific research, news, commentary, and journals across many disciplines.</p>
+          </a></li>
+        </ul>
+      </article>
+
+    </section>
+
+    <footer>
+      <span>25 links · 5 topics</span>
+    </footer>
+
+  </main>
+
+  <script>
+    const filterBtns = document.querySelectorAll('[data-filter]');
+    const topics     = document.querySelectorAll('[data-topic]');
+
+    filterBtns.forEach(btn => {
+      btn.addEventListener('click', () => {
+        const filter = btn.dataset.filter;
+
+        filterBtns.forEach(b => b.classList.toggle('active', b === btn));
+
+        topics.forEach(topic => {
+          topic.hidden = filter !== 'all' && topic.dataset.topic !== filter;
+        });
+
+        if (filter !== 'all') {
+          requestAnimationFrame(() => {
+            document.querySelector(`[data-topic="${filter}"]`)
+              ?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+          });
+        }
+      });
+    });
+  </script>
+</body>

@@ -1,0 +1,85 @@
+---
+layout: default
+---
+
+<style>
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: #ffffff;
+    color: #111111;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  }
+
+  .splash {
+    border-left: #000000 solid 5px;
+    width: min(90%, 1200px);
+    margin: 0 auto;
+  }
+
+  .splash-content {
+    width: fit-content;
+    margin-left: 8%;
+  }
+
+  .site-title {
+    font-size: clamp(3rem, 8vw, 6rem);
+    font-weight: 300;
+    letter-spacing: -0.04em;
+    color: #000000;
+    line-height: 1;
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 2px solid #111;
+    animation:
+      typing 1.8s steps(9, end) forwards,
+      cursor 0.75s step-end infinite;
+  }
+
+  .site-link {
+    display: inline-block;
+    margin-top: 1rem;
+    color: #000000;
+    text-decoration: none;
+    font-size: 1rem;
+    letter-spacing: 0.02em;
+    padding: 0.5em;
+    transition: color 0.3s ease;
+  }
+
+  .site-link:hover {
+    color: #111;
+  }
+
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+
+    to {
+      width: 100%;
+    }
+  }
+
+  @keyframes cursor {
+    50% {
+      border-color: transparent;
+    }
+  }
+</style>
+
+
+<main class="splash">
+    <div class="splash-content">
+      <h1 class="site-title">Five Link</h1>
+      <a class="site-link" href="/options/">Options</a>
+    </div>
+</main>
+

@@ -1,17 +1,58 @@
-<footer class="footer">
-  <div class="footer-content">
-    <div class="footer-links">
-      <a href="/">Home</a>
-      <a href="/about/">About</a>
-      <a href="/pictures/">Pictures</a>
-      <a href="/films/">Films</a>
-      <a href="mailto:fivelink@outlook.com">Contact</a>
-      <a href="/design/">Design</a>
-      <a href="/archieved/">Archieve</a>
-    </div>
 
-    <div class="footer-info">Stay connected with our latest updates</div>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Geist+Mono:wght@300&display=swap');
 
-    <div class="footer-copyright">© 2024 Five-Link. All rights reserved.</div>
-  </div>
+  .footer-bar {
+    background: #000;
+    border-radius: var(--border-radius-lg);
+    padding: 0 2rem;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+  }
+
+  .footer-bar-copy {
+    font-family: 'Geist Mono', monospace;
+    font-size: 10px;
+    font-weight: 300;
+    letter-spacing: 0.15em;
+    color: rgba(255,255,255,0.3);
+    margin: 0;
+    text-transform: lowercase;
+  }
+
+  .footer-bar-links {
+    display: flex;
+    gap: 1.5rem;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .footer-bar-links a {
+    font-family: 'Geist Mono', monospace;
+    font-size: 10px;
+    font-weight: 300;
+    letter-spacing: 0.15em;
+    text-transform: lowercase;
+    color: rgba(255,255,255,0.3);
+    text-decoration: none;
+    transition: color 0.2s;
+  }
+
+  .footer-bar-links a:hover { color: rgba(255,255,255,0.75); }
+</style>
+
+
+
+<footer class="footer footer-bar">
+  <p class="footer-bar-copy">2026 © Five-Link</p>
+  <ul class="footer-bar-links">
+    <li><a href="#">privacy</a></li>
+    <li><a href="#">submissions</a></li>
+    <li><a href="#">contact</a></li>
+    <li><a href="#">rss</a></li>
+  </ul>
 </footer>
