@@ -1,6 +1,7 @@
 ---
 title: Options
-layout: options
+layout: default
 permalink: /options/
 ---
 
+Hey

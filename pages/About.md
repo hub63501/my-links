@@ -10,8 +10,6 @@ date: 12/05/25
 
 <h2>{{site.description}}</h2>
 
-This is a project I've been working on. If you're reading this, you are one of the few people seeing this page, so thank you for your time. I started developing this website back in 2017. I wanted to create a space to share interesting links that I discovered, hoping that others would find them valuable as well. However, it's been a while since I worked on it, and it has just been sitting there. I've been wanting to invest more time in developing the concept of sharing five links each day. Five links worth reading, it isn't a new idea by any means, but it is my take and it will be a somewhat messy take.  
-
-
+If you're reading this, you are one of the few people seeing this page, so thank you for your time. I began developing this website in 2017 with the intention of creating a space to share interesting links I discovered, hoping that others would find them valuable as well. However, it's been a while since I focused on it, and it has just been sitting idle. I would like to invest more time into the concept of sharing five noteworthy links each day. While sharing five links isn’t a new idea, this is my unique interpretation, and it will be a somewhat messy approach.
 
 

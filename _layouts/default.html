@@ -1,10 +1,14 @@
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: " en-US" }}">
 {% include head.html %}
+{% include navbar.html %}
 
 <body>
   {{ content }}
 </body>
+{% include footer.html %}
+
+
 
 <script>
   function getGreeting() {
@@ -26,27 +30,6 @@
   // Display the greeting
   document.getElementById("greeting").innerText = getGreeting();
 
-  // Dynamic nav
-  const nav = document.querySelector('nav');
-  const whiteSection = document.querySelector('.post-body');
-
-  function checkNavPosition() {
-    const navRect = nav.getBoundingClientRect();
-    const whiteSectionRect = whiteSection.getBoundingClientRect();
-
-    // Check if navbar overlaps with white section
-    if (navRect.bottom > whiteSectionRect.top && navRect.top < whiteSectionRect.bottom) {
-      nav.classList.add('dark-mode');
-    } else {
-      nav.classList.remove('dark-mode');
-    }
-  }
-
-  // Check on scroll
-  window.addEventListener('scroll', checkNavPosition);
-
-  // Check on load
-  checkNavPosition();
-
 </script>
+
 </html>
