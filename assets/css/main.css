@@ -242,6 +242,9 @@ h1 {
   -webkit-backdrop-filter: none;
   box-shadow: none;
   transition: background var(--transition), border-color var(--transition);
+
+  overflow: auto;
+  white-space: nowrap;
 }
 
 .nav:hover {
